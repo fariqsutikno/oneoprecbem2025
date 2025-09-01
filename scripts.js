@@ -58,7 +58,7 @@
                         <p class="text-gray-600 text-sm mb-4 line-clamp-2">${org.info.description}</p>
 
                         <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
-                            <span>Kuota: ${org.recruitment.quota.display}</span>
+                            <span>Kuota Pendaftar: ${org.recruitment.quota.display}</span>
                         </div>
 
                       <div class="flex gap-2">

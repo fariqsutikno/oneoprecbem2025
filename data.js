@@ -137,15 +137,15 @@ const organizationsData = [
     "category": "Ormawa",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
       "registrationUrl": "",
@@ -160,20 +160,47 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif S1",
+        "Memiliki kompetensi dasar dalam pengetahuan tentang lembaga legislatif khusus nya di lingkungan kampus",
+        "Memiliki semangat dan komitmen untuk selalu belajar dan aktif"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
-        "telegram": "@bem_stdiis",
-        "whatsapp": "+6287780252627"
+        "instagram": "@bpm_stdiis",
+        "telegram": "el_shufr",
+        "telegram2": "AzkiMaulaZake"
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Komisi I Legislasi dan Hukum",
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Komisi II Pengawasan dan Anggaran",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Komisi III Aspirasi dan Advokasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Komisi IV Hubungan Kelembagaan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Biro PSDM dan Kaderisasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Biro Media dan Informasi",
+        "quota": null,
+        "requirements": []
+      }
     ],
     "timeline": [
       {
@@ -181,16 +208,23 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Seleksi",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
       "Kepemimpinan",
-      "revolusi",
-      "design thinking",
-      "transformasi",
-      "mahasiswa",
-      "impact",
-      "dampak"
+      "legislatif",
     ]
   },
   {
