@@ -407,21 +407,24 @@
             document.body.style.overflow = 'auto';
         }
 
-        // Close modal on backdrop click
         document.getElementById('detailModal').addEventListener('click', function(e) {
             if (e.target === this) {
                 closeModal();
             }
         });
 
-        // Close modal on Escape key
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
                 closeModal();
             }
         });
 
-        // Initialize
+        document.getElementById('detailModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
         document.addEventListener('DOMContentLoaded', function() {
             renderOrganizations();
         });

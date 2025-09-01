@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OprecHub - Platform Rekrutmen Organisasi Kampus</title>
+    <title>SatuOprec - Platform Oprec Terpusat Ormawa STDIIS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        'sans': ['Inter', 'sans-serif'],
+                        'sans': ['Plus Jakarta Sans', 'sans-serif'],
                     },
                     colors: {
                         primary: {
@@ -42,29 +42,20 @@
         }
       .gradient-bg {
           /* Gradien warna dasar */
-          background: linear-gradient(to bottom right, #0A1128, #1F466E); /* Sesuaikan arah dan warna */
+          background: linear-gradient(to bottom right, #0A1128, #1F466E); 
           
-          /* Tambahkan tekstur dot pattern (contoh menggunakan radial-gradient) */
           background-image: 
               radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0), /* Titik putih samar */
               radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0), /* Titik lain */
-              linear-gradient(to bottom right, #0A1128, #1F466E); /* Gradien utama di paling bawah */
+              linear-gradient(to bottom right, #0A1128, #1F466E); /* Gradien utama paling bawah */
           
-          background-size: 20px 20px, 15px 15px, 100% 100%; /* Ukuran pengulangan pola */
-          background-position: 0 0, 10px 10px, 0 0; /* Posisi offset untuk menciptakan variasi */
-      }
-      
-      /* Jika Anda menggunakan Tailwind untuk warna, maka cukup tambahkan tekstur saja */
-      .with-dot-pattern {
-          background-image: 
-              radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0),
-              radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
-          background-size: 20px 20px, 15px 15px;
-          background-position: 0 0, 10px 10px;
+          background-size: 20px 20px, 15px 15px, 100% 100%;
+          background-position: 0 0, 10px 10px, 0 0; 
       }
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen font-sans">
+  
     <!-- Header -->
     <header class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -86,7 +77,7 @@
                 Satu Portal, Semua Organisasi Kampus
             </h1>
             <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Jelajahi dan daftar ke berbagai organisasi dan UKM STDIIS dengan mudah. Resmi dari BEM STDIIS, untuk mendukung minat, bakat, dan kontribusimu di kampus
+                Jelajahi dan daftar ke berbagai ormawa dan UKM STDIIS dengan mudah. Resmi dari BEM STDIIS, untuk mendukung minat, bakat, dan kontribusimu di kampus
             </p>
             
             <!-- Search Bar -->

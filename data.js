@@ -2,7 +2,7 @@
 const organizationsData = [
   {
     "id": "bem-stdiis",
-    "name": "Badan Eksekutif Mahasiswa",
+    "name": "Badan Eksekutif Mahasiswa (BEM)",
     "logo": "https://drive.google.com/thumbnail?id=1sZpjGmUI3S3WVeNOVI5JlEISjOnt1GfG",
     "category": "Ormawa",
     "featured": true,
@@ -126,7 +126,7 @@ const organizationsData = [
   },
     {
     "id": "bpm-stdiis",
-    "name": "Badan Perwakilan Mahasiswa",
+    "name": "Badan Perwakilan Mahasiswa (BPM)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BPM",
     "category": "Ormawa",
     "featured": false,
@@ -145,11 +145,11 @@ const organizationsData = [
       "registrationUrl": "",
       "registrationFee": 0
     },
-    "applicants": 25,
+    "applicants": 0,
     "info": {
-      "currentMembers": 85,
-      "established": "Tahun-Berdiri",
-      "description": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "currentMembers": 0,
+      "established": null,
+      "description": "BPM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
       "vision": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
       "mission": [
         "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
@@ -207,23 +207,24 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota"
+        "display": "Tanpa Kuota",
       },
       "guidebookUrl": "https://drive.google.com/drive/folders/18vkctT4O6XBrlphbsugjGalVIZNknUWh",
       "registrationUrl": "https://forms.gle/9z3Ed7kpeagEukr78",
-      "registrationFee": 0
+      "registrationFee": 0,
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
-      "established": "NULL",
+      "established": null,
       "description": "FAKIH (Forum Kajian Ilmu Fikih) adalah himpunan mahasiswa yang berada di bawah naungan Program Studi Hukum Keluarga Islam (HKI) STDI Imam Syafii Jember. FAKIH hadir sebagai wadah pengembangan intelektual, spiritual, dan sosial bagi mahasiswa HKI yang berfokus pada pendalaman ilmu fikih serta aplikasinya dalam kehidupan dan dakwah masyarakat.Dengan semangat Berilmu, Beradab, Berdampak!, FAKIH berkomitmen membina mahasiswa agar menjadi pribadi yang faqih dalam agama, luhur dalam adab, dan aktif berkontribusi di tengah umat. Kegiatan FAKIH meliputi kajian tematik fikih, diskusi ilmiah, pelatihan akademik, produksi konten dakwah, serta kerja nyata sosial-keummatan. Di tengah dinamika zaman, FAKIH berusaha menjadi pelopor gerakan mahasiswa yang menghidupkan nilai-nilai Islam dalam bingkai keilmuan dan ukhuwah. Melalui berbagai programnya, FAKIH ingin melahirkan generasi faqih fid-din yang siap menjadi bagian dari solusi umat dan pembangunan masyarakat Islami.",
+      "vision": "Menjadikan FAKIH sebagai wadah unggulan dalam pengkajian ilmu fikih dan pengembangan mahasiswa HKI yang berilmu, beradab, dan berkontribusi nyata dalam dakwah dan masyarakat.",
       "mission": [
-        "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
-        "Membangun ruang aman dan inklusif untuk semua mahasiswa dalam berekspresi, berkontribusi, dan bertumbuh.",
-        "Menjalankan program kerja yang efisien dan berdampak nyata sesuai kebutuhan dan keresahan mahasiswa.",
-        "Menanamkan nilai integritas, empati, dan kepemimpinan yang bertanggung jawab dalam setiap proses kerja.",
-        "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
+        "Menghidupkan budaya ilmiah di kalangan mahasiswa HKI, melalui kajian fikih tematik, bahtsul masāil, dan pembacaan kitab secara rutin dan sistematis.",
+        "Membentuk karakter mahasiswa HKI yang beradab dan berintegritas, dengan pembinaan ruhiyah, adab penuntut ilmu, dan penguatan kepribadian islami.",
+        "Menjadi jembatan dakwah fikih yang relevan dan membumi, dengan menyelenggarakan seminar, forum diskusi, dan konten edukatif yang sesuai dengan kebutuhan masyarakat.",
+        "Mendorong pengembangan potensi dan profesionalisme mahasiswa HKI, dalam bidang kepemimpinan, manajemen organisasi, serta kemampuan riset dan penulisan hukum Islam.",
+        "Menjalin kolaborasi aktif dengan lembaga internal dan eksternal, untuk memperluas jejaring keilmuan dan kontribusi sosial keumatan."
       ],
       "generalRequirements": [
         "Mahasiswa Aktif Hukum Keluarga Islam STDIIS",
@@ -323,6 +324,113 @@ const organizationsData = [
       "fiqih",
       "fikih",
       "hukum keluarga islam",
+      "hima",
+    ]
+  },
+    {
+    "id": "fokus-stdiis",
+    "name": "Forum Kajian Ilmu Hadis (FOKUS)",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FKS",
+    "category": "HIMA",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2025-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "https://forms.gle/XAH3sShqTeA8RAQZ6",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "FOKUS (Forum Kajian Ilmu Hadits) adalah Unit Kegiatan Mahasiswa yang bernaung di bawah Program Studi Ilmu Hadits STDI Imam Syafi’i",
+      "vision": [
+        "FOKUS STDIIS Jember menjadi wadah Mahasiswa untuk mengembangkan keilmuan Hadis yang didasari tanggung jawab keilmuan demi tercapainya visi dan misi Program Studi Ilmu Hadis dengan semangat juang mahasiwa Ilmu Hadis (Aktif, Solutif, Responsif, dan Inovatif)."
+      ],
+      "mission": [
+        "Mengadakan kegiatan kemahasiswaan dengan berlandaskan kedisiplinan dan ekonsistenan yang bertujuan untuk mengembangkan pengetahuan di bidang Ilmu Hadis.",
+        "Membentuk Sumber Daya Manusia yang unggul di bidang Ilmu Hadis.",
+        "Meningkatkan dedikasi anggota FOKUS dalam berbagai kegiatan internal maupun eksternal FOKUS.",
+        "Meningkatkan solidaritas diantara seluruh keluarga besar FOKUS.",
+        "Mengadakan setiap kegiatan kemahasiswaan dengan unsur pendidikan, pelatihan, dan pengembangan yang berwawasan ilmu hadis"
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDIIS Prodi Ilmu Hadits",
+        "Memiliki pengalaman di organisasi",
+        "Memiliki skill team work yang bagus",
+        "Memiliki relasi sesuai divisi (diutamakan)"
+      ],
+      "contactInfo": {
+        "instagram": "@fokus_stdiis",
+        "telegram": "https://t.me/nuriksan21",
+        "telegram2": "https://t.me/MuhammadFaizReazana",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Divisi Acara",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Hubungan Masyarakat",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Sarana Prasarana",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Riset",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Konsumsi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Publikasi, Desain, dan Dokumentasi (PDD)",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Pengumuman Lolos Berkas",
+        "startDate": "2025-09-07",
+        "endDate": "2025-09-07",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "ongoing"
+      },
+    ],
+    "tags": [
+      "hadis",
+      "fokus",
+      "ilmu hadis",
       "hima",
     ]
   },
