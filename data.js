@@ -734,4 +734,544 @@ const organizationsData = [
       "fpkh",
     ]
   },
+  {
+    "id": "hw-stdiis",
+    "name": "Huffazhul Wahyain STDIIS",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=HW",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+  {
+    "id": "dkm-stdiis",
+    "name": "Dewan Kemakmuran Masjid (DKM) Ar-Rahmah",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=DKM",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+  {
+    "id": "mapala-stdiis",
+    "name": "Mapala Asad El Jabal",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=MPL",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+    {
+    "id": "sbc-stdiis",
+    "name": "STDIIS Basketball Club",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=SBC",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+    {
+    "id": "isfc-stdiis",
+    "name": "Imam Syafii Futsal Club",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=IFC",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+  {
+    "id": "tapaksuci-stdiis",
+    "name": "Tapak Suci STDIIS",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=TPS",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+  {
+    "id": "thifan-stdiis",
+    "name": "Thifan Po Khan STDIIS",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=TFN",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+    {
+    "id": "vbcs-stdiis",
+    "name": "Volley Ball Club STDIIS",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=VBC",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+    {
+    "id": "badminton-stdiis",
+    "name": "Badminton STDIIS",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BMT",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
+  {
+    "id": "runners-stdiis",
+    "name": "Ukhuwah Runners",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=RUN",
+    "category": "UKM",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+    ]
+  },
 ]
