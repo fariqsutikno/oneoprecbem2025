@@ -1,0 +1,329 @@
+// data.js
+const organizationsData = [
+  {
+    "id": "bem-stdiis",
+    "name": "Badan Eksekutif Mahasiswa",
+    "logo": "https://drive.google.com/thumbnail?id=1sZpjGmUI3S3WVeNOVI5JlEISjOnt1GfG",
+    "category": "Ormawa",
+    "featured": true,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2025-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "bit.ly/Booklet-OprecMenteriBEMSTDIIS25",
+      "registrationUrl": "bit.ly/Form-OprecMenteriBEMSTDIIS25",
+      "registrationFee": 0,
+    },
+    "applicants": 25,
+    "info": {
+      "currentMembers": 85,
+      "established": "Tahun-Berdiri",
+      "description": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "vision": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "mission": [
+        "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
+        "Membangun ruang aman dan inklusif untuk semua mahasiswa dalam berekspresi, berkontribusi, dan bertumbuh.",
+        "Menjalankan program kerja yang efisien dan berdampak nyata sesuai kebutuhan dan keresahan mahasiswa.",
+        "Menanamkan nilai integritas, empati, dan kepemimpinan yang bertanggung jawab dalam setiap proses kerja.",
+        "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+        "telegram": "@bem_stdiis",
+        "whatsapp": "+6287780252627"
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Biro Administrasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Biro Pengelolaan Keuangan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Biro Inovasi Keuangan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Biro Desain & Komunikasi Visual",
+        "quota": null,
+        "requirements": [
+          "Melampirkan portofolio desain"
+        ]
+      },
+      {
+        "name": "Kementerian Hubungan Eksternal",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kementerian Harmonisasi Kampus",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kementerian Pemuda dan Olahraga",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kementerian Akademik & Karier",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kementerian Kaderisasi & Pengembangan Sumber Daya Mahasiswa",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kementerian Advokasi & Kesejahteraan Mahasiswa",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kementerian Pengembangan Bahasa",
+        "quota": null,
+        "requirements": []
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+      "revolusi",
+      "design thinking",
+      "transformasi",
+      "mahasiswa",
+      "impact",
+      "dampak"
+    ]
+  },
+    {
+    "id": "bpm-stdiis",
+    "name": "Badan Perwakilan Mahasiswa",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BPM",
+    "category": "Ormawa",
+    "featured": false,
+    "recruitment": {
+      "isOpen": false,
+      "deadline": "2025-09-06",
+      "isDataAvailable": false,
+      "isComingSoon": true,
+      "isDisabled": true,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Segera"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "",
+      "registrationFee": 0
+    },
+    "applicants": 25,
+    "info": {
+      "currentMembers": 85,
+      "established": "Tahun-Berdiri",
+      "description": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "vision": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "mission": [
+        "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
+        "Membangun ruang aman dan inklusif untuk semua mahasiswa dalam berekspresi, berkontribusi, dan bertumbuh.",
+        "Menjalankan program kerja yang efisien dan berdampak nyata sesuai kebutuhan dan keresahan mahasiswa.",
+        "Menanamkan nilai integritas, empati, dan kepemimpinan yang bertanggung jawab dalam setiap proses kerja.",
+        "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDI Imam Syafii Jember"
+      ],
+      "contactInfo": {
+        "instagram": "@bem_stdiis",
+        "telegram": "@bem_stdiis",
+        "whatsapp": "+6287780252627"
+      }
+    },
+    "divisions": [
+      {
+        "name": "Biro Pengembangan Internal Organisasi",
+        "quota": null,
+        "requirements": []
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": [
+      "kepemimpinan",
+      "revolusi",
+      "design thinking",
+      "transformasi",
+      "mahasiswa",
+      "impact",
+      "dampak"
+    ]
+  },
+  {
+    "id": "fakih-stdiis",
+    "name": "Forum Kajian Ilmu Fikih (FAKIH)",
+    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FKH",
+    "category": "HIMA",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2025-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "https://drive.google.com/drive/folders/18vkctT4O6XBrlphbsugjGalVIZNknUWh",
+      "registrationUrl": "https://forms.gle/9z3Ed7kpeagEukr78",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": "NULL",
+      "description": "FAKIH (Forum Kajian Ilmu Fikih) adalah himpunan mahasiswa yang berada di bawah naungan Program Studi Hukum Keluarga Islam (HKI) STDI Imam Syafii Jember. FAKIH hadir sebagai wadah pengembangan intelektual, spiritual, dan sosial bagi mahasiswa HKI yang berfokus pada pendalaman ilmu fikih serta aplikasinya dalam kehidupan dan dakwah masyarakat.Dengan semangat Berilmu, Beradab, Berdampak!, FAKIH berkomitmen membina mahasiswa agar menjadi pribadi yang faqih dalam agama, luhur dalam adab, dan aktif berkontribusi di tengah umat. Kegiatan FAKIH meliputi kajian tematik fikih, diskusi ilmiah, pelatihan akademik, produksi konten dakwah, serta kerja nyata sosial-keummatan. Di tengah dinamika zaman, FAKIH berusaha menjadi pelopor gerakan mahasiswa yang menghidupkan nilai-nilai Islam dalam bingkai keilmuan dan ukhuwah. Melalui berbagai programnya, FAKIH ingin melahirkan generasi faqih fid-din yang siap menjadi bagian dari solusi umat dan pembangunan masyarakat Islami.",
+      "mission": [
+        "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
+        "Membangun ruang aman dan inklusif untuk semua mahasiswa dalam berekspresi, berkontribusi, dan bertumbuh.",
+        "Menjalankan program kerja yang efisien dan berdampak nyata sesuai kebutuhan dan keresahan mahasiswa.",
+        "Menanamkan nilai integritas, empati, dan kepemimpinan yang bertanggung jawab dalam setiap proses kerja.",
+        "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
+      ],
+      "generalRequirements": [
+        "Mahasiswa Aktif Hukum Keluarga Islam STDIIS",
+        "Memiliki minat yang tinggi dalam pengembangan diri, keorganisasian, dan kontribusi dalam melayani dan memajukan prodi HKI",
+        "Telah membaca Guide Book Profil Hima dengan cermat",
+        "Mengisi formulir pendaftaran",
+        "Menyiapkan curriculum vitae (template)",
+        "Mengikuti semua rangkaian oprec"
+      ],
+      "contactInfo": {
+        "instagram": "@fakihstdiis_official",
+        "telegram": "t.me/usamahazhq",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Keilmuan dan Dakwah",
+        "quota": null,
+        "requirements": [
+          "Tertarik pada bidang keilmuan, akademik, dan dakwah",
+          "Mampu merancang kegiatan keilmuan dan dakwah seperti dauroh, seminar, diskusi ilmiah, dll"
+        ]
+      },
+      {
+        "name": "Pengembangan Sumber Daya Manusia",
+        "quota": null,
+        "requirements": [
+          "Tertarik pada pengembangan potensi, kaderisasi, dan pembinaan anggota",
+          "Mampu merancang kegiatan peningkatan softskill dan kekompakan antar anggota seperti makrab, pelatihan, workshop, dll"
+        ]
+      },
+      {
+        "name": "Pengembangan Sumber Daya Manusia",
+        "quota": null,
+        "requirements": [
+          "Tertarik pada pengembangan potensi, kaderisasi, dan pembinaan anggota",
+          "Mampu merancang kegiatan peningkatan softskill dan kekompakan antar anggota seperti makrab, pelatihan, workshop, dll"
+        ]
+      },
+      {
+        "name": "Kreasi",
+        "quota": null,
+        "requirements": [
+          "Menguasai skill editing baik design grafis maupun editing video",
+          "Siap menjalankan tugas dengan ikhlas",
+          "Siap berhadapan dengan deadline",
+        ]
+      },
+      {
+        "name": "DIWAN (Inventaris, Wasilah, Arsip & Amanah)",
+        "quota": null,
+        "requirements": [
+          "Teliti dan Teroganisir",
+          "Menguasai dasar pengaplikasian perkantoran (spreedsheet dan excel)",
+          "Literasi digital dan memiliki pemahaman pengarsipan digital (Google drive)",
+          "Manajemen waktu dan barang yang baik"
+        ]
+      },
+      {
+        "name": "HUFRA (Hubungan Masyarakat & Fundraising",
+        "quota": null,
+        "requirements": [
+          "Aktif sosial media dan fast respons",
+          "Mampu menjalin kerjasama & hubungan baik antara pihak internal dan eksternal",
+          "Mampu mengelola media sosial organisasi",
+          "Mampu menyusun strategi pencarian dana & mengembangkan usaha"
+        ]
+      },
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Pengumuman Lolos Berkas",
+        "startDate": "2025-09-07",
+        "endDate": "2025-09-07",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Pengumuman Lolos Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-15",
+        "status": "ongoing"
+      },
+    ],
+    "tags": [
+      "fiqih",
+      "fikih",
+      "hukum keluarga islam",
+      "hima",
+    ]
+  },
+]

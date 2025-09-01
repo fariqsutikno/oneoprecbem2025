@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OprecHub - Platform Rekrutmen Organisasi Kampus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8'
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'slide-up': 'slideUp 0.4s ease-out',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+      .gradient-bg {
+          /* Gradien warna dasar */
+          background: linear-gradient(to bottom right, #0A1128, #1F466E); /* Sesuaikan arah dan warna */
+          
+          /* Tambahkan tekstur dot pattern (contoh menggunakan radial-gradient) */
+          background-image: 
+              radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0), /* Titik putih samar */
+              radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0), /* Titik lain */
+              linear-gradient(to bottom right, #0A1128, #1F466E); /* Gradien utama di paling bawah */
+          
+          background-size: 20px 20px, 15px 15px, 100% 100%; /* Ukuran pengulangan pola */
+          background-position: 0 0, 10px 10px, 0 0; /* Posisi offset untuk menciptakan variasi */
+      }
+      
+      /* Jika Anda menggunakan Tailwind untuk warna, maka cukup tambahkan tekstur saja */
+      .with-dot-pattern {
+          background-image: 
+              radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0),
+              radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+          background-size: 20px 20px, 15px 15px;
+          background-position: 0 0, 10px 10px;
+      }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
+                      <img src="https://drive.google.com/thumbnail?id=1sZpjGmUI3S3WVeNOVI5JlEISjOnt1GfG">
+                    </div>
+                    <span class="text-xl font-semibold text-gray-900">SatuOprec by BEM STDIIS</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-[#0A1128] to-[#1F466E] py-16 lg:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                Satu Portal, Semua Organisasi Kampus
+            </h1>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Jelajahi dan daftar ke berbagai organisasi dan UKM STDIIS dengan mudah. Resmi dari BEM STDIIS, untuk mendukung minat, bakat, dan kontribusimu di kampus
+            </p>
+            
+            <!-- Search Bar -->
+            <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg p-2">
+                <div class="flex flex-col md:flex-row gap-2">
+                    <div class="flex-1 relative">
+                        <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                        <input 
+                            type="text" 
+                            id="searchInput"
+                            placeholder="Cari organisasi atau kata kunci..."
+                            class="w-full pl-12 pr-4 py-4 text-gray-900 placeholder-gray-500 focus:outline-none rounded-xl"
+                            oninput="performSearch()"
+                        >
+                    </div>
+                    <button class="px-8 py-4 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors">
+                        Cari
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <!-- <section class="bg-white border-b border-gray-200 sticky top-16 z-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-lg font-semibold text-gray-900">Organisasi yang Tersedia</h2>
+            </div>
+            <div class="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+                <button onclick="filterByCategory('all')" class="filter-btn active flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-primary-600 text-white">
+                    Semua
+                </button>
+                <button onclick="filterByCategory('BEM/MPM')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    BEM/MPM
+                </button>
+                <button onclick="filterByCategory('Himpunan')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    Himpunan
+                </button>
+                <button onclick="filterByCategory('UKM')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    UKM
+                </button>
+                <button onclick="filterByCategory('Komunitas')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    Komunitas
+                </button>
+                <button onclick="filterByCategory('Rohani')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    Rohani
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Organizations Grid -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div id="organizationsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Cards populated by JavaScript -->
+        </div>
+        
+        <div id="noResults" class="hidden text-center py-16">
+            <div class="text-gray-400 mb-4">
+                <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                </svg>
+            </div>
+            <h3 class="text-xl font-medium text-gray-900 mb-2">Tidak ada organisasi ditemukan</h3>
+            <p class="text-gray-500">Coba gunakan kata kunci yang berbeda atau ubah filter pencarian</p>
+        </div>
+    </section>
+
+    <!-- Detail Modal -->
+    <div id="detailModal" class="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+                <div id="modalContent" class="p-6 lg:p-8">
+                    <!-- Content populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div id="organizationsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        </div>
+    
+    <div id="noResults" class="hidden text-center py-16">
+        <div class="text-gray-400 mb-4">
+            <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+        </div>
+        <h3 class="text-xl font-medium text-gray-900 mb-2">Tidak ada organisasi ditemukan</h3>
+        <p class="text-gray-500">Coba gunakan kata kunci yang berbeda atau ubah filter pencarian</p>
+    </div>
+</section>
+
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-50 rounded-2xl mb-8">
+    <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+    <div class="max-w-3xl mx-auto space-y-4">
+        
+        <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 group">
+            <summary class="flex justify-between items-center font-semibold text-lg text-gray-900 cursor-pointer">
+                Bagaimana cara mendaftar organisasi?
+                <span class="group-open:rotate-180 transition-transform duration-200">
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+            </summary>
+            <div class="mt-4 text-gray-600 leading-relaxed">
+                <p>Cukup klik tombol "Daftar" pada kartu organisasi yang kamu minati. Kamu akan diarahkan ke formulir pendaftaran yang disediakan oleh organisasi tersebut.</p>
+            </div>
+        </details>
+        
+        <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 group">
+            <summary class="flex justify-between items-center font-semibold text-lg text-gray-900 cursor-pointer">
+                Apakah Oprec Serentak ini bersifat resmi?
+                <span class="group-open:rotate-180 transition-transform duration-200">
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+            </summary>
+            <div class="mt-4 text-gray-600 leading-relaxed">
+                <p>Ya. Oprec Serentak merupakan agenda resmi yang telah disepakati oleh seluruh Ormawa dan UKM STDIIS sebagai wujud sinergi bersama. Kegiatan ini difasilitasi melalui platform resmi yang diselenggarakan oleh BEM STDIIS untuk mempermudah proses rekrutmen organisasi di kampus.</p>
+            </div>
+        </details>
+
+        <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 group">
+            <summary class="flex justify-between items-center font-semibold text-lg text-gray-900 cursor-pointer">
+                Kontak yang bisa dihubungi jika ada kendala?
+                <span class="group-open:rotate-180 transition-transform duration-200">
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+            </summary>
+            <div class="mt-4 text-gray-600 leading-relaxed">
+                <p>Jika kamu mengalami kendala teknis atau ada pertanyaan seputar platform, silakan hubungi kontak berikut:</p>
+                <ul class="mt-4 space-y-2 text-sm">
+                    <li><span class="font-medium text-gray-900">Telegram:</span> <a href="https://t.me/bem_stdiis" class="text-primary-600 hover:underline">@bem_stdiis</a></li>
+                    <li><span class="font-medium text-gray-900">Whatsapp:</span> <a href="https://wa.me/6287780252627" class="text-primary-600 hover:underline">0877-80-252627</a></li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</section>
+
+<footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-sm text-gray-400">Dikelola oleh <a href="https://instagram.com/bem_stdiis">BEM STDIIS</a> • <span class="font-semibold text-gray-300">SatuOprec</span></p>
+        <p class="mt-2 text-xs text-gray-500">Built with ❤️ in collaboration with <a href="https://linkedin.com/in/fariqsutikno" target="_blank" class="text-gray-400 hover:underline">UntungDev</a></p>
+    </div>
+</footer>
+  <script src="data.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
