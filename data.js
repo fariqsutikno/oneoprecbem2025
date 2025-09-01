@@ -1,10 +1,10 @@
-// data.js
+
 const organizationsData = [
   {
     "id": "bem-stdiis",
     "name": "Badan Eksekutif Mahasiswa (BEM)",
     "logo": "https://drive.google.com/thumbnail?id=1sZpjGmUI3S3WVeNOVI5JlEISjOnt1GfG",
-    "category": "Ormawa",
+    "category": "Ormawa", 
     "featured": true,
     "recruitment": {
       "isOpen": true,
@@ -14,17 +14,17 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota"
+        "display": "Tanpa Kuota",
       },
-      "guidebookUrl": "bit.ly/Booklet-OprecMenteriBEMSTDIIS25",
-      "registrationUrl": "bit.ly/Form-OprecMenteriBEMSTDIIS25",
+      "guidebookUrl": "https://bit.ly/Booklet-OprecMenteriBEMSTDIIS25",
+      "registrationUrl": "https://bit.ly/Form-OprecMenteriBEMSTDIIS25",
       "registrationFee": 0,
     },
-    "applicants": 25,
+    "applicants": 0,
     "info": {
-      "currentMembers": 85,
-      "established": "Tahun-Berdiri",
-      "description": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "currentMembers": 0,
+      "established": null,
+      "description": "Badan Eksekutif Mahasiswa (BEM) STDI Imam Syafi'i merupakan organisasi tertinggi di kampus yang berperan sebagai poros kehidupan kampus yang integratif, adaptif, profesional, dan responsif. BEM STDI Imam Syafi'i memiliki tanggung jawab untuk membuat program kerja yang memaksimalkan peran mahasiswa, mengkaji berbagai isu, melakukan pencerdasan, dan menyampaikan aspirasi mahasiswa maupun masyarakat kepada pihak yang bersangkutan.",
       "vision": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
       "mission": [
         "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
@@ -34,12 +34,12 @@ const organizationsData = [
         "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDI Imam Syafii Jember jenjang S1",
       ],
       "contactInfo": {
         "instagram": "@bem_stdiis",
         "telegram": "@bem_stdiis",
-        "whatsapp": "+6287780252627"
+        "whatsapp": "6287780252627"
       }
     },
     "divisions": [
@@ -112,10 +112,16 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
-      "kepemimpinan",
+      "Kepemimpinan",
       "revolusi",
       "design thinking",
       "transformasi",
@@ -149,7 +155,8 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Badan Perwakilan Mahasiswa, atau lebih dikenal sebagai BPM, adalah sebuah lembaga yang memiliki peran krusial dalam mewakili dan menyuarakan aspirasi mahasiswa di Kampus STDI Imam Syafi’i Jember. Tugas utama BPM adalah menjadi suara mahasiswa dalam menghadapi berbagai isu, kebijakan, atau permasalahan yang berkaitan dengan pendidikan, dan kesejahteraan mahasiswa. Selain itu, BPM juga memiliki peran dalam mengawasi berbagai kegiatan yang diadakan oleh BEM, UKM dan HIMA STDI Imam Syafi’i Jember serta membantu memperbaiki kualitas kegiatan dan kehidupan mahasiswa di lingkungan kampus. Dengan demikian, BPM memainkan peran penting dalam menciptakan lingkungan yang kondusif untuk perkembangan akademik dan sosial mahasiswa di Kampus STDI Imam Syafi’i Jember.",
+      "vision": "",
       "mission": [
       ],
       "generalRequirements": [
@@ -177,7 +184,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "kepemimpinan",
+      "Kepemimpinan",
       "revolusi",
       "design thinking",
       "transformasi",
@@ -251,14 +258,6 @@ const organizationsData = [
         ]
       },
       {
-        "name": "Pengembangan Sumber Daya Manusia",
-        "quota": null,
-        "requirements": [
-          "Tertarik pada pengembangan potensi, kaderisasi, dan pembinaan anggota",
-          "Mampu merancang kegiatan peningkatan softskill dan kekompakan antar anggota seperti makrab, pelatihan, workshop, dll"
-        ]
-      },
-      {
         "name": "Kreasi",
         "quota": null,
         "requirements": [
@@ -299,19 +298,19 @@ const organizationsData = [
         "phase": "Pengumuman Lolos Berkas",
         "startDate": "2025-09-07",
         "endDate": "2025-09-07",
-        "status": "ongoing"
+        "status": "comingsoon"
       },
       {
         "phase": "Interview",
         "startDate": "2025-09-08",
         "endDate": "2025-09-14",
-        "status": "ongoing"
+        "status": "comingsoon"
       },
       {
         "phase": "Pengumuman Lolos Interview",
         "startDate": "2025-09-08",
         "endDate": "2025-09-15",
-        "status": "ongoing"
+        "status": "comingsoon"
       },
     ],
     "tags": [
@@ -319,6 +318,7 @@ const organizationsData = [
       "fikih",
       "hukum keluarga islam",
       "hima",
+      "Kajian & Keilmuan",
     ]
   },
     {
@@ -426,6 +426,7 @@ const organizationsData = [
       "fokus",
       "ilmu hadis",
       "hima",
+      "Kajian & Keilmuan",
     ]
   },
   {
@@ -453,7 +454,7 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Rijal Dakwah adalah organisasi dakwah kemahasiswaan yang bergerak dalam aktivitas keislaman dan keteknologian. Rijal Dakwah didirikan dengan tujuan terbentuknya akademisi islam yang berakhlak mulia, kreatif, dan berakidah Ahlussunah Wal Jamaah, serta mempersiapkan mahasiswa STDI Imam Syafi'i menjadi aktivis dakwah sunnah.",
       "vision": [],
       "mission": [],
       "generalRequirements": [
@@ -504,7 +505,7 @@ const organizationsData = [
       {
         "phase": "Pendaftaran",
         "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "endDate": "2025-09-07",
         "status": "ongoing"
       },
       {
@@ -525,6 +526,7 @@ const organizationsData = [
       "fokus",
       "ilmu hadis",
       "hima",
+      "Kajian & Keilmuan",
     ]
   },
   {
@@ -598,7 +600,7 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Divisi Sistem Informasi & Integrasi Pendidikan (SIIP/Programming)",
+        "name": "Divisi Sistem Informasi & Integrasi Programming (SIIP)",
         "quota": null,
         "requirements": []
       },
@@ -635,7 +637,7 @@ const organizationsData = [
       },
     ],
     "tags": [
-      "teknologi",
+      "Teknologi",
       "IT",
       "fortik",
       "programmer",
@@ -658,8 +660,8 @@ const organizationsData = [
       "isDisabled": false,
       "quota": {
         "type": "unlimited",
-        "number": null,
-        "display": "Tanpa Kuota"
+        "number": 25,
+        "display": "25 orang"
       },
       "guidebookUrl": "",
       "registrationUrl": "",
@@ -730,6 +732,7 @@ const organizationsData = [
       },
     ],
     "tags": [
+      "Kajian & Keilmuan",
       "hukum",
       "fpkh",
     ]
@@ -759,7 +762,7 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Huffazhul Wahyain merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang hafalan Al-Qur’an dan Hadits, untuk meningkatkan kualitas mahasiswa STDIIS Jember dalam bidang ilmiyah.",
       "mission": [
       ],
       "generalRequirements": [
@@ -786,6 +789,7 @@ const organizationsData = [
     ],
     "tags": [
       "kepemimpinan",
+      "Kajian & Keilmuan",
     ]
   },
   {
@@ -795,39 +799,96 @@ const organizationsData = [
     "category": "UKM",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://bit.ly/DKM_Ar-Rahmah_2025",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "DKM Masjid Ar Rahmah STDI Imam Syafi’i Jember merupakan Unit Kegiatan Mahasiswa yang bergerak untuk memakmurkan Masjid Ar Rahmah STDI Imam Syafi’i Jember. UKM ini menjadi pusat pengembangan kegiatan yang diadakan di Masjid Ar Rahmah. DKM Masjid Ar Rahmah memiliki peran penting di dalam perawatan sarana prasana masjid, kebersihan masjid dan pengelolaan kegiatan kajian rutin maupun segala kegiatan yang diadakan di Masjid Ar Rahmah. Selain itu, DKM Masjid Ar Rahmah juga berperan aktif untuk mensosialisasikan kegiatan Masjid Ar Rahmah di kalangan mahasiswa secara khusus dan masyarakat secara umum.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa Aktif S1/I'dad Lughowy 2025/2026",
+        "Beriman dan bertakwa kepada Allah Azza wa Jalla",
+        "Berakhlak baik, disiplin, jujur, amanah, dan bertanggung jawab",
+        "Berkomitmen untuk meluangkan waktu, tenaga dan pikiran untuk masjid Ar-Rahmah hingga akhir masa khidmat",
+        "Siap untuk bekerja sama",
+        "Mengisi formulir pendaftaran",
+        "Mengikuti tes interview"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "telegram": "Adi_Harianto",
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Sekretaris",
         "quota": null,
         "requirements": []
+      },
+      {
+        "name": "Bendahara",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Humas",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Acara dan Ta'lim",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Inventaris",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Kebersihan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Media dan informasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Imam",
+        "quota": null,
+        "requirements": [
+          "Memiliki hafalan Al Qur'an minimal 10 juz",
+          "Memiliki bacaan Al-Qur'an yang baik dan benar",
+          "Menjaga waktu sholat",
+          "Mengikuti tes seleksi",
+          "Diutamakan yang tinggal di asrama kampus"
+        ]
+      },
+      {
+        "name": "Muazzin",
+        "quota": null,
+        "requirements": [
+          "Bisa melafazkan adzan dengan baik dan benar",
+          "Menjaga waktu sholat",
+          "Mengikuti tes seleksi",
+          "Diutamakan yang tinggal di asrama kampus"
+        ]
       },
     ],
     "timeline": [
@@ -836,10 +897,16 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-12",
+        "endDate": "2025-09-13",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
-      "kepemimpinan",
+      "Kajian & Keilmuan"
     ]
   },
   {
@@ -849,40 +916,89 @@ const organizationsData = [
     "category": "UKM",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Menyusul"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/zUAzjdTiNbDkMLSc9",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Mapala asad El Jabal merupakan sebuah organisasi pecinta alam STDIIS, yang bergerak di bidang sosial lingkungan, kelestarian alam, dan kepedulian terhadap alam raya dan ciptaan-Nya. Mapala Asad El Jabal berdiri pada tanggal 24 Juli 2012, diresmikan di puncak Gunung Rinjani. Tujuan dibentuknya mapala Asad El Jabal yaitu untuk mewadahi para pegiat ataupun pecinta alam dari mahasiswa STDI Imam Syafi`i Jember untuk meningkatkan dan mengembangkan soft skill dan hard skill dalam berkegiatan di alam bebas sesuai dengan ajaran agama Islam.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif",
+        "Didahulukan mahasiswa yang belum memiliki kesibukan di dalam (organisasi) maupun di luar kampus",
+        "Mahasiswa yang berkompeten, ulet, dan memiliki rasa tanggung jawab yang besar terhadap organisasi",
+        "Mendapat izin dari orang tua",
+        "Siap fisik dan mental"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "62895320510950",
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Sekretaris",
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Bendahara",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Humas",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "PDD",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Perkap",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Dana Usaha",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Konservasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Gunung Hutan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Olahraga Arus Deras",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Rock Climbing",
+        "quota": null,
+        "requirements": []
+      }
     ],
     "timeline": [
       {
@@ -890,10 +1006,22 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Diklat",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
-      "kepemimpinan",
+      "Olahraga",
     ]
   },
     {
@@ -903,40 +1031,63 @@ const organizationsData = [
     "category": "UKM",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/EV6DkHbGjUSpRa119",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "STDIIS Basketball Club (SBC) adalah Unit Kegiatan Mahasiswa yang menjadi wadah bagi mahasiswa yang memiliki minat dan bakat dalam olahraga basket. UKM ini menjadi pusat pengembangan potensi atletis mahasiswa STDI Imam Syafi'i Jember di bidang olahraga basket, serta pembinaan karakter sportif dan ukhuwah antar sesama. UKM SBC aktif dalam mengorganisir dan berpartisipasi dalam berbagai turnamen dan kompetisi baik di tingkat internal maupun eksternal kampus STDI Imam Syafi'i Jember.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDIIS (S1 & Idad Lughowi)",
+        "Mempunyai semangat berolahraga dan berkompetisi",
+        "Bersedia mengikuti latihan serta kegiatan UKM secara utuh dan konsisten"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "6282131661536",
+        "whatsapp2": "6287861399320",
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Divisi Humas",
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Divisi PDD / Media",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Lapangan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi SarPras",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi Squad",
+        "quota": null,
+        "requirements": []
+      }
     ],
     "timeline": [
       {
@@ -944,10 +1095,22 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-12",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "BBT (Baseline Basketball Test)",
+        "startDate": "2025-09-14",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
       }
     ],
     "tags": [
-      "kepemimpinan",
+      "Olahraga",
     ]
   },
     {
@@ -957,51 +1120,85 @@ const organizationsData = [
     "category": "UKM",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/UcKbWd97CG3DjryZ6",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "ISFC STDIIS Jember merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang olahraga futsal guna menjunjung tinggi tali Ukhuwah Islamiyah diantara mahasiswa. Serta meraih prestasi non akademik setinggi mungkin dibidang olahraga futsal. dan berkomitmen untuk menciptakan lingkungan yang positif dan mendukung bagi semua anggotanya. Dengan semangat kebersamaan dan dedikasi, organisasi ini berharap dapat terus tumbuh dan berkontribusi dalam dunia dakwah melalui olahraga serta kehidupan kampus secara keseluruhan.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDI Imam Syafii Jember",
+        "Sehat jasmani dan rohani",
+        "Semangat juang yang membara",
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "6282266532721",
+        "whatsapp2": "6289526894488"
       }
     },
     "divisions": [
-      {
-        "name": "Biro Pengembangan Internal Organisasi",
-        "quota": null,
-        "requirements": []
-      },
-    ],
+    {
+      "name": "Sekretaris",
+      "quota": null,
+      "requirements": []
+    },
+    {
+      "name": "Divisi Humas",
+      "quota": null,
+      "requirements": []
+    },
+    {
+      "name": "Divisi PDD / Media Informasi",
+      "quota": null,
+      "requirements": []
+    },
+    {
+      "name": "Divisi PSDM",
+      "quota": null,
+      "requirements": []
+    },
+    {
+      "name": "Divisi Manager",
+      "quota": null,
+      "requirements": []
+    },
+    {
+      "name": "Divisi Pemain futsal",
+      "quota": null,
+      "requirements": []
+    }
+  ],
     "timeline": [
       {
         "phase": "Pendaftaran",
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-15",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
-      "kepemimpinan",
+      "Olahraga",
     ]
   },
   {
@@ -1011,51 +1208,85 @@ const organizationsData = [
     "category": "UKM",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://stdiis.ac.id/ts25",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Unit Kegiatan Mahasiswa (UKM) Tapak Suci STDIIS Merupakan salah satu bidang yang mewadahi minat dan bakat mahasiswa di bidang olah raga khususnya bidang pencak silat. Dalam UKM Tapak Suci bukan hanya belajar silat tetapi organisasi Tapak Suci sambil berdakwah melalui media pencak silat tersebut.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDI Imam Syafii Jember",
+        "Sehat jasmani dan rohani",
+        "Keep spirit"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "62895327230428",
+        "whatsapp2": "089527535709",
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Sekretaris",
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Bendahara",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Humas",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Sarpras",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Media",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Atlet",
+        "quota": null,
+        "requirements": []
+      }
     ],
     "timeline": [
       {
-        "phase": "Pendaftaran",
+        "phase": "Seleksi Berkas",
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-15",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
-      "kepemimpinan",
+      "Bela Diri",
     ]
   },
   {
@@ -1083,7 +1314,7 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Thifan Po Khan adalah bela diri Islam warisan Turki Utsmani yang mengajarkan kekuatan, kelincahan, jurus, dan perkelahian secara syar’i tanpa unsur syirik atau bid’ah. UKM Thifan Po Khan di STDIIS hadir sebagai wadah pengembangan diri mahasiswa dalam bela diri Islami, membentuk generasi tangguh, disiplin, dan Rabbani. Melalui UKM ini, mahasiswa dapat meningkatkan fisik dan mental, belajar kepemimpinan, serta aktif dalam kegiatan sosial dan dakwah bela diri.",
       "mission": [
       ],
       "generalRequirements": [
@@ -1109,7 +1340,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "kepemimpinan",
+      "Bela Diri",
     ]
   },
     {
@@ -1121,38 +1352,35 @@ const organizationsData = [
     "recruitment": {
       "isOpen": false,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/32YrF8faUKrfHgbQA",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Volleyball Club STDIIS (VBCS) adalah Unit Kegiatan Mahasiswa di STDI Imam Syafi’i Jember yang menyediakan wadah bagi mahasiswa yang memiliki bakat dan minat dalam olahraga voli. VBCS tidak hanya berfokus pada pengembangan keterampilan teknik, tetapi juga pada pembentukan karakter dan kebersamaan antar anggota. Dengan semangat sportivitas dan kerjasama tim, kami berkomitmen untuk mencapai prestasi di berbagai kompetisi.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDIIS",
+        "Memiliki semangat untuk berlatih dan berkembang",
+        "Siap berkomitmen dalam setiap kegiatan tim"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "6285339287897",
       }
     },
     "divisions": [
-      {
-        "name": "Biro Pengembangan Internal Organisasi",
-        "quota": null,
-        "requirements": []
-      },
     ],
     "timeline": [
       {
@@ -1160,10 +1388,16 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-15",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
-      "kepemimpinan",
+      "Olahraga",
     ]
   },
     {
@@ -1191,7 +1425,7 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Unit Kegiatan Mahasiswa (UKM) Badminton STDIIS merupakan salah satu wadah yang diinisiasi untuk mengakomodasi minat dan bakat mahasiswa dalam olahraga badminton. Badminton adalah olahraga yang populer di Indonesia dan dunia, dikenal karena teknik permainannya yang dinamis dan tantangan strategi yang memikat. Di tingkat universitas, olahraga ini tidak hanya berfungsi sebagai sarana untuk menjaga kebugaran fisik tetapi juga sebagai alat untuk membangun semangat tim dan kepemimpinan.",
       "mission": [
       ],
       "generalRequirements": [
@@ -1217,7 +1451,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "kepemimpinan",
+      "Olahraga",
     ]
   },
   {
@@ -1227,40 +1461,75 @@ const organizationsData = [
     "category": "UKM",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://docs.google.com/forms/d/1EGqbYgeXx6hMYfrKXRmwI3B49xzEAgfmej5Tq3oTvg8/edit?usp=drivesdk",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "",
+      "description": "Ukhuwah Runners adalah komunitas mahasiswa yang fokus pada olahraga lari sebagai sarana pengembangan fisik, mental, dan spiritual. Selain membina gaya hidup sehat dan disiplin diri, UKM ini juga menjadi media dakwah dengan menanamkan nilai-nilai Islami seperti syukur, kebersamaan, dan semangat persaudaraan. Terbuka untuk pemula hingga pelari berpengalaman, kegiatan UKM mencakup teknik lari, kebugaran, pencegahan cedera, serta partisipasi dalam berbagai event. Melalui latihan rutin dan target personal, anggota didorong untuk mengasah ketahanan dan melewati batas diri. UKM ini membangun lingkungan yang suportif dan kompetitif. Dengan pendekatan terstruktur, UKM Lari berkomitmen membentuk karakter tangguh, kerja sama, dan komitmen tinggi. Tujuan akhirnya adalah menumbuhkan budaya hidup sehat dan Islami di lingkungan kampus.",
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif (S1 & I'dad Lughowi)",
+        "Diutamakan mahasiswa yang memiliki pengalaman dalam dunia lari",
+        "Diutamakan mahasiswa yang pernah mengikuti event lari",
+        "Mahasiswa yang berkompeten, ulet, dan memiliki rasa tanggung jawab yang besar terhadap organisasi",
+        "Bersedia mengikuti setiap agenda kegiatan dan event UKM",
+        "Siap fisik dan mental"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "6281342275927",
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Sekretaris",
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Bendahara",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Tim Event & Lomba",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Tim Training / Ketahanan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Tim Wawasan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Tim Media & Desain",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Tim Perlengkapan / Support",
+        "quota": null,
+        "requirements": []
+      }
     ],
     "timeline": [
       {
@@ -1268,10 +1537,16 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
       }
     ],
     "tags": [
-      "kepemimpinan",
+      "Olahraga",
     ]
   },
 ]

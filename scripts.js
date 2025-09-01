@@ -106,8 +106,8 @@
             grid.innerHTML = data.map(createOrganizationCard).join('');
         }
 
-        function filterByCategory(category) {
-            currentFilter = category;
+        function filterByCategory(filterValue, filterType = 'category') {
+            currentFilter = filterValue;
             
             // Update active button
             document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -118,10 +118,14 @@
             event.target.classList.remove('bg-gray-100', 'text-gray-700');
             
             // Filter data
-            if (category === 'all') {
+            if (filterValue === 'all') {
                 filteredData = [...organizationsData];
             } else {
-                filteredData = organizationsData.filter(org => org.category === category);
+                if (filterType === 'category') {
+                    filteredData = organizationsData.filter(org => org.category === filterValue);
+                } else if (filterType === 'tag') {
+                    filteredData = organizationsData.filter(org => org.tags.includes(filterValue.toLowerCase()));
+                }
             }
             
             // Apply search if there's a query
