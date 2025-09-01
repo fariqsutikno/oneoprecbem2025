@@ -162,6 +162,9 @@
             const isDataAvailable = org.recruitment.isDataAvailable;
             const daysLeft = isDataAvailable ? getDaysRemaining(org.recruitment.deadline) : null;
             const isExpired = isDataAvailable && daysLeft < 0;
+            const isComingSoon = org.recruitment.isComingSoon;
+            const isQuotaFull = org.recruitment.quota.type === 'limited' && org.applicants >= org.recruitment.quota.number;
+            const isDisabled = isExpired || isQuotaFull;
         
             // Tampilkan pesan khusus jika data belum tersedia
             if (!isDataAvailable) {
@@ -248,7 +251,7 @@
                                     <div class="flex justify-between items-start mb-3">
                                         <h4 class="font-semibold text-gray-900">${div.name}</h4>
                                         <span class="text-xs px-2 py-1 bg-primary-50 text-primary-700 rounded-full">
-                                            ${div.quota ? `${div.quota} kuota` : 'Unlimited'}
+                                            ${div.quota ? `${div.quota} kuota` : 'Tanpa Kuota'}
                                         </span>
                                     </div>
                                     ${div.requirements && div.requirements.length > 0 ? `
@@ -273,8 +276,8 @@
                             <div class="space-y-3">
                                 <div class="flex justify-between">
                                     <span class="text-gray-600">Status</span>
-                                    <span class="font-medium ${org.recruitment.isOpen ? 'text-green-600' : 'text-red-600'}">
-                                        ${org.recruitment.isOpen ? 'Dibuka' : 'Ditutup'}
+                                    <span class="font-medium ${isDisabled ? 'text-red-600' : isComingSoon ? 'text-blue-600' : 'text-green-600'}">
+                                        ${isDisabled ? 'Ditutup' : isComingSoon ? 'Segera' : 'Dibuka'}
                                     </span>
                                 </div>
                                 <div class="flex justify-between">
@@ -291,17 +294,6 @@
                                     <span class="text-gray-600">Kuota</span>
                                     <span class="font-medium">${org.recruitment.quota.display}</span>
                                 </div>
-                                ${org.recruitment.registrationFee > 0 ? `
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">Biaya</span>
-                                    <span class="font-medium">${formatCurrency(org.recruitment.registrationFee)}</span>
-                                </div>
-                                ` : `
-                                <div class="flex justify-between">
-                                    <span class="text-gray-600">Biaya</span>
-                                    <span class="font-medium text-green-600">Gratis</span>
-                                </div>
-                                `}
                             </div>
                         </div>
         
@@ -379,21 +371,28 @@
         
                 <div class="flex flex-col sm:flex-row gap-4 pt-8 border-t border-gray-200 mt-8">
                     ${org.recruitment.guidebookUrl ? `
-                    <button onclick="window.open('${org.recruitment.guidebookUrl}', '_blank'); event.stopPropagation();"
-                            class="flex-1 py-3 px-6 border border-gray-300 text-gray-700 hover:bg-gray-50 rounded-xl font-medium transition-colors">
-                        Download Guidebook
-                    </button>
+                        <button onclick="window.open('${org.recruitment.guidebookUrl}', '_blank'); event.stopPropagation();"
+                                class="flex-1 py-3 px-6 border border-gray-300 text-gray-700 hover:bg-gray-50 rounded-xl font-medium transition-colors">
+                            Download Guidebook
+                        </button>
                     ` : ''}
-                    ${!isExpired ? `
-                    <button onclick="window.open('${org.recruitment.registrationUrl}', '_blank')"
-                            class="flex-1 py-3 px-6 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-medium transition-colors">
-                        Daftar Sekarang
-                    </button>
+                    ${!org.recruitment.isComingSoon ? `
+                        ${!isExpired ? `
+                            <button onclick="window.open('${org.recruitment.registrationUrl}', '_blank')"
+                                    class="flex-1 py-3 px-6 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-medium transition-colors">
+                                Daftar Sekarang
+                            </button>
+                        ` : `
+                            <button disabled
+                                    class="flex-1 py-3 px-6 bg-gray-100 text-gray-400 rounded-xl font-medium cursor-not-allowed">
+                                Pendaftaran Ditutup
+                            </button>
+                        `}
                     ` : `
-                    <button disabled
-                            class="flex-1 py-3 px-6 bg-gray-100 text-gray-400 rounded-xl font-medium cursor-not-allowed">
-                        Pendaftaran Ditutup
-                    </button>
+                        <button disabled
+                                class="flex-1 py-3 px-6 bg-gray-100 text-gray-400 rounded-xl font-medium cursor-not-allowed">
+                            Segera Dibuka
+                        </button>
                     `}
                 </div>
             `;
