@@ -193,7 +193,7 @@
             content.innerHTML = `
                 <div class="flex justify-between items-start mb-8">
                     <div class="flex items-start gap-4">
-                        <div class="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center overflow-hidden">
+                        <div class="w-16 h-16 rounded-2xl flex items-center justify-center overflow-hidden">
                             <img src="${org.logo}" alt="Logo ${org.name}" class="w-full h-full object-cover">
                         </div>
                         <div>

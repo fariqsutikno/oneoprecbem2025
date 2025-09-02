@@ -800,30 +800,61 @@ const organizationsData = [
       }
     },
     "divisions": [
-      {
-        "name": "Sekretaris",
+    {
+        "name": "Departemen Tata Usaha",
         "quota": null,
-        "requirements": []
+        "description": "Bertanggung jawab mengelola administrasi dan keuangan organisasi. Departemen ini terbagi menjadi Divisi Sekretariat yang mengurus surat menyurat, dokumentasi, dan arsip keanggotaan, serta Divisi Keuangan dan Dana Usaha yang menyusun laporan keuangan, anggaran, dan mencari inovasi pendanaan mandiri.",
+        "requirements": [
+          "Teliti dan rapi dalam mengelola dokumen dan data",
+          "Memiliki kemampuan administratif dan manajerial dasar",
+          "Mampu bekerja sama dalam tim untuk urusan kesekretariatan atau keuangan",
+          "Diutamakan memiliki minat dalam bidang keuangan atau pengembangan usaha"
+        ]
       },
       {
         "name": "Departemen Akademik",
         "quota": null,
-        "requirements": []
+        "description": "Bertugas mengembangkan intelektual dan keilmuan anggota. Departemen ini terbagi menjadi Divisi Pengajaran yang merancang dan melaksanakan program pembelajaran internal, serta Divisi Kemitraan Akademik yang membangun kerja sama dengan pihak eksternal untuk menyelenggarakan kuliah umum, webinar, dan acara akademik lainnya.",
+        "requirements": [
+          "Memiliki minat dalam pengembangan ilmu pengetahuan dan keilmuan",
+          "Mampu merancang kurikulum atau program pembelajaran",
+          "Memiliki kemampuan komunikasi dan membangun relasi",
+          "Tertarik untuk menjalin kerja sama dengan pihak eksternal (dosen, praktisi, lembaga)"
+        ]
       },
       {
         "name": "Departemen Kompetisi & Praktikum",
         "quota": null,
-        "requirements": []
+        "description": "Bertugas mendorong kompetensi aplikatif dan partisipasi anggota dalam kegiatan eksternal. Departemen ini terbagi menjadi Divisi Kompetisi yang mengelola pelatihan dan pendampingan untuk lomba-lomba hukum, serta Divisi Praktikum yang menyusun dan menjalankan program magang atau praktikum hukum.",
+        "requirements": [
+          "Memiliki minat terhadap kompetisi dan pengembangan keterampilan hukum aplikatif",
+          "Mampu mengelola program pelatihan dan pendampingan",
+          "Memiliki inisiatif untuk menjalin kerja sama dengan lembaga hukum dan firma hukum",
+          "Bersedia memfasilitasi partisipasi anggota dalam lomba dan magang"
+        ]
       },
       {
         "name": "Departemen Media",
         "quota": null,
-        "requirements": []
+        "description": "Bertanggung jawab membuat dan mengelola konten visual (desain, video, infografis) untuk promosi, dokumentasi, dan branding organisasi. Departemen ini juga mengelola media sosial resmi dan bekerja sama dengan departemen lain untuk memastikan publikasi program yang menarik dan tepat sasaran.",
+        "requirements": [
+          "Kreatif dan inovatif dalam pembuatan konten visual",
+          "Memiliki kemampuan mengelola media sosial",
+          "Menguasai aplikasi desain grafis atau video editing dasar",
+          "Mampu bekerja sama untuk mendokumentasikan setiap kegiatan"
+        ]
       },
       {
-        "name": "Departemen Kajian Strategis",
+        "name": "Departemen Kajian Strategis (Kastrat)",
         "quota": null,
-        "requirements": []
+        "description": "Departemen Kajian Strategis (Kastrat) adalah divisi yang berfokus pada analisis isu-isu hukum, sosial, politik, dan budaya dengan pendekatan kritis serta berbasis data. Sebagai ruang intelektual, departemen ini bertujuan untuk mengembangkan kemampuan berpikir kritis, melatih keterampilan menulis, dan menghasilkan kajian strategis. Aktivitasnya meliputi pengkajian isu-isu terkini, mengawal isu, menjadi wadah diskusi dan forum ekspresi, serta memproduksi karya seperti artikel, opini, infografis, dan konten video.",
+        "requirements": [
+          "Memiliki kemampuan berpikir kritis dan analitis",
+          "Mampu mengkaji isu-isu hukum, sosial, politik, dan budaya",
+          "Diutamakan memiliki kemampuan menulis",
+          "Tertarik pada isu-isu terkini dan analisis berbasis data",
+          "Bersedia berpartisipasi aktif dalam diskusi dan forum"
+        ]
       },
       {
         "name": "Anggota Biasa",
