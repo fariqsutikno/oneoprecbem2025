@@ -1113,13 +1113,13 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa Aktif S1/I'dad Lughowy 2025/2026",
-        "Beriman dan bertakwa kepada Allah Azza wa Jalla",
-        "Berakhlak baik, disiplin, jujur, amanah, dan bertanggung jawab",
-        "Berkomitmen untuk meluangkan waktu, tenaga dan pikiran untuk masjid Ar-Rahmah hingga akhir masa khidmat",
-        "Siap untuk bekerja sama",
-        "Mengisi formulir pendaftaran",
-        "Mengikuti tes interview"
+        "Mahasiswa aktif STDIIS (Program S1)",
+        "Memiliki minat dan kepedulian dalam dunia literasi",
+        "Teliti, rapi, dan disiplin",
+        "Memiliki kemampuan berorganisasi",
+        "Bersedia mengikuti pelatihan dasar kepustakawanan",
+        "Diutamakan memiliki keterampilan dalam hal desain dan komputer dasar",
+        "Follow akun instagram @perpustakaanstdiis"
       ],
       "contactInfo": {
         "whatsapp": "6282239940930",
