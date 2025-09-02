@@ -3,7 +3,7 @@ const organizationsData = [
   {
     "id": "bem-stdiis",
     "name": "Badan Eksekutif Mahasiswa (BEM)",
-    "logo": "https://drive.google.com/thumbnail?id=1sZpjGmUI3S3WVeNOVI5JlEISjOnt1GfG",
+    "logo": "./logo/bem.jpg",
     "category": "Keorganisasian", 
     "featured": true,
     "recruitment": {
@@ -211,7 +211,7 @@ const organizationsData = [
     {
     "id": "bpm-stdiis",
     "name": "Badan Perwakilan Mahasiswa (BPM)",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BPM",
+    "logo": "./logo/bpm.jpg",
     "category": "Keorganisasian",
     "featured": false,
     "recruitment": {
@@ -308,7 +308,7 @@ const organizationsData = [
   {
     "id": "fakih-stdiis",
     "name": "Forum Kajian Ilmu Fikih (FAKIH)",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FKH",
+    "logo": "./logo/fakih.jpg",
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
@@ -436,7 +436,7 @@ const organizationsData = [
     {
     "id": "fokus-stdiis",
     "name": "Forum Kajian Ilmu Hadis (FOKUS)",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FKS",
+    "logo": "./logo/fokus.jpg",
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
@@ -544,7 +544,7 @@ const organizationsData = [
   {
     "id": "rijal-dakwah",
     "name": "Rijal Dakwah",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=RD",
+    "logo": "./logo/rijaldakwah.jpg",
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
@@ -634,17 +634,13 @@ const organizationsData = [
       },
     ],
     "tags": [
-      "hadis",
-      "fokus",
-      "ilmu hadis",
-      "hima",
-      "Kajian & Keilmuan",
+      "dakwah",
     ]
   },
   {
     "id": "fortik-stdiis",
     "name": "Forum Teknologi Informasi dan Komunikasi (FORTIK)",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FTK",
+    "logo": "./logo/fortik.jpg",
     "category": "Teknologi",
     "featured": false,
     "recruitment": {
@@ -759,7 +755,7 @@ const organizationsData = [
   {
     "id": "fpkh-stdiis",
     "name": "Forum Pengembangan Kompetensi Hukum (FPKH)",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FPH",
+    "logo": "./logo/fpkh.jpg",
     "category": "Hukum",
     "featured": false,
     "recruitment": {
@@ -859,7 +855,7 @@ const organizationsData = [
   {
     "id": "hw-stdiis",
     "name": "Huffazhul Wahyain STDIIS",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=HW",
+    "logo": "./logo/hw.jpg",
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
@@ -908,7 +904,7 @@ const organizationsData = [
   {
     "id": "dkm-stdiis",
     "name": "Dewan Kemakmuran Masjid (DKM) Ar-Rahmah",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=DKM",
+    "logo": "./logo/dkm.jpg",
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
@@ -1025,7 +1021,7 @@ const organizationsData = [
   {
     "id": "mapala-stdiis",
     "name": "Mapala Asad El Jabal",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=MPL",
+    "logo": "./logo/mapala.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -1158,7 +1154,7 @@ const organizationsData = [
     {
     "id": "sbc-stdiis",
     "name": "STDIIS Basketball Club (SBC)",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=SBC",
+    "logo": "./logo/sbc.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -1247,7 +1243,7 @@ const organizationsData = [
     {
     "id": "isfc-stdiis",
     "name": "Imam Syafii Futsal Club",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=IFC",
+    "logo": "./logo/isfc.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -1335,7 +1331,7 @@ const organizationsData = [
   {
     "id": "tapaksuci-stdiis",
     "name": "Tapak Suci STDIIS",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=TPS",
+    "logo": "./logo/tapaksuci.jpg",
     "category": "Bela Diri",
     "featured": false,
     "recruitment": {
@@ -1423,7 +1419,7 @@ const organizationsData = [
   {
     "id": "thifan-stdiis",
     "name": "Thifan Po Khan STDIIS",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=TFN",
+    "logo": "./logo/thifan.jpg",
     "category": "Bela Diri",
     "featured": false,
     "recruitment": {
@@ -1480,7 +1476,7 @@ const organizationsData = [
     {
     "id": "vbcs-stdiis",
     "name": "Volley Ball Club STDIIS",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=VBC",
+    "logo": "./logo/vbcs.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -1537,7 +1533,7 @@ const organizationsData = [
     {
     "id": "badminton-stdiis",
     "name": "Badminton STDIIS",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BMT",
+    "logo": "./logo/badminton.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -1626,7 +1622,7 @@ const organizationsData = [
   {
     "id": "runners-stdiis",
     "name": "Ukhuwah Runners",
-    "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=RUN",
+    "logo": "./logo/ukhuwah.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
