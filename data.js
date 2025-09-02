@@ -558,8 +558,8 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/XAH3sShqTeA8RAQZ6",
+      "guidebookUrl": "STDIIS.ac.id/gbrd",
+      "registrationUrl": "https://stdiis.ac.id/arrd",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -858,18 +858,18 @@ const organizationsData = [
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/LXdBCihx9g18mxgy6",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -880,18 +880,23 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDIIS semester 1-7",
+        "Hafalan minimal 5 juz bagi divisi kaderisasi",
+        "Siap berkomitmen aktif minimal 1 tahun kepengurusan",
+        "Memiliki akhlak Islami dan semangat berkhidmah",
+        "Memiliki basic membaca alqur'an dengan benar"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "telegram": "faiz_who",
+        "telegram2": "@Usamahabd",
       }
     },
     "divisions": [],
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2025-09-02",
+        "endDate": "2025-09-08",
         "status": "ongoing"
       }
     ],
@@ -1010,6 +1015,88 @@ const organizationsData = [
         "phase": "Interview",
         "startDate": "2025-09-12",
         "endDate": "2025-09-13",
+        "status": "comingsoon"
+      },
+    ],
+    "tags": [
+      "Kajian & Keilmuan"
+    ]
+  },
+  {
+    "id": "rijal-maktabah",
+    "name": "Rijal Maktabah",
+    "logo": "./logo/maktabah.jpg",
+    "category": "Keagamaan",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2025-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Sampai Terpenuhi"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfimmXfj7r2b9ZI6x-0zFA18jNQvUgUf65oP5r6TEuxIirYfw/viewform?usp=header",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "Rijal Maktabah adalah sebuah organisasi yang bergerak dalam bidang pengelolaan, pelayanan, dan pengembangan perpustakaan di lingkungan lembaga pendidikan. Organisasi ini berperan sebagai penggerak utama dalam menumbuhkan budaya literasi, meningkatkan minat baca, serta menyediakan akses yang mudah terhadap berbagai sumber ilmu pengetahuan.",
+      "mission": [
+      ],
+      "generalRequirements": [
+        "Mahasiswa Aktif S1/I'dad Lughowy 2025/2026",
+        "Beriman dan bertakwa kepada Allah Azza wa Jalla",
+        "Berakhlak baik, disiplin, jujur, amanah, dan bertanggung jawab",
+        "Berkomitmen untuk meluangkan waktu, tenaga dan pikiran untuk masjid Ar-Rahmah hingga akhir masa khidmat",
+        "Siap untuk bekerja sama",
+        "Mengisi formulir pendaftaran",
+        "Mengikuti tes interview"
+      ],
+      "contactInfo": {
+        "whatsapp": "6282239940930",
+      }
+    },
+    "divisions": [
+      {
+        "name": "Layanan & Acara",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Publikasi, Dokumentasi, & Design",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Sarana & Prasarana",
+        "quota": null,
+        "requirements": []
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-06",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-12",
+        "endDate": "2025-09-13",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Tes Kemampuan Kepustakawanan",
+        "startDate": "",
+        "endDate": "",
         "status": "comingsoon"
       },
     ],
