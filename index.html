@@ -66,8 +66,13 @@
                     </div>
                     <span class="text-xl font-semibold text-gray-900">SatuOprec by BEM STDIIS</span>
                 </div>
+              <nav class="hidden md:flex space-x-6">
+                <a href="#organizationsGrid" class="text-gray-600 hover:text-gray-900 font-medium">List Organisasi</a>
+                <a href="#faqSection" class="text-gray-600 hover:text-gray-900 font-medium">FAQ</a>
+              </nav>
             </div>
         </div>
+
     </header>
 
     <!-- Hero Section -->
@@ -113,7 +118,7 @@
                 <button onclick="filterByCategory('all')" class="filter-btn active flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-primary-600 text-white">
                     Semua
                 </button>
-                <button onclick="filterByCategory('Ormawa')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                <!-- <button onclick="filterByCategory('Ormawa')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
                     Ormawa
                 </button>
                 <button onclick="filterByCategory('HIMA')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
@@ -121,22 +126,25 @@
                 </button>
                 <button onclick="filterByCategory('UKM')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
                     UKM
+                </button> -->
+                <button onclick="filterByCategory('Keorganisasian')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    Keorganisasian
                 </button>
-                <!-- <button onclick="filterByCategory('Olahraga')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
-                    Kepemimpinan
+                <button onclick="filterByCategory('Keagamaan')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    Kajian, Dakwah & Keilmuan
                 </button>
-                <button onclick="filterByCategory('Olahraga')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
-                    Kajian & Keilmuan
-                </button>
-                <button onclick="filterByCategory('Olahraga')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                <button onclick="filterByCategory('Teknologi')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
                     Teknologi
+                </button>
+                <button onclick="filterByCategory('Hukum')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    Hukum
                 </button>
                 <button onclick="filterByCategory('Olahraga')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
                     Olahraga
                 </button>
-                <button onclick="filterByCategory('Olahraga')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
+                <button onclick="filterByCategory('Bela Diri')" class="filter-btn flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200">
                     Bela Diri
-                </button> -->
+                </button>
             </div>
         </div>
     </section>
@@ -183,7 +191,7 @@
     </div>
 </section>
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-50 rounded-2xl mb-8">
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-50 rounded-2xl mb-8" id="faqSection">
     <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">Pertanyaan yang Sering Diajukan (FAQ)</h2>
     <div class="max-w-3xl mx-auto space-y-4">
         
@@ -211,6 +219,30 @@
             </div>
         </details>
 
+        <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 group">
+            <summary class="flex justify-between items-center font-semibold text-lg text-gray-900 cursor-pointer">
+                Beberapa UKM menuliskan jadwal interview yang sama. Bagaimana jika jadwal saya bentrok?
+                <span class="group-open:rotate-180 transition-transform duration-200">
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+            </summary>
+            <div class="mt-4 text-gray-600 leading-relaxed">
+                <p>Jadwal interview yang tertera masih berupa estimasi umum. Untuk jadwal individu, panitia akan mengoordinasikan sedemikian rupa agar tidak terjadi bentrok. So, teman-teman tidak perlu khawatir.</p>
+            </div>
+        </details>
+
+        <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 group">
+            <summary class="flex justify-between items-center font-semibold text-lg text-gray-900 cursor-pointer">
+                Apakah nantinya akan diadakan lagi oprec setelah war UKM ini?
+                <span class="group-open:rotate-180 transition-transform duration-200">
+                    <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+            </summary>
+            <div class="mt-4 text-gray-600 leading-relaxed">
+                <p>InsyaAllah nggak ada yaa. Jadi manfaatin momen ini sebaik mungkin. Kecuali kalau ada kondisi darurat, mungkin baru bisa dibuka lagi.</p>
+            </div>
+        </details>
+      
         <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 group">
             <summary class="flex justify-between items-center font-semibold text-lg text-gray-900 cursor-pointer">
                 Kontak yang bisa dihubungi jika ada kendala?

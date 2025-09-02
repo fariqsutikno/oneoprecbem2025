@@ -248,28 +248,36 @@
                             </div>
                             ` : ''}
         
-                            ${org.divisions && org.divisions.length > 0 ? `
-                            <div class="grid gap-4">
-                                ${org.divisions.map(div => `
-                                <div class="border border-gray-200 rounded-xl p-4">
-                                    <div class="flex justify-between items-start mb-3">
-                                        <h4 class="font-semibold text-gray-900">${div.name}</h4>
-                                        <span class="text-xs px-2 py-1 bg-primary-50 text-primary-700 rounded-full">
-                                            ${div.quota ? `${div.quota} kuota` : 'Tanpa Kuota'}
-                                        </span>
-                                    </div>
-                                    ${div.requirements && div.requirements.length > 0 ? `
-                                    <div>
-                                        <p class="text-sm text-gray-600 mb-2">Persyaratan Khusus:</p>
-                                        <ul class="text-sm text-gray-500 space-y-1">
-                                            ${div.requirements.map(req => `<li>• ${req}</li>`).join('')}
-                                        </ul>
-                                    </div>
-                                    ` : ''}
-                                </div>
-                                `).join('')}
-                            </div>
-                            ` : ''}
+                          ${org.divisions && org.divisions.length > 0 ? `
+                          <div class="grid grid-cols-1 gap-4">
+                              ${org.divisions.map(div => `
+                              <div class="border border-gray-200 rounded-xl p-4">
+                                  <div class="flex justify-between items-start mb-3">
+                                      <h4 class="font-semibold text-gray-900">${div.name}</h4>
+                                      <span class="text-xs px-2 py-1 bg-primary-50 text-primary-700 rounded-full">
+                                          ${div.quota ? `${div.quota} kuota` : 'Tanpa Kuota'}
+                                      </span>
+                                  </div>
+                                  ${div.description ? `
+                                  <div class="mb-3">
+                                      <p class="text-sm text-gray-600 mb-2">Deskripsi:</p>
+                                      <p class="text-sm text-gray-500">
+                                          ${div.description}
+                                      </p>
+                                  </div>
+                                  ` : ''}
+                                  ${div.requirements && div.requirements.length > 0 ? `
+                                  <div>
+                                      <p class="text-sm text-gray-600 mb-2">Persyaratan Khusus:</p>
+                                      <ul class="text-sm text-gray-500 space-y-1">
+                                          ${div.requirements.map(req => `<li>• ${req}</li>`).join('')}
+                                      </ul>
+                                  </div>
+                                  ` : ''}
+                              </div>
+                              `).join('')}
+                          </div>
+                          ` : ''}
                         </div>
                         ` : ''}
                     </div>

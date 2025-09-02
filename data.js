@@ -4,7 +4,7 @@ const organizationsData = [
     "id": "bem-stdiis",
     "name": "Badan Eksekutif Mahasiswa (BEM)",
     "logo": "https://drive.google.com/thumbnail?id=1sZpjGmUI3S3WVeNOVI5JlEISjOnt1GfG",
-    "category": "Ormawa", 
+    "category": "Keorganisasian", 
     "featured": true,
     "recruitment": {
       "isOpen": true,
@@ -16,8 +16,8 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota",
       },
-      "guidebookUrl": "https://bit.ly/Booklet-OprecMenteriBEMSTDIIS25",
-      "registrationUrl": "https://bit.ly/Form-OprecMenteriBEMSTDIIS25",
+      "guidebookUrl": "https://drive.google.com/drive/folders/1KNoqrpsKya-LnWJd0Q4BUSbtEfk5npoB?usp=sharing",
+      "registrationUrl": "https://forms.gle/C1bj21x5oXVeHbdS8",
       "registrationFee": 0,
     },
     "applicants": 0,
@@ -34,7 +34,10 @@ const organizationsData = [
         "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember jenjang S1",
+        "Mahasiswa S1 aktif STDIIS",
+        "Tidak berencana cuti atau melepas status mahasiswa selama satu tahun kepengurusan",
+        "Bersedia mengemban amanah selama satu periode penuh",
+        "Mengisi formulir beserta CV, hasil tes DISC dan gaya komunikasi",
       ],
       "contactInfo": {
         "instagram": "@bem_stdiis",
@@ -42,68 +45,143 @@ const organizationsData = [
         "whatsapp": "6287780252627"
       }
     },
-    "divisions": [
+ "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Biro Pengembangan Internal Organisasi (PIO)",
         "quota": null,
-        "requirements": []
+        "description": "Mengawal penguatan sistem organisasi melalui riset, evaluasi kinerja, dan pengembangan budaya kerja berkelanjutan agar organisasi tetap relevan, adaptif, dan berdampak.",
+        "requirements": [
+          "Punya kepekaan tinggi terhadap dinamika internal dan menyadari jika ada sistem yang tidak berjalan.",
+          "Mampu berpikir secara sistematis, bukan hanya reaktif terhadap masalah.",
+          "Mampu menyampaikan ide atau masukan dengan jelas.",
+          "Terbuka terhadap kritik dan memiliki semangat untuk meningkatkan kualitas kerja tim.",
+          "Poin plus jika bisa mengolah dan visualisasi data, memahami dasar design thinking, bisa coding Javascript atau Python untuk analisis data, dan rapi dalam mendokumentasikan alur kerja."
+        ]
       },
       {
         "name": "Biro Administrasi",
         "quota": null,
-        "requirements": []
+        "description": "Bertanggung jawab terhadap ketertiban administrasi dan dokumentasi organisasi, serta memastikan semua proses resmi BEM berjalan sesuai standar.",
+        "requirements": [
+          "Menyukai kerapian dan teliti.",
+          "Punya insting untuk memperbaiki kesalahan kecil seperti typo atau format yang tidak rapi.",
+          "Familiar atau bersedia belajar menggunakan Word, Excel, dan alat administrasi dasar lainnya.",
+          "Poin plus jika responsif dalam hal surat, notulensi, atau laporan, serta memahami Google Apps Script untuk otomatisasi pekerjaan."
+        ]
       },
       {
         "name": "Biro Pengelolaan Keuangan",
         "quota": null,
-        "requirements": []
+        "description": "Mengelola arus keuangan BEM secara akuntabel dan efisien, mulai dari perencanaan anggaran, pencatatan transaksi, hingga pelaporan keuangan.",
+        "requirements": [
+          "Menyukai angka, teliti, dan rapi.",
+          "Suka menyusun laporan keuangan atau rencana anggaran belanja (RAB).",
+          "Nyaman menggunakan Excel/Google Sheets.",
+          "Punya mental transparan dan bertanggung jawab terhadap dana.",
+          "Poin plus jika tertarik pada budgeting, cashflow, dan audit ringan, serta punya pengalaman mengelola keuangan organisasi."
+        ]
       },
       {
         "name": "Biro Inovasi Keuangan",
         "quota": null,
-        "requirements": []
+        "description": "Mendorong mahasiswa untuk berkarya dan berdaya secara ekonomi melalui inovasi kewirausahaan, pengembangan produk, dan industri kreatif.",
+        "requirements": [
+          "Punya banyak ide bisnis, peka terhadap peluang, dan semangat mengembangkan usaha.",
+          "Bisa berpikir strategis tentang penjualan, marketing, dan branding.",
+          "Poin plus jika punya pengalaman berjualan, mengelola proyek usaha, atau menangani sponsorship.",
+          "Memahami Business Model Canvas (BMC), kampanye digital, atau cara kerja afiliasi."
+        ]
       },
       {
-        "name": "Biro Desain & Komunikasi Visual",
+        "name": "Kementerian Pemuda dan Olahraga",
         "quota": null,
+        "description": "Mewadahi minat dan bakat mahasiswa di bidang olahraga serta membangun budaya sportivitas dan gaya hidup sehat.",
         "requirements": [
-          "Melampirkan portofolio desain"
+          "Energik dan punya semangat untuk membangun komunitas lewat olahraga.",
+          "Menyukai olahraga dan paham cara mengelola acara atau turnamen.",
+          "Senang bekerja sama dengan tim dan bisa menjadi penggerak kegiatan.",
+          "Poin plus jika memiliki pengalaman sebagai panitia atau peserta turnamen, dan bisa berkoordinasi dengan unit kegiatan mahasiswa (UKM) atau komunitas luar."
+        ]
+      },
+      {
+        "name": "Kementerian Kaderisasi & Pengembangan SDM",
+        "quota": null,
+        "description": "Merancang sistem kaderisasi dan pelatihan untuk mencetak pemimpin muda yang progresif dan berintegritas, sekaligus memastikan BEM menjadi ruang bertumbuh bagi setiap anggota dan mahasiswa",
+        "requirements": [
+          "Semangat untuk berkembang dan suka membantu orang lain bertumbuh.",
+          "Memiliki growth mindset dan senang mengajak orang untuk meningkatkan diri.",
+          "Senang menjadi fasilitator atau mentor.",
+          "Peka melihat kemajuan orang lain dan bersemangat untuk membantu mereka naik level.",
+          "Poin plus jika punya pengalaman membuat atau mengikuti pelatihan pengembangan diri, punya visi membangun budaya organisasi yang sehat, dan memiliki relasi untuk program kaderisasi."
+        ]
+      },
+      {
+        "name": "Kementerian Akademik & Pengembangan Karier",
+        "quota": null,
+        "description": "Mendukung pengembangan prestasi akademik dan kesiapan karier mahasiswa melalui komunitas belajar, mentoring, dan pelatihan soft skill.",
+        "requirements": [
+          "Punya semangat belajar yang tinggi dan suka mencari cara untuk terus meningkatkan diri.",
+          "Peka terhadap isu dunia kerja dan sudah mulai memikirkan karier, magang, atau lomba.",
+          "Senang membantu orang lain melalui mentoring atau diskusi.",
+          "Peka terhadap kebutuhan teman-teman dan ingin membuat program yang bermanfaat.",
+          "Poin plus jika suka membuat rangkuman materi, pernah mengikuti komunitas belajar atau lomba akademik, dan tertarik mengembangkan skill praktis seperti CV dan personal branding."
+        ]
+      },
+      {
+        "name": "Kementerian Advokasi & Kesejahteraan Mahasiswa",
+        "quota": null,
+        "description": "Mewakili dan memperjuangkan aspirasi mahasiswa, mengkaji isu kampus, dan merancang program yang mendukung kesejahteraan.",
+        "requirements": [
+          "Punya kepekaan tinggi terhadap masalah di lingkungan kampus, berani menyuarakan pendapat, dan siap mencari solusi.",
+          "Teliti dalam mengumpulkan data dan terbuka mendengarkan keluhan mahasiswa.",
+          "Suka membuat forum diskusi, survei, atau menulis kajian tentang isu-isu relevan.",
+          "Poin plus jika tertarik membuat sistem aspirasi yang terstruktur, punya pengalaman advokasi, atau suka melakukan riset kecil-kecilan."
+        ]
+      },
+      {
+        "name": "Kementerian Pengembangan Bahasa",
+        "quota": null,
+        "description": "Meningkatkan kemampuan literasi, bahasa asing, dan komunikasi mahasiswa melalui pelatihan dan komunitas.",
+        "requirements": [
+          "Bersemangat meningkatkan kemampuan bahasa dan mengajak orang lain belajar bersama.",
+          "Suka belajar dan mengajar bahasa asing (Arab, Inggris, dll.).",
+          "Percaya diri berbicara di depan umum dan bisa menjadi fasilitator yang menyenangkan.",
+          "Suka membuat konten edukatif yang ringan tapi bermakna.",
+          "Poin plus jika punya pengalaman ikut lomba atau membuat program belajar bahasa."
+        ]
+      },
+      {
+        "name": "Kementerian Harmonisasi Kampus",
+        "quota": null,
+        "description": "Menjalin sinergi dan komunikasi efektif antar organisasi mahasiswa dan UKM untuk menciptakan ekosistem kampus yang kolaboratif dan harmonis.",
+        "requirements": [
+          "Terampil merangkul orang, peka terhadap konflik, dan bisa menjadi jembatan antar organisasi.",
+          "Mudah membangun relasi dan nyaman berdialog dengan banyak pihak.",
+          "Berpikir sistematis untuk menciptakan hubungan antar organisasi yang rapi dan efisien.",
+          "Poin plus jika punya pengalaman mengelola koordinasi banyak pihak dan sering menjadi 'penjembatan' dalam dinamika organisasi."
         ]
       },
       {
         "name": "Kementerian Hubungan Eksternal",
         "quota": null,
-        "requirements": []
+        "description": "Membangun relasi strategis dengan lembaga luar kampus, alumni, dan mitra eksternal untuk membuka peluang kolaborasi dan pengembangan kapasitas.",
+        "requirements": [
+          "Komunikatif, pandai bernegosiasi, dan bisa menjadi representasi BEM yang ramah dan terpercaya.",
+          "Cekatan dan terorganisir dalam mengelola komunikasi.",
+          "Mampu menyesuaikan sikap sesuai dengan audiens, baik dalam situasi formal maupun informal.",
+          "Poin plus jika memiliki banyak relasi di luar kampus, aktif di komunitas eksternal, dan suka mewakili organisasi dalam forum resmi."
+        ]
       },
       {
-        "name": "Kementerian Harmonisasi Kampus",
+        "name": "Biro Desain Komunikasi Visual (DKV)",
         "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kementerian Pemuda dan Olahraga",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kementerian Akademik & Karier",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kementerian Kaderisasi & Pengembangan Sumber Daya Mahasiswa",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kementerian Advokasi & Kesejahteraan Mahasiswa",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kementerian Pengembangan Bahasa",
-        "quota": null,
-        "requirements": []
+        "description": "Mengelola komunikasi publik, konten kreatif, dan media sosial BEM untuk menyampaikan informasi secara menarik dan transparan.",
+        "requirements": [
+          "Memiliki kepekaan visual yang tajam, ide-ide kreatif, dan memahami cara membuat branding organisasi yang menarik.",
+          "Suka membuat konten, mulai dari caption, video, hingga infografis.",
+          "Familiar dengan alat desain seperti Canva, Figma, atau Adobe, serta aplikasi pengeditan video.",
+          "Poin plus jika punya pengalaman mengelola media sosial organisasi atau menyusun strategi konten."
+        ]
       }
     ],
     "timeline": [
@@ -134,7 +212,7 @@ const organizationsData = [
     "id": "bpm-stdiis",
     "name": "Badan Perwakilan Mahasiswa (BPM)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BPM",
-    "category": "Ormawa",
+    "category": "Keorganisasian",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -148,7 +226,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/YUmh1ffBAkNjZtue6",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -231,7 +309,7 @@ const organizationsData = [
     "id": "fakih-stdiis",
     "name": "Forum Kajian Ilmu Fikih (FAKIH)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FKH",
-    "category": "HIMA",
+    "category": "Keagamaan",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -359,7 +437,7 @@ const organizationsData = [
     "id": "fokus-stdiis",
     "name": "Forum Kajian Ilmu Hadis (FOKUS)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FKS",
-    "category": "HIMA",
+    "category": "Keagamaan",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -406,32 +484,32 @@ const organizationsData = [
     "divisions": [
       {
         "name": "Divisi Acara",
-        "quota": null,
+        "quota": 10,
         "requirements": []
       },
       {
         "name": "Divisi Hubungan Masyarakat",
-        "quota": null,
+        "quota": 6,
         "requirements": []
       },
       {
         "name": "Divisi Sarana Prasarana",
-        "quota": null,
+        "quota": 5,
         "requirements": []
       },
       {
         "name": "Divisi Riset",
-        "quota": null,
+        "quota": 6,
         "requirements": []
       },
       {
         "name": "Divisi Konsumsi",
-        "quota": null,
+        "quota": 8,
         "requirements": []
       },
       {
         "name": "Divisi Publikasi, Desain, dan Dokumentasi (PDD)",
-        "quota": null,
+        "quota": 4,
         "requirements": []
       },
     ],
@@ -467,7 +545,7 @@ const organizationsData = [
     "id": "rijal-dakwah",
     "name": "Rijal Dakwah",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=RD",
-    "category": "UKM",
+    "category": "Keagamaan",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -567,7 +645,7 @@ const organizationsData = [
     "id": "fortik-stdiis",
     "name": "Forum Teknologi Informasi dan Komunikasi (FORTIK)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FTK",
-    "category": "UKM",
+    "category": "Teknologi",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -589,8 +667,6 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "FORTIK adalah UKM yang terfokus pada teknologi informasi (bukan teknologi mesin atau bahkan mekanik) dan FORTIK merupakan wadah tepat bagimu yang ingin berkembang bersama dan meningkatkan skills basicmu dibidang teknologi informasi.",
-      "vision": [],
-      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif S1 STDIIS Jember",
         "Mahasiswa yg berkompeten, ulet, dan memiliki rasa tanggung jawab yg besar terhadap organisasi",
@@ -684,21 +760,21 @@ const organizationsData = [
     "id": "fpkh-stdiis",
     "name": "Forum Pengembangan Kompetensi Hukum (FPKH)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=FPH",
-    "category": "UKM",
+    "category": "Hukum",
     "featured": false,
     "recruitment": {
       "isOpen": true,
       "deadline": "2025-09-06",
       "isDataAvailable": true,
-      "isComingSoon": true,
+      "isComingSoon": false,
       "isDisabled": false,
       "quota": {
         "type": "unlimited",
-        "number": 25,
-        "display": "25 orang"
+        "number": 80,
+        "display": "80 orang"
       },
-      "guidebookUrl": "",
-      "registrationUrl": "",
+      "guidebookUrl": "https://drive.google.com/file/d/1aS8xXQQTQSV3QtC0dZSz7RuKcqaKBXaE/view?usp=drivesdk",
+      "registrationUrl": "https://forms.gle/cFGeToJz1qC2XbAq9",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -717,7 +793,10 @@ const organizationsData = [
       "generalRequirements": [
         "Mahasiswa aktif S1 STDIIS Jember jurusan HKI & HES",
         "Mahasiswa yg berkompeten, ulet, dan memiliki rasa tanggung jawab yg besar terhadap organisasi",
-        "Siap berkontribusi dan aktif dalam pembelajaran dan kegiatan FPKH" 
+        "Siap berkontribusi dan aktif dalam pembelajaran dan kegiatan FPKH",
+        "Suka hukum, belajar, dan mengembangkan diri",
+        "Setiap anggota bersedia untuk berkontribusi dengan mengikuti perlombaan, membuat karya tulis ilmiah, ataupun kontribusi aktif",
+        "Mengisi formulir, dan CV"
       ],
       "contactInfo": {
         "instagram": "@fpkh.stdiis",
@@ -757,6 +836,12 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
+      },      
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
       },
       {
         "phase": "Law Camp",
@@ -775,7 +860,7 @@ const organizationsData = [
     "id": "hw-stdiis",
     "name": "Huffazhul Wahyain STDIIS",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=HW",
-    "category": "UKM",
+    "category": "Keagamaan",
     "featured": false,
     "recruitment": {
       "isOpen": false,
@@ -806,13 +891,7 @@ const organizationsData = [
         "instagram": "@bem_stdiis",
       }
     },
-    "divisions": [
-      {
-        "name": "Biro Pengembangan Internal Organisasi",
-        "quota": null,
-        "requirements": []
-      },
-    ],
+    "divisions": [],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -830,7 +909,7 @@ const organizationsData = [
     "id": "dkm-stdiis",
     "name": "Dewan Kemakmuran Masjid (DKM) Ar-Rahmah",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=DKM",
-    "category": "UKM",
+    "category": "Keagamaan",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -947,7 +1026,7 @@ const organizationsData = [
     "id": "mapala-stdiis",
     "name": "Mapala Asad El Jabal",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=MPL",
-    "category": "UKM",
+    "category": "Olahraga",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -958,7 +1037,7 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Menyusul"
+        "display": "Terbatas"
       },
       "guidebookUrl": "",
       "registrationUrl": "https://forms.gle/zUAzjdTiNbDkMLSc9",
@@ -973,7 +1052,7 @@ const organizationsData = [
       ],
       "generalRequirements": [
         "Mahasiswa aktif",
-        "Didahulukan mahasiswa yang belum memiliki kesibukan di dalam (organisasi) maupun di luar kampus",
+        "Didahulukan mahasiswa yang belum memiliki kesibukan di dalam (organisasi) maupun di luar kampus (maksimal 2 organisasi)",
         "Mahasiswa yang berkompeten, ulet, dan memiliki rasa tanggung jawab yang besar terhadap organisasi",
         "Mendapat izin dari orang tua",
         "Siap fisik dan mental"
@@ -1043,12 +1122,30 @@ const organizationsData = [
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "",
+        "endDate": "",
         "status": "comingsoon"
       },
       {
-        "phase": "Diklat",
+        "phase": "Diklat Ruang",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Tes Fisik",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Diklat Dasar",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Diklat Lanjutan",
         "startDate": "",
         "endDate": "",
         "status": "comingsoon"
@@ -1060,9 +1157,9 @@ const organizationsData = [
   },
     {
     "id": "sbc-stdiis",
-    "name": "STDIIS Basketball Club",
+    "name": "STDIIS Basketball Club (SBC)",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=SBC",
-    "category": "UKM",
+    "category": "Olahraga",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -1151,7 +1248,7 @@ const organizationsData = [
     "id": "isfc-stdiis",
     "name": "Imam Syafii Futsal Club",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=IFC",
-    "category": "UKM",
+    "category": "Olahraga",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -1239,7 +1336,7 @@ const organizationsData = [
     "id": "tapaksuci-stdiis",
     "name": "Tapak Suci STDIIS",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=TPS",
-    "category": "UKM",
+    "category": "Bela Diri",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -1327,21 +1424,21 @@ const organizationsData = [
     "id": "thifan-stdiis",
     "name": "Thifan Po Khan STDIIS",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=TFN",
-    "category": "UKM",
+    "category": "Bela Diri",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://forms.gle/nKax6JCwyJyRm6fo7",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1352,26 +1449,29 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Muslim berakhlak dan Amanah",
+        "Mahasiswa Aktif STDIIS",
+        "Tidak bergabung dalam perguruan bela diri lain",
+        "Siap berperan aktif dalam kegiatan ukm"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "6289654721839",
       }
     },
-    "divisions": [
-      {
-        "name": "Biro Pengembangan Internal Organisasi",
-        "quota": null,
-        "requirements": []
-      },
-    ],
+    "divisions": [],
     "timeline": [
       {
         "phase": "Pendaftaran",
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
-      }
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
+      },
     ],
     "tags": [
       "Bela Diri",
@@ -1381,7 +1481,7 @@ const organizationsData = [
     "id": "vbcs-stdiis",
     "name": "Volley Ball Club STDIIS",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=VBC",
-    "category": "UKM",
+    "category": "Olahraga",
     "featured": false,
     "recruitment": {
       "isOpen": false,
@@ -1395,7 +1495,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/32YrF8faUKrfHgbQA",
+      "registrationUrl": "https://forms.gle/oqsP8QbS6DeSLUBt9",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1438,21 +1538,21 @@ const organizationsData = [
     "id": "badminton-stdiis",
     "name": "Badminton STDIIS",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=BMT",
-    "category": "UKM",
+    "category": "Olahraga",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Segera"
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLScqwhRncfBR4Uyl7gmdYxPM5pKL_IV_MNiS_52zXWdo4-gbFA/viewform?usp=sharing&ouid=100201915421048946076",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1463,18 +1563,41 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafii Jember"
+        "Mahasiswa aktif STDIIS",
+        "Memiliki kemampuan berorganisasi",
+        "Memiliki minat & bakat dalam olahraga badminton",
+        "Follow akun Instagram @badmintonputera_stdiis"
       ],
       "contactInfo": {
-        "instagram": "@bem_stdiis",
+        "whatsapp": "6281315483753",
       }
     },
     "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi",
+        "name": "Acara",
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Humas",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Bimbingan Prestasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Publikasi, Dokumentasi, & Design",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Sarana & Prasarana",
+        "quota": null,
+        "requirements": []
+      }
     ],
     "timeline": [
       {
@@ -1482,6 +1605,18 @@ const organizationsData = [
         "startDate": "2025-09-01",
         "endDate": "2025-09-06",
         "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
+      },
+      {
+        "phase": "Tes Kemampuan Dasar",
+        "startDate": "",
+        "endDate": "",
+        "status": "comingsoon"
       }
     ],
     "tags": [
@@ -1492,7 +1627,7 @@ const organizationsData = [
     "id": "runners-stdiis",
     "name": "Ukhuwah Runners",
     "logo": "https://placehold.co/128x128/f0f9ff/1d4ed8?text=RUN",
-    "category": "UKM",
+    "category": "Olahraga",
     "featured": false,
     "recruitment": {
       "isOpen": true,
