@@ -769,7 +769,7 @@ const organizationsData = [
         "number": 80,
         "display": "80 orang"
       },
-      "guidebookUrl": "https://drive.google.com/file/d/1aS8xXQQTQSV3QtC0dZSz7RuKcqaKBXaE/view?usp=drivesdk",
+      "guidebookUrl": "https://drive.google.com/drive/folders/1tTzAeIPnTaQs5jPJ_-KEpkeq79xYl3uC",
       "registrationUrl": "https://forms.gle/cFGeToJz1qC2XbAq9",
       "registrationFee": 0
     },
@@ -825,6 +825,11 @@ const organizationsData = [
         "quota": null,
         "requirements": []
       },
+      {
+        "name": "Anggota Biasa",
+        "quota": null,
+        "requirements": []
+      },
     ],
     "timeline": [
       {
@@ -833,12 +838,6 @@ const organizationsData = [
         "endDate": "2025-09-06",
         "status": "ongoing"
       },      
-      {
-        "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
-        "status": "comingsoon"
-      },
       {
         "phase": "Law Camp",
         "startDate": "",
