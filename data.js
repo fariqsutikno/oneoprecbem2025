@@ -922,7 +922,38 @@ const organizationsData = [
         "telegram2": "@Usamahabd",
       }
     },
-    "divisions": [],
+    "divisions": [
+      {
+        "name": "Divisi Kaderisasi",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      },
+      {
+        "name": "Divisi Humas (Hubungan Masyarakat)",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      },
+      {
+        "name": "Divisi Acara",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      },
+      {
+        "name": "Divisi Inventaris dan Konsumsi",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      },
+      {
+        "name": "Divisi PDD (Publikasi, Dekorasi, dan Dokumentasi)",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      }
+    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
