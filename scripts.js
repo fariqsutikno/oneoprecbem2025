@@ -35,7 +35,7 @@
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-4">
                             <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden">
+                                <div class="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
                                     <img src="${org.logo}" alt="Logo ${org.name}" class="w-full h-full object-contain">
                                 </div>
                                 <div>
