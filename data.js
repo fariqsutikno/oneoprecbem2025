@@ -225,7 +225,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": "https://drive.google.com/file/d/1qaid-CGXWRnVgsxiVTkJTNHLJxjW5Pk0/view?usp=drivesdk",
       "registrationUrl": "https://forms.gle/YUmh1ffBAkNjZtue6",
       "registrationFee": 0
     },
@@ -349,7 +349,8 @@ const organizationsData = [
       ],
       "contactInfo": {
         "instagram": "@fakihstdiis_official",
-        "telegram": "t.me/usamahazhq",
+        "telegram": "Fakih2025",
+        "whatsapp": "6282144116479"
       }
     },
     "divisions": [
@@ -458,7 +459,7 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "FOKUS (Forum Kajian Ilmu Hadits) adalah Unit Kegiatan Mahasiswa yang bernaung di bawah Program Studi Ilmu Hadits STDI Imam Syafi’i",
+      "description": "FOKUS (Forum Kajian Ilmu Hadits) adalah himpunan mahasiswa Program Studi Ilmu Hadits STDI Imam Syafi’i",
       "vision": [
         "FOKUS STDIIS Jember menjadi wadah Mahasiswa untuk mengembangkan keilmuan Hadis yang didasari tanggung jawab keilmuan demi tercapainya visi dan misi Program Studi Ilmu Hadis dengan semangat juang mahasiwa Ilmu Hadis (Aktif, Solutif, Responsif, dan Inovatif)."
       ],
@@ -550,9 +551,9 @@ const organizationsData = [
     "recruitment": {
       "isOpen": true,
       "deadline": "2025-09-06",
-      "isDataAvailable": false,
-      "isComingSoon": true,
-      "isDisabled": true,
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
       "quota": {
         "type": "unlimited",
         "number": null,
@@ -567,18 +568,15 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Rijal Dakwah adalah organisasi dakwah kemahasiswaan yang bergerak dalam aktivitas keislaman dan keteknologian. Rijal Dakwah didirikan dengan tujuan terbentuknya akademisi islam yang berakhlak mulia, kreatif, dan berakidah Ahlussunah Wal Jamaah, serta mempersiapkan mahasiswa STDI Imam Syafi'i menjadi aktivis dakwah sunnah.",
-      "vision": [],
-      "mission": [],
       "generalRequirements": [
-        "Mahasiswa aktif STDIIS Prodi Ilmu Hadits",
-        "Memiliki pengalaman di organisasi",
-        "Memiliki skill team work yang bagus",
-        "Memiliki relasi sesuai divisi (diutamakan)"
+        "Mahasiswa aktif STDI Imam Syafi’i Jember",
+        "Siap mengikuti pembinaan Akademi Da’i’ dan Rijalul Khidmah",
+        "Berkomitmen menjaga adab dan amanah dakwah",
+        "Menyetujui Pernyataan Calon Anggota yang mencakup poin-poin berikut: Berpegang teguh pada sunnah Rasulullah ﷺ dalam aqidah, ibadah, dan akhlak; memiliki semangat dan siap berkontribusi aktif dalam kegiatan Rijal Dakwah; menyetujui serta berkomitmen menaati Anggaran Dasar (AD), Anggaran Rumah Tangga (ART), dan seluruh keputusan yang ditetapkan; serta bersedia menjaga amanah dan tanggung jawab sebagai anggota."
       ],
       "contactInfo": {
-        "instagram": "@fokus_stdiis",
-        "telegram": "@nuriksan21",
-        "telegram2": "@MuhammadFaizReazana",
+        "instagram": "@rijaldakwah_stdiis",
+        "whatsapp": "6285706449305",
       }
     },
     "divisions": [
@@ -615,23 +613,23 @@ const organizationsData = [
     ],
     "timeline": [
       {
-        "phase": "Pendaftaran",
+        "phase": "Oprec Keanggotaan",
         "startDate": "2025-09-01",
-        "endDate": "2025-09-07",
+        "endDate": "2025-09-06",
         "status": "ongoing"
       },
       {
-        "phase": "Pengumuman Lolos Berkas",
-        "startDate": "2025-09-07",
-        "endDate": "2025-09-07",
-        "status": "ongoing"
-      },
-      {
-        "phase": "Interview",
+        "phase": "Oprec Kepengurusan",
         "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
-        "status": "ongoing"
+        "endDate": "2025-09-10",
+        "status": "comingsoon"
       },
+      {
+        "phase": "Interview Kepengurusan",
+        "startDate": "2025-09-13",
+        "endDate": "2025-09-14",
+        "status": "comingsoon"
+      }
     ],
     "tags": [
       "dakwah",
@@ -1579,7 +1577,7 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota"
+        "display": "Terbatas"
       },
       "guidebookUrl": "",
       "registrationUrl": "https://forms.gle/nKax6JCwyJyRm6fo7",
@@ -1796,11 +1794,12 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif (S1 & I'dad Lughowi)",
-        "Diutamakan mahasiswa yang memiliki pengalaman dalam dunia lari",
-        "Diutamakan mahasiswa yang pernah mengikuti event lari",
-        "Mahasiswa yang berkompeten, ulet, dan memiliki rasa tanggung jawab yang besar terhadap organisasi",
-        "Bersedia mengikuti setiap agenda kegiatan dan event UKM",
+        "Mahasiswa aktif STDIIS (S1 & I'dad Lughowi) dan siap menjaga adab serta ukhuwah dalam setiap kegiatan",
+        "Siap berkomitmen latihan rutin minimal 1x dalam sepekan",
+        "Sehat jasmani dan tidak memiliki riwayat penyakit serius yang menghalangi aktivitas lari",
+        "Terbuka untuk semua level lari (pemula maupun berpengalaman)",
+        "Bersedia berkontribusi dalam kegiatan UKM (latihan, event, maupun support non-lari seperti publikasi, dokumentasi, dll)",
+        "Memiliki kompetensi, ulet, dan rasa tanggung jawab yang besar terhadap organisasi",
         "Siap fisik dan mental"
       ],
       "contactInfo": {

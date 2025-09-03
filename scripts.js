@@ -29,23 +29,23 @@
             const isDisabled = isExpired || isQuotaFull;
 
             return `
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-gray-200 transition-all duration-200 animate-slide-up cursor-pointer" 
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-gray-200 transition-all duration-200 animate-slide-up cursor-pointer flex-col justify-between" 
                      onclick="showDetail('${org.id}')">
                     
-                    <div class="p-6">
+                    <div class="p-6 flex-grow">
                         <div class="flex items-start justify-between mb-4">
                             <div class="flex items-center gap-3">
                                 <div class="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
                                     <img src="${org.logo}" alt="Logo ${org.name}" class="w-full h-full object-contain">
                                 </div>
                                 <div>
-                                    <h3 class="font-semibold text-lg text-gray-900 mb-1">${org.name}</h3>
+                                    <h3 class="font-semibold text-lg text-gray-900 mb-1 line-clamp-2 hover:line-clamp-none">${org.name}</h3>
                                 </div>
                             </div>
                                 
-                          <div class="flex flex-col items-end gap-1">
+                          <div class="flex flex-col items-end gap-1 min-w-[5rem]">
                               <span class="text-xs px-2 py-1 rounded-full font-medium ${
-                                  isComingSoon ? 'bg-blue-50 text-blue-600' : // Warna baru untuk 'Segera'
+                                  isComingSoon ? 'bg-blue-50 text-blue-600' : 
                                   isDisabled ? 'bg-red-50 text-red-600' : 
                                   isClosingSoon ? 'bg-orange-50 text-orange-600' : 
                                   'bg-green-50 text-green-600'
@@ -194,7 +194,7 @@
                 <div class="flex justify-between items-start mb-8">
                     <div class="flex items-start gap-4">
                         <div class="w-16 h-16 rounded-2xl flex items-center justify-center overflow-hidden">
-                            <img src="${org.logo}" alt="Logo ${org.name}" class="w-full h-full object-cover">
+                            <img src="${org.logo}" alt="Logo ${org.name}" class="w-full h-full object-contain">
                         </div>
                         <div>
                             <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">${org.name}</h2>
