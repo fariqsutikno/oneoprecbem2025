@@ -16,7 +16,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota",
       },
-      "guidebookUrl": "https://drive.google.com/drive/folders/1KNoqrpsKya-LnWJd0Q4BUSbtEfk5npoB?usp=sharing",
+      "guidebookUrl": "./guidebook/bem.pdf",
       "registrationUrl": "https://forms.gle/C1bj21x5oXVeHbdS8",
       "registrationFee": 0,
     },
@@ -225,7 +225,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "https://drive.google.com/file/d/1qaid-CGXWRnVgsxiVTkJTNHLJxjW5Pk0/view?usp=drivesdk",
+      "guidebookUrl": "./guidebook/bpm.pdf",
       "registrationUrl": "https://forms.gle/YUmh1ffBAkNjZtue6",
       "registrationFee": 0
     },
@@ -322,7 +322,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota",
       },
-      "guidebookUrl": "https://drive.google.com/drive/folders/18vkctT4O6XBrlphbsugjGalVIZNknUWh",
+      "guidebookUrl": "./guidebook/fakih.pdf",
       "registrationUrl": "https://forms.gle/9z3Ed7kpeagEukr78",
       "registrationFee": 0,
     },
@@ -767,7 +767,7 @@ const organizationsData = [
         "number": 80,
         "display": "80 orang"
       },
-      "guidebookUrl": "https://drive.google.com/drive/folders/1tTzAeIPnTaQs5jPJ_-KEpkeq79xYl3uC",
+      "guidebookUrl": "./guidebook/fpkh.pdf",
       "registrationUrl": "https://forms.gle/cFGeToJz1qC2XbAq9",
       "registrationFee": 0
     },
