@@ -8,7 +8,7 @@ const organizationsData = [
     "featured": true,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "quota": {
@@ -25,13 +25,13 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Badan Eksekutif Mahasiswa (BEM) STDI Imam Syafi'i merupakan organisasi tertinggi di kampus yang berperan sebagai poros kehidupan kampus yang integratif, adaptif, profesional, dan responsif. BEM STDI Imam Syafi'i memiliki tanggung jawab untuk membuat program kerja yang memaksimalkan peran mahasiswa, mengkaji berbagai isu, melakukan pencerdasan, dan menyampaikan aspirasi mahasiswa maupun masyarakat kepada pihak yang bersangkutan.",
-      "vision": "BEM STDIIS sebagai katalis revolusi budaya berpikir, ruang bertumbuh, dan fungsi kolektif kemahasiswaan dalam membangun gerakan yang berintegritas, kolaboratif, dan transformatif.",
+      "vision": "BEM sebagai kolektif yang Tertata dan Responsif, Tumbuh Bersama Menjadi Ekosistem yang Terbuka untuk Mengakselerasi Potensi serta Kebutuhan Mahasiswa.",
       "mission": [
-        "Mendorong budaya organisasi yang profesional, terstruktur, dan adaptif terhadap perubahan zaman.",
-        "Membangun ruang aman dan inklusif untuk semua mahasiswa dalam berekspresi, berkontribusi, dan bertumbuh.",
-        "Menjalankan program kerja yang efisien dan berdampak nyata sesuai kebutuhan dan keresahan mahasiswa.",
-        "Menanamkan nilai integritas, empati, dan kepemimpinan yang bertanggung jawab dalam setiap proses kerja.",
-        "Menjadi fasilitator kolaborasi antar ormawa, civitas, dan stakeholder eksternal dengan nilai manfaat bersama."
+    "Membangun tata kelola dan sistem kerja organisasi yang terstruktur, transparan, serta berbasis SOP dan evaluasi yang berkelanjutan.",
+    "Mengembangkan kapasitas, rasa tanggung jawab dan akuntabilitas pengurus melalui ekosistem pembinaan serta monitoring kinerja yang objektif.",
+    "Menjadikan BEM sebagai ekosistem yang inklusif dan kolaboratif, merangkul seluruh elemen mahasiswa tanpa sekat untuk berpartisipasi aktif.",
+    "Menjalankan mekanisme pemetaan yang responsif untuk mengakselerasi potensi, bakat, serta kebutuhan akademik maupun karier mahasiswa secara nyata.",
+    "Menghadirkan program-program pelayanan dan inisiatif kesejahteraan mahasiswa yang inklusif, solutif, serta langsung dirasakan manfaatnya."
       ],
       "generalRequirements": [
         "Mahasiswa S1 aktif STDIIS",
@@ -187,14 +187,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       },
     ],
@@ -216,7 +216,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -283,14 +283,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       },
       {
@@ -313,7 +313,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -403,26 +403,26 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Pengumuman Lolos Berkas",
-        "startDate": "2025-09-07",
-        "endDate": "2025-09-07",
+        "startDate": "2026-09-07",
+        "endDate": "2026-09-07",
         "status": "comingsoon"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       },
       {
         "phase": "Pengumuman Lolos Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-15",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-15",
         "status": "comingsoon"
       },
     ],
@@ -442,7 +442,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -485,52 +485,52 @@ const organizationsData = [
     "divisions": [
       {
         "name": "Divisi Acara",
-        "quota": 10,
+        "quota": null,
         "requirements": []
       },
       {
         "name": "Divisi Hubungan Masyarakat",
-        "quota": 6,
+        "quota": null,
         "requirements": []
       },
       {
         "name": "Divisi Sarana Prasarana",
-        "quota": 5,
+        "quota": null,
         "requirements": []
       },
       {
         "name": "Divisi Riset",
-        "quota": 6,
+        "quota": null,
         "requirements": []
       },
       {
         "name": "Divisi Konsumsi",
-        "quota": 8,
+        "quota": null,
         "requirements": []
       },
       {
         "name": "Divisi Publikasi, Desain, dan Dokumentasi (PDD)",
-        "quota": 4,
+        "quota": null,
         "requirements": []
       },
     ],
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Pengumuman Lolos Berkas",
-        "startDate": "2025-09-07",
-        "endDate": "2025-09-07",
+        "startDate": "2026-09-07",
+        "endDate": "2026-09-07",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "ongoing"
       },
     ],
@@ -550,7 +550,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -614,20 +614,20 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Oprec Keanggotaan",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Oprec Kepengurusan",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-10",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-10",
         "status": "comingsoon"
       },
       {
         "phase": "Interview Kepengurusan",
-        "startDate": "2025-09-13",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-13",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       }
     ],
@@ -643,7 +643,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-07",
+      "deadline": "2026-09-07",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -674,21 +674,6 @@ const organizationsData = [
     },
     "divisions": [
       {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Public Relation (PR)",
-        "quota": null,
-        "requirements": []
-      },
-      {
         "name": "Divisi Desain Grafis",
         "quota": null,
         "requirements": []
@@ -704,11 +689,6 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Divisi Sistem Informasi & Integrasi Programming (SIIP)",
-        "quota": null,
-        "requirements": []
-      },
-      {
         "name": "Divisi Content Creator",
         "quota": null,
         "requirements": []
@@ -717,20 +697,20 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Pengumuman Lolos Berkas",
-        "startDate": "2025-09-07",
-        "endDate": "2025-09-07",
+        "startDate": "2026-09-07",
+        "endDate": "2026-09-07",
         "status": "comingsoon"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       },
       {
@@ -758,7 +738,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -863,8 +843,8 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },      
       {
@@ -888,7 +868,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -950,13 +930,25 @@ const organizationsData = [
         "quota": null,
         "description": null,
         "requirements": null
+      },
+      {
+        "name": "Sekretaris",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      },
+      {
+        "name": "Bendahara",
+        "quota": null,
+        "description": null,
+        "requirements": null
       }
-    ],
+      ],
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-02",
-        "endDate": "2025-09-08",
+        "startDate": "2026-09-02",
+        "endDate": "2026-09-08",
         "status": "ongoing"
       }
     ],
@@ -973,7 +965,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1067,14 +1059,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-12",
-        "endDate": "2025-09-13",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
         "status": "comingsoon"
       },
     ],
@@ -1090,7 +1082,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1125,7 +1117,7 @@ const organizationsData = [
     },
     "divisions": [
       {
-        "name": "Layanan & Acara",
+        "name": "Sekretaris",
         "quota": null,
         "requirements": []
       },
@@ -1135,22 +1127,34 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Sarana & Prasarana",
+        "name": "Bendahara",
         "quota": null,
         "requirements": []
+      },
+      {
+        "name": "Humas",
+        "quota": null,
+        "description": null,
+        "requirements": null
+      },
+      {
+        name": "Pengelolaan dan Pengembangan",
+        "quota": null,
+        "description": null,
+        "requirements": null
       }
     ],
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-12",
-        "endDate": "2025-09-13",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
         "status": "comingsoon"
       },
       {
@@ -1172,7 +1176,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1258,8 +1262,8 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
@@ -1305,7 +1309,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1347,7 +1351,7 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Divisi Lapangan",
+        "name": "Divisi Pelatihan",
         "quota": null,
         "requirements": []
       },
@@ -1365,20 +1369,20 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-12",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-12",
         "status": "comingsoon"
       },
       {
         "phase": "BBT (Baseline Basketball Test)",
-        "startDate": "2025-09-14",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-14",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       }
     ],
@@ -1394,7 +1398,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1431,6 +1435,16 @@ const organizationsData = [
       "requirements": []
     },
     {
+      "name": "Bendahara",
+      "quota": null,
+      "requirements": []
+    },
+    {
+      "name": "Acara",
+      "quota": null,
+      "requirements": []
+    },
+    {
       "name": "Divisi Humas",
       "quota": null,
       "requirements": []
@@ -1441,12 +1455,12 @@ const organizationsData = [
       "requirements": []
     },
     {
-      "name": "Divisi PSDM",
+      "name": "Divisi Bimbingan Prestasi",
       "quota": null,
       "requirements": []
     },
     {
-      "name": "Divisi Manager",
+      "name": "Divisi Perlengkapan",
       "quota": null,
       "requirements": []
     },
@@ -1459,14 +1473,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-15",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-15",
         "status": "comingsoon"
       },
     ],
@@ -1482,7 +1496,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1519,27 +1533,17 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Bendahara",
+        "name": "Kepelatihan",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Humas",
+        "name": "Peralatan",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Sarpras",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Media",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Atlet",
+        "name": "PDD/Media",
         "quota": null,
         "requirements": []
       }
@@ -1547,14 +1551,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Seleksi Berkas",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-15",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-15",
         "status": "comingsoon"
       },
     ],
@@ -1570,7 +1574,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1604,14 +1608,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       },
     ],
@@ -1627,7 +1631,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": false,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1657,18 +1661,43 @@ const organizationsData = [
       }
     },
     "divisions": [
+      {
+      "name": "Humas",
+      "quota": null,
+      "requirements": []
+      },
+      {
+      "name": "Sarpras",
+      "quota": null,
+      "requirements": []
+      },
+      {
+      "name": "Pelatihan",
+      "quota": null,
+      "requirements": []
+      },
+      {
+      "name": "PDD/Media",
+      "quota": null,
+      "requirements": []
+      },
+      {
+      "name": "Anggota",
+      "quota": null,
+      "requirements": []
+      }
     ],
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-15",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-15",
         "status": "comingsoon"
       },
     ],
@@ -1684,7 +1713,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1744,8 +1773,8 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
@@ -1773,7 +1802,7 @@ const organizationsData = [
     "featured": false,
     "recruitment": {
       "isOpen": true,
-      "deadline": "2025-09-06",
+      "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
       "isDisabled": false,
@@ -1846,14 +1875,14 @@ const organizationsData = [
     "timeline": [
       {
         "phase": "Pendaftaran",
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-06",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
         "status": "ongoing"
       },
       {
         "phase": "Interview",
-        "startDate": "2025-09-08",
-        "endDate": "2025-09-14",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
         "status": "comingsoon"
       }
     ],
