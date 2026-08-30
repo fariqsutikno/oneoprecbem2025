@@ -744,11 +744,11 @@ const organizationsData = [
       "isDisabled": false,
       "quota": {
         "type": "unlimited",
-        "number": 80,
-        "display": "80 orang"
+        "number": null,
+        "display": "Tanpa Batas"
       },
       "guidebookUrl": "./guidebook/fpkh.pdf",
-      "registrationUrl": "https://forms.gle/cFGeToJz1qC2XbAq9",
+      "registrationUrl": "https://forms.gle/oQekqxpkuuqQ6GL6A",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -875,7 +875,7 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota"
+        "display": "Tanpa Batas."
       },
       "guidebookUrl": "",
       "registrationUrl": "https://forms.gle/LXdBCihx9g18mxgy6",
@@ -972,10 +972,10 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota"
+        "display": "Tanpa Kuota."
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://bit.ly/DKM_Ar-Rahmah_2025",
+      "registrationUrl": "https://forms.gle/X2q4HNHAbA3wjr7N9",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1092,7 +1092,7 @@ const organizationsData = [
         "display": "Sampai Terpenuhi"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfimmXfj7r2b9ZI6x-0zFA18jNQvUgUf65oP5r6TEuxIirYfw/viewform?usp=header",
+      "registrationUrl": "https://forms.gle/FFz6fsVaakVq8Kv49",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1186,7 +1186,7 @@ const organizationsData = [
         "display": "Terbatas"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/zUAzjdTiNbDkMLSc9",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJzxQugI8FJEV-q4W0B5Lf59Nx3qvNQSVKKroc1Z7UbXIPEw/viewform?usp=publish-editor",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1319,7 +1319,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/EV6DkHbGjUSpRa119",
+      "registrationUrl": "https://forms.gle/mLd3FMcZbnmpyoVRA",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1408,7 +1408,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/UcKbWd97CG3DjryZ6",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfz3SZMgDA-AUywxP5BOTVncu6imZkzGMBe5rre53Hq4-yGIQ/viewform?usp=publish-editor",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1506,7 +1506,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://stdiis.ac.id/ts25",
+      "registrationUrl": "https://forms.gle/SYGna41enGyY2sWB7",
       "registrationFee": 0
     },
     "applicants": 0,
