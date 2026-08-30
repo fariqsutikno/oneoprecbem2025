@@ -226,7 +226,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "./guidebook/bpm.pdf",
-      "registrationUrl": "https://forms.gle/YUmh1ffBAkNjZtue6",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeYPyt_LYMpxJDnM9mDTAJ9SeMMBEswym1KlEatIp0sv-pUNw/viewform?usp=dialog",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -452,7 +452,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/XAH3sShqTeA8RAQZ6",
+      "registrationUrl": "https://forms.gle/kw2XN3cDzLYnrZt26",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -653,7 +653,7 @@ const organizationsData = [
         "display": "150"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/9yXTLSh3ynjNSnQu6",
+      "registrationUrl": "https://forms.gle/2e5cBs5ttKBfY8UP8",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -878,7 +878,7 @@ const organizationsData = [
         "display": "Tanpa Batas."
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/LXdBCihx9g18mxgy6",
+      "registrationUrl": "https://forms.gle/QGTwJ7od1BYyCmma8",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1641,7 +1641,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/oqsP8QbS6DeSLUBt9",
+      "registrationUrl": "https://forms.gle/UM56dBHmdc5BbxyF8",
       "registrationFee": 0
     },
     "applicants": 0,
