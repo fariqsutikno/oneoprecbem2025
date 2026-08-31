@@ -146,7 +146,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "./guidebook/bpm.pdf",
+      "guidebookUrl": "./guidebook/bpm new.pdf",
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeYPyt_LYMpxJDnM9mDTAJ9SeMMBEswym1KlEatIp0sv-pUNw/viewform?usp=dialog",
       "registrationFee": 0
     },
@@ -892,7 +892,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota."
       },
-      "guidebookUrl": "",
+      "guidebookUrl": "./guidebook/dkm.pdf",
       "registrationUrl": "https://forms.gle/X2q4HNHAbA3wjr7N9",
       "registrationFee": 0
     },
@@ -1018,7 +1018,7 @@ const organizationsData = [
         "number": null,
         "display": "Sampai Terpenuhi"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": "./guidebook/rijal maktabah.pdf",
       "registrationUrl": "https://forms.gle/FFz6fsVaakVq8Kv49",
       "registrationFee": 0
     },
@@ -1883,7 +1883,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": "./guidebook/fusha.pdf",
       "registrationUrl": "https://forms.gle/schd3AgeCkBMuc9L9",
       "registrationFee": 0
     },
