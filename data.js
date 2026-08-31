@@ -25,7 +25,9 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Badan Eksekutif Mahasiswa (BEM) STDI Imam Syafi'i merupakan organisasi tertinggi di kampus yang berperan sebagai poros kehidupan kampus yang integratif, adaptif, profesional, dan responsif. BEM STDI Imam Syafi'i memiliki tanggung jawab untuk membuat program kerja yang memaksimalkan peran mahasiswa, mengkaji berbagai isu, melakukan pencerdasan, dan menyampaikan aspirasi mahasiswa maupun masyarakat kepada pihak yang bersangkutan.",
-      "vision": "BEM sebagai kolektif yang Tertata dan Responsif, Tumbuh Bersama Menjadi Ekosistem yang Terbuka untuk Mengakselerasi Potensi serta Kebutuhan Mahasiswa.",
+      "vision": [
+        "BEM sebagai kolektif yang Tertata dan Responsif, Tumbuh Bersama Menjadi Ekosistem yang Terbuka untuk Mengakselerasi Potensi serta Kebutuhan Mahasiswa.",
+        ],
       "mission": [
     "Membangun tata kelola dan sistem kerja organisasi yang terstruktur, transparan, serta berbasis SOP dan evaluasi yang berkelanjutan.",
     "Mengembangkan kapasitas, rasa tanggung jawab dan akuntabilitas pengurus melalui ekosistem pembinaan serta monitoring kinerja yang objektif.",
@@ -43,9 +45,8 @@ const organizationsData = [
         "instagram": "@bem_stdiis",
         "telegram": "@bem_stdiis",
         "whatsapp": "6287780252627"
-      }
-    },
- "divisions": [
+      },
+     "divisions": [
       {
         "name": "Kabiro Keuangan",
         "quota": null,
@@ -401,32 +402,32 @@ const organizationsData = [
     },
     "divisions": [
       {
-        "name": "Divisi Acara",
+        "name": "Divisi PSDM",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Hubungan Masyarakat",
+        "name": "Divisi Kominfo",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Sarana Prasarana",
+        "name": "Divisi Keilmuan",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Riset",
+        "name": "Divisi Media Design Kreatif",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Konsumsi",
+        "name": "Divisi Logistik & Inventaris",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Publikasi, Desain, dan Dokumentasi (PDD)",
+        "name": "Divisi Fundraising",
         "quota": null,
         "requirements": []
       },
@@ -477,7 +478,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "STDIIS.ac.id/gbrd",
-      "registrationUrl": "https://stdiis.ac.id/arrd",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeYPyt_LYMpxJDnM9mDTAJ9SeMMBEswym1KlEatIp0sv-pUNw/viewform?usp=dialog",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -591,7 +592,7 @@ const organizationsData = [
     },
     "divisions": [
       {
-        "name": "Divisi Desain Grafis",
+        "name": "Divisi Content Creator",
         "quota": null,
         "requirements": []
       },
@@ -606,7 +607,7 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Divisi Content Creator",
+        "name": "Divisi Design Grafis",
         "quota": null,
         "requirements": []
       },
@@ -899,21 +900,25 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "DKM Masjid Ar Rahmah STDI Imam Syafi’i Jember merupakan Unit Kegiatan Mahasiswa yang bergerak untuk memakmurkan Masjid Ar Rahmah STDI Imam Syafi’i Jember. UKM ini menjadi pusat pengembangan kegiatan yang diadakan di Masjid Ar Rahmah. DKM Masjid Ar Rahmah memiliki peran penting di dalam perawatan sarana prasana masjid, kebersihan masjid dan pengelolaan kegiatan kajian rutin maupun segala kegiatan yang diadakan di Masjid Ar Rahmah. Selain itu, DKM Masjid Ar Rahmah juga berperan aktif untuk mensosialisasikan kegiatan Masjid Ar Rahmah di kalangan mahasiswa secara khusus dan masyarakat secara umum.",
-      "mission": [
-      ],
+      "description": " DKM Ar-Rahmah merupakan organisasi yang menggabungkan pembinaan anggota, dakwah dan keilmuan, pelayanan jamaah, pengelolaan kegiatan, pemeliharaan fasilitas, penguatan ukhuwah, dan gerakan imaroh masjid.",
       "generalRequirements": [
-        "Mahasiswa Aktif S1/I'dad Lughowy 2025/2026",
-        "Beriman dan bertakwa kepada Allah Azza wa Jalla",
+        "Mahasiswa aktif STDIIS (Program S1 dan I’dad Lughowy)",
         "Berakhlak baik, disiplin, jujur, amanah, dan bertanggung jawab",
-        "Berkomitmen untuk meluangkan waktu, tenaga dan pikiran untuk masjid Ar-Rahmah hingga akhir masa khidmat",
-        "Siap untuk bekerja sama",
-        "Mengisi formulir pendaftaran",
-        "Mengikuti tes interview"
+        "Berkomitmen untuk meluangkan waktu, tenaga dan pikiran untuk masjid Ar-Rahmah hingga akhir masa khidmat.",
+        "Siap untuk bekerjasama",
+        "Bersedia menerima arahan, evaluasi, serta terus mengembangkan kemampuan diri.",
+        "Memiliki semangat melayani jamaah dan berkontribusi aktif dalam kegiatan kemasjidan.",
+        "Menjaga nama baik Masjid Ar-Rahmah, DKM, dan STDI Imam Syafi'i Jember.",
+        "Mengisi formulir pendaftaran.",
+        "Mengikuti tes interview.",
+        "Follow akun instagram @masjid_arrahmah_stdiis."
+        
       ],
       "contactInfo": {
-        "telegram": "Adi_Harianto",
-      }
+        "telegram humas": "http://t.me/DKMARRAHMAH",
+      },
+      "Additional Information": {
+        "requirements for each division": "https://docs.google.com/document/d/1f9grhjzA_zC0ZhNIETotzHXlBlsPIDVgMAqDj5gVjT4/edit?usp=sharing",
     },
     "divisions": [
       {
@@ -927,27 +932,32 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Divisi Humas",
+        "name": "Divisi Madrasah",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Acara dan Ta'lim",
+        "name": "Divisi WASILAH (Wadah Sponsor, Informasi, & Dana Usaha)",
         "quota": null,
         "requirements": []
       },
       {
-        "name": "Divisi Inventaris",
+        "name": "Divisi DAI (Dakwah, Akademik, dan Ilmu)",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi PDD (Publikasi, Dokumentasi, dan Desain)",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Divisi INVENTARIS",
         "quota": null,
         "requirements": []
       },
       {
         "name": "Divisi Kebersihan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Media dan informasi",
         "quota": null,
         "requirements": []
       },
@@ -1020,45 +1030,94 @@ const organizationsData = [
       "mission": [
       ],
       "generalRequirements": [
-        "Mahasiswa aktif STDIIS (Program S1)",
-        "Memiliki minat dan kepedulian dalam dunia literasi",
-        "Teliti, rapi, dan disiplin",
-        "Memiliki kemampuan berorganisasi",
-        "Bersedia mengikuti pelatihan dasar kepustakawanan",
-        "Diutamakan memiliki keterampilan dalam hal desain dan komputer dasar",
-        "Follow akun instagram @perpustakaanstdiis"
+        "Mahasiswa aktif STDI Imam Syafi’i Jember, program S1 maupun I’dad Lughowi, dan diutamakan belum berkeluarga.",
+        "Memiliki minat dan kepedulian terhadap dunia literasi, perpustakaan.",
+        "Memiliki sikap amanah, disiplin, teliti, rapi, bertanggung jawab, serta mampu bekerja sama dalam tim.",
+        "Memiliki kemampuan dasar dalam berorganisasi, berkomunikasi, dan mengatur waktu.",
+        "Bersedia mengikuti pembekalan dan pelatihan dasar kepustakawanan serta aktif dalam program kerja Rijal Maktabah.",
+        "Diutamakan memiliki keterampilan dalam komputer, desain grafis, fotografi, videografi, atau pengelolaan media sosial.",
+        "Bersedia menjaga nama baik, fasilitas, koleksi, dan amanah Rijal Maktabah, serta menaati seluruh ketentuan yang berlaku.",
+        "Mengikuti akun Instagram resmi perpustakaan @perpustakaanstdiis, mengumpulkan Curriculum Vitae (CV) pribadi, dan bersedia mengikuti proses seleksi."
+      
       ],
       "contactInfo": {
-        "whatsapp": "6282239940930",
-      }
+        "whatsapp": "0895366790401",
+        "telegram": "@Ismailyzda",
+        "Instagram": "@perpustakaanstdiis"
     },
     "divisions": [
       {
         "name": "Sekretaris",
         "quota": null,
-        "requirements": []
+        "requirements": [
+          "Memiliki kemampuan administrasi dan pengarsipan yang baik.",
+          "Teliti, rapi, disiplin, dan bertanggung jawab dalam mengelola dokumen.",
+          "Mampu membuat surat, proposal, laporan, notulensi, dan dokumen organisasi lainnya.",
+          "Mampu mengoperasikan Microsoft Word, Google Docs, atau aplikasi sejenis.",
+          "Memiliki kemampuan komunikasi dan koordinasi yang baik.",
+          "Disiplin dalam mencatat dan mengelola agenda organisasi.",
+          "Mampu menjaga kerahasiaan dokumen dan informasi organisasi."
+        ]
       },
       {
         "name": "Publikasi, Dokumentasi, & Design",
         "quota": null,
-        "requirements": []
+        "requirements": [
+          "Memiliki kreativitas dan kemampuan menghasilkan ide-ide visual yang menarik.",
+          "Memiliki kemampuan dasar dalam desain grafis, fotografi, videografi, atau video editing.",
+          "Mampu mengoperasikan aplikasi desain dan editing seperti Canva, CapCut atau aplikasi sejenis.",
+          "Memahami dasar-dasar pengelolaan media sosial dan pembuatan konten.",
+          "Mampu mendokumentasikan kegiatan dalam bentuk foto dan video.",
+          "Memiliki kemampuan komunikasi dan koordinasi yang baik dengan bidang lain.",
+          "Mampu bekerja sesuai target dan tenggat waktu.",
+          "Bertanggung jawab terhadap kualitas dan ketepatan setiap publikasi yang dihasilkan."
+        ]
       },
       {
         "name": "Bendahara",
         "quota": null,
-        "requirements": []
+        "requirements": [
+          "Amanah, jujur, teliti, dan bertanggung jawab dalam mengelola keuangan.",
+          "Memiliki kemampuan dasar dalam pengelolaan dan penyusunan laporan keuangan.",
+          "Mampu mengoperasikan Microsoft Excel, Google Sheets, atau aplikasi sejenis.",
+          "Mampu menyusun anggaran dan melakukan pengawasan terhadap penggunaan dana.",
+          "Disiplin dalam menyimpan bukti transaksi dan dokumen keuangan.",
+          "Mampu melakukan pencatatan keuangan secara rapi dan sistematis.",
+          "Mampu menyampaikan laporan keuangan secara transparan dan berkala."
+        ]
       },
       {
         "name": "Humas",
         "quota": null,
-        "description": null,
-        "requirements": null
+        "description": [
+          "Bertanggung jawab dalam membangun, menjaga, dan mengembangkan hubungan Rijal Maktabah dengan pihak internal maupun eksternalHumas menjadi penghubung komunikasi antara Rijal Maktabah dengan pihak kampus, perpustakaan, organisasi mahasiswa, komunitas, narasumber, serta pihak lain yang berkaitan dengan kegiatan organisasi. Humas juga bertugas membangun jaringan kerja sama dan mendukung penyampaian informasi organisasi kepada pihak yang tepat."
+          ],
+        "requirements": [
+          "Memiliki kemampuan komunikasi dan interpersonal yang baik.",
+          "Ramah, percaya diri, santun, dan mampu membangun relasi.",
+          "Mampu menyampaikan informasi secara jelas dan profesional.",
+          "Mampu melakukan koordinasi dengan pihak internal maupun eksternal.",
+          "Memiliki kemampuan dasar dalam negosiasi dan membangun kerja sama.",
+          "Aktif mencari dan mengembangkan jaringan kerja sama yang bermanfaat bagi organisasi.",
+          "Mampu menjaga nama baik dan citra Rijal Maktabah dalam setiap interaksi."
+          ]
       },
       {
         name": "Pengelolaan dan Pengembangan",
         "quota": null,
-        "description": null,
-        "requirements": null
+        "description": [
+          "Bertanggung jawab dalam pengelolaan operasional perpustakaan serta pengembangan kualitas layanan, program, dan anggota Rijal Maktabah.Divisi ini mencakup pelayanan perpustakaan, pengelolaan administrasi dan inventaris, penataan serta pemeliharaan fasilitas dan koleksi, sekaligus merancang dan melaksanakan berbagai program pengembangan dan kegiatan yang mendukung kemajuan perpustakaan serta peningkatan kompetensi anggota."
+          ],
+        "requirements": [
+          "Memiliki ketertarikan terhadap dunia perpustakaan, literasi, dan pengembangan organisasi.",
+          "Memiliki kemampuan mengelola kegiatan dan bekerja secara terstruktur.",
+          "Teliti dalam pengelolaan administrasi, koleksi, dan inventaris.",
+          "Memiliki kemampuan komunikasi dan koordinasi yang baik.",
+          "Kreatif dalam merancang program dan kegiatan pengembangan.",
+          "Mampu bekerja sama dalam tim dan berkoordinasi dengan bidang lain.",
+          "Bertanggung jawab, disiplin, dan mampu menyelesaikan tugas sesuai target.",
+          "Memiliki kemauan untuk terus belajar dan mengembangkan kompetensi di bidang kepustakawanan."
+        ]
       }
     ],
     "timeline": [
@@ -1268,7 +1327,7 @@ const organizationsData = [
         "requirements": []
       },
       {
-        "name": "Divisi Pelatihan",
+        "name": "Divisi Korlap",
         "quota": null,
         "requirements": []
       },
