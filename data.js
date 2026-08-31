@@ -1408,7 +1408,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfz3SZMgDA-AUywxP5BOTVncu6imZkzGMBe5rre53Hq4-yGIQ/viewform?usp=publish-editor",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSen8gXCxMGkoMW1kVpSpvelMIYrgKiJjJuosMV5bUPTaYaXzg/viewform?usp=header",
       "registrationFee": 0
     },
     "applicants": 0,
@@ -1584,7 +1584,7 @@ const organizationsData = [
         "display": "Terbatas"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/nKax6JCwyJyRm6fo7",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfkGQJQlezT1G-khiYktLP5-hicc1allPRuSCuONEgsteS8WQ/viewform?usp=sharing&ouid=105148390275742524072",
       "registrationFee": 0
     },
     "applicants": 0,
