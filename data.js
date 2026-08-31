@@ -49,90 +49,57 @@ const organizationsData = [
       {
         "name": "Kabiro Keuangan",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
       {
         "name": "Staff Biro Keuangan",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Biro Administrasi",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Biro DKV",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Akademik dan Karir",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Kaderisasi dan Pengembangan SDM",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Hubungan Eksternal",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Harmonisasi Kampus",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Kesejahteraan Mahasiswa",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Pemuda dan Olahraga",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
      {
         "name": "Staff Kementerian Bahasa",
         "quota": null,
-        "description": " ",
-        "requirements": [
-          " "
-        ]
+        "requirements": []
       },
         ]
       }
@@ -260,7 +227,7 @@ const organizationsData = [
   },
   {
     "id": "fakih-stdiis",
-    "name": "Forum Kajian Ilmu Fikih (FAKIH)",
+    "name": "Hima HKI",
     "logo": "./logo/fakih.jpg",
     "category": "Keagamaan",
     "featured": false,
@@ -276,21 +243,23 @@ const organizationsData = [
         "display": "Tanpa Kuota",
       },
       "guidebookUrl": "./guidebook/fakih.pdf",
-      "registrationUrl": "https://forms.gle/9z3Ed7kpeagEukr78",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDqdFbiMutwm_gQQp8KqAnOpTR35o_rMLSZeWifwTyNqXaoA/viewform?usp=publish-editor",
       "registrationFee": 0,
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "FAKIH (Forum Kajian Ilmu Fikih) adalah himpunan mahasiswa yang berada di bawah naungan Program Studi Hukum Keluarga Islam (HKI) STDI Imam Syafii Jember. FAKIH hadir sebagai wadah pengembangan intelektual, spiritual, dan sosial bagi mahasiswa HKI yang berfokus pada pendalaman ilmu fikih serta aplikasinya dalam kehidupan dan dakwah masyarakat.Dengan semangat Berilmu, Beradab, Berdampak!, FAKIH berkomitmen membina mahasiswa agar menjadi pribadi yang faqih dalam agama, luhur dalam adab, dan aktif berkontribusi di tengah umat. Kegiatan FAKIH meliputi kajian tematik fikih, diskusi ilmiah, pelatihan akademik, produksi konten dakwah, serta kerja nyata sosial-keummatan. Di tengah dinamika zaman, FAKIH berusaha menjadi pelopor gerakan mahasiswa yang menghidupkan nilai-nilai Islam dalam bingkai keilmuan dan ukhuwah. Melalui berbagai programnya, FAKIH ingin melahirkan generasi faqih fid-din yang siap menjadi bagian dari solusi umat dan pembangunan masyarakat Islami.",
-      "vision": "Menjadikan FAKIH sebagai wadah unggulan dalam pengkajian ilmu fikih dan pengembangan mahasiswa HKI yang berilmu, beradab, dan berkontribusi nyata dalam dakwah dan masyarakat.",
+      "description": "Himpunan Mahasiswa Program Studi Hukum Keluarga Islam (HIMA HKI), salah satu organisasi kemahasiswaan tingkat program studi di STDI Imam Syafi'i Jember. HIMA HKI menjadi wadah pengembangan potensi mahasiswa, fasilitator antara mahasiswa dan Program Studi Hukum Keluarga Islam, serta mitra strategis program studi dalam mendukung pengembangan akademik dan kemahasiswaan.HIMA HKI dibangun dengan semangat bahwa HIMA tidak hanya menjadi penyelenggara kegiatan kemahasiswaan, tetapi juga menjadi pusat pengembangan akademik dan profesional mahasiswa HKI. Seluruh program yang dijalankan diarahkan untuk menciptakan lingkungan belajar yang aktif, kolaboratif, dan berorientasi pada peningkatan kualitas mahasiswa.HIMA HKI berfokus pada pengembangan kompetensi mahasiswa Hukum Keluarga Islam melalui penguatan keilmuan, peningkatan keterampilan, pembentukan karakter, dan pengembangan karier. HIMA HKI juga menjadi jembatan yang menghubungkan mahasiswa dengan program studi, dosen, alumni, dan berbagai mitra untuk mendukung perkembangan akademik maupun profesional.Dengan semangat kolaborasi dan kebermanfaatan, HIMA HKI berkomitmen menciptakan lingkungan yang mendorong mahasiswa HKI menjadi pribadi yang unggul, berintegritas, serta siap memberikan kontribusi nyata bagi masyarakat.",
+      "vision": "Menjadikan HIMA HKI yang Berkarakter, Bertumbuh dalam Prestasi dan Akademik, dan Berbuah pada Inovasi demi Mahasiswa HKI yang Sejahtera, Mandiri, dan Berdaya Saing.",
       "mission": [
-        "Menghidupkan budaya ilmiah di kalangan mahasiswa HKI, melalui kajian fikih tematik, bahtsul masāil, dan pembacaan kitab secara rutin dan sistematis.",
-        "Membentuk karakter mahasiswa HKI yang beradab dan berintegritas, dengan pembinaan ruhiyah, adab penuntut ilmu, dan penguatan kepribadian islami.",
-        "Menjadi jembatan dakwah fikih yang relevan dan membumi, dengan menyelenggarakan seminar, forum diskusi, dan konten edukatif yang sesuai dengan kebutuhan masyarakat.",
-        "Mendorong pengembangan potensi dan profesionalisme mahasiswa HKI, dalam bidang kepemimpinan, manajemen organisasi, serta kemampuan riset dan penulisan hukum Islam.",
-        "Menjalin kolaborasi aktif dengan lembaga internal dan eksternal, untuk memperluas jejaring keilmuan dan kontribusi sosial keumatan."
+        "Membangun budaya organisasi HIMA HKI yang berintegritas, bertanggung jawab, dan menjunjung tinggi nilai etika.",
+        "Mewujudkan tata kelola organisasi yang transparan, akuntabel, profesional, serta memanfaatkan teknologi digital dalam pengelolaannya.",
+        "Menghadirkan program penunjang akademik yang mendukung peningkatan kompetensi mahasiswa HKI.",
+        "Mendorong dan memfasilitasi mahasiswa HKI untuk berpartisipasi dalam kompetisi, penelitian, dan kegiatan ilmiah.",
+        "Menyediakan akses informasi beasiswa, pelatihan, dan program pengembangan diri guna meningkatkan kualitas serta kemandirian mahasiswa.",
+        "Memperkuat sinergi dengan Program Studi HKI, dosen, alumni, dan mitra strategis untuk mendukung kebutuhan akademik dan pengembangan karier mahasiswa.",
+        "Mengembangkan program kerja yang inovatif, adaptif, dan relevan dengan kebutuhan mahasiswa serta perkembangan dunia profesional."
       ],
       "generalRequirements": [
         "Mahasiswa Aktif Hukum Keluarga Islam STDIIS",
@@ -301,55 +270,50 @@ const organizationsData = [
         "Mengikuti semua rangkaian oprec"
       ],
       "contactInfo": {
-        "instagram": "@fakihstdiis_official",
-        "telegram": "Fakih2025",
-        "whatsapp": "6282144116479"
+        "instagram": "@himahki.stdiis",
+        "telegram": "@himahki_stdiis",
+        "email": "himahkistdiis@gmail.com"
       }
     },
     "divisions": [
       {
-        "name": "Keilmuan dan Dakwah",
+        "name": "Departemen Keilmuan",
         "quota": null,
         "requirements": [
-          "Tertarik pada bidang keilmuan, akademik, dan dakwah",
-          "Mampu merancang kegiatan keilmuan dan dakwah seperti dauroh, seminar, diskusi ilmiah, dll"
+          "Ketertarikan terhadap ilmu hukum, syariah, dan isu-isu sosial",
+          "Senang membaca, berdiskusi, dan mencari pemahaman mendalam",
+          "Mampu menyampaikan pendapat dengan baik serta menghargai perbedaan pandangan",
+          "Semangat terus berkembang di bidang akademik maupun organisasi"
         ]
       },
       {
-        "name": "Pengembangan Sumber Daya Manusia",
+        "name": "Departemen Pengembangan Sumber Daya Manusia",
         "quota": null,
         "requirements": [
-          "Tertarik pada pengembangan potensi, kaderisasi, dan pembinaan anggota",
-          "Mampu merancang kegiatan peningkatan softskill dan kekompakan antar anggota seperti makrab, pelatihan, workshop, dll"
+          "Kepedulian terhadap pengembangan diri sendiri maupun orang lain",
+          "Senang berinteraksi, membangun komunikasi, dan bekerja bersama berbagai karakter",
+          "Kepekaan terhadap kondisi serta kebutuhan anggota",
+          "Semangat belajar tentang kepemimpinan dan pengelolaan organisasi"
         ]
       },
       {
-        "name": "Kreasi",
+        "name": "Relasi Strategis",
         "quota": null,
         "requirements": [
-          "Menguasai skill editing baik design grafis maupun editing video",
-          "Siap menjalankan tugas dengan ikhlas",
-          "Siap berhadapan dengan deadline",
+          "Kemampuan komunikasi dan koordinasi yang baik",
+          "Senang berinteraksi dan membangun relasi dengan berbagai pihak",
+          "Mampu menjaga hubungan dan bekerja sama dengan karakter berbeda",
+          "Inisiatif mencari peluang kerja sama dan pengembangan mahasiswa",
+          "Kepedulian terhadap kebutuhan mahasiswa serta perkembangan HIMA HKI"
         ]
       },
       {
-        "name": "DIWAN (Inventaris, Wasilah, Arsip & Amanah)",
+        "name": "Departemen Media",
         "quota": null,
         "requirements": [
-          "Teliti dan Teroganisir",
-          "Menguasai dasar pengaplikasian perkantoran (spreedsheet dan excel)",
-          "Literasi digital dan memiliki pemahaman pengarsipan digital (Google drive)",
-          "Manajemen waktu dan barang yang baik"
-        ]
-      },
-      {
-        "name": "HUFRA (Hubungan Masyarakat & Fundraising",
-        "quota": null,
-        "requirements": [
-          "Aktif sosial media dan fast respons",
-          "Mampu menjalin kerjasama & hubungan baik antara pihak internal dan eksternal",
-          "Mampu mengelola media sosial organisasi",
-          "Mampu menyusun strategi pencarian dana & mengembangkan usaha"
+          "Ketertarikan terhadap desain grafis, fotografi, videografi, editing, atau bidang kreatif lainnya",
+          "Senang membuat konten dan menyampaikan informasi secara menarik & mudah dipahami",
+          "Mampu bekerja sama dalam tim, bertanggung jawab, terbuka belajar, serta menerima kritik atau masukan"
         ]
       },
     ],
@@ -380,11 +344,11 @@ const organizationsData = [
       },
     ],
     "tags": [
-      "fiqih",
-      "fikih",
-      "hukum keluarga islam",
-      "hima",
-      "Kajian & Keilmuan",
+      "HIMAHKISTDIIS",
+      "KabinetAlHIKAM",
+      "AlHIKAM2026",
+      "OprekHIMAHKI",
+      "HKI_STDIIS"
     ]
   },
     {
