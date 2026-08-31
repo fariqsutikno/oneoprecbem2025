@@ -1867,6 +1867,133 @@ const organizationsData = [
     ]
   },
   {
+    "id": "fusha-stdiis",
+    "name": "Hima BSA (fusha)",
+    "logo": "./logo/",
+    "category": "kebahasaan",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2026-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "https://forms.gle/schd3AgeCkBMuc9L9",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "FUSHA (Forum Ulum Sastra dan Bahasa Arab) adalah organisasi yang bergerak di bidang bahasa terutama dalam fungsi pelaksanaan dan pengembangan bahasa di STDI, HIMA ini didirikan atas inisiatif untuk membentuk wadah yang membantu mahasiswa STDI imam Syafi'i mengembangkan kemampuan berbahasa arab mereka dalam bentuk literatur atau non literatur.",
+      "vision" [
+      "Mewujudkan Himpunan Mahasiswa Bahasa dan Sastra Arab sebagai organisasi mahasiswa yang unggul, berintegritas, dan berperan aktif dalam pengembangan keilmuan, kebahasaan, kesastraan, serta kepemimpian mahasiswa."
+      ],
+      "mission": [
+        "Mengembangkan potensi mahasiswa dalam bidang Bahasa dan sastra Arab.",
+        "Mendorong peningkatan kualitas akademik dan intelektual mahasiswa.",
+        "Menumbuhkan budaya ilmiah, kreatif, dan inovatif di kalangan mahasiswa.",
+        "Membina karakter kepemimpinan, tanggung jawab, dan profesionalisme mahasiswa.",
+        "Mempererat hubungan kekeluargaan dan kerja sama antar mahasiswa serta pihak terkait."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif Prodi Bahasa dan Sastra Arab.",
+        "Memiliki minat dalam pengembangan diri, keorganisasian, dan kontribusi dalam melayani dan memajukan prodi BSA.",
+        "Telah membaca dan mencermati Guide book yg tersedia.",
+        "Mengisi Formulir pendaftaran.",
+        "Mengikuti semua rangkaian Oprec."
+      ],
+      "contactInfo": {
+        "email": "hima.bsa@stdiis.ac.id",
+    },
+    "divisions": [
+      {
+        "name": "Ketua",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Sekretaris",
+        "quota": null,
+        "requirements": [
+          "Mampu mengoperasikan Microsoft Word, Excel, dan Google Workspace.",
+          "Memiliki kemampuan administrasi dan manajemen arsip yang baik.",
+          "Teliti, disiplin, dan bertanggung jawab.",
+          "Memiliki kemampuan komunikasi dan penulisan yang baik.",
+          "Mampu bekerja sama dalam tim serta menjaga kerahasiaan dokumen organisasi."
+        ]
+      },
+      {
+        "name": "Bendahara",
+        "quota": null,
+        "requirements": [
+          "Teliti dan bertanggung jawab dalam mengelola kas, rekening organisasi, serta penagihan iuran anggota.",
+          "Menguasai pencatatan keuangan menggunakan spreadsheet dan pengarsipan bukti digital di Google Drive.",
+          "Mampu menyusun Rencana Anggaran Biaya (RAB) serta mengontrol penggunaan dana tiap divisi agar tetap sesuai anggaran.",
+          "Cermat dalam melakukan audit internal untuk mencocokkan catatan keuangan, saldo, dan bukti nota secara berkala.",
+          "Mampu menyusun laporan keuangan bulanan serta Laporan Pertanggungjawaban (LPJ) akhir untuk sidang pleno."
+        ]
+      },
+      {
+        "name": "Humas",
+        "quota": null,
+        "requirements": [
+          "Komunikatif: Memiliki kemampuan komunikasi yang baik serta ramah, santun, dan mudah beradaptasi."
+          "Aktif di Media Sosial: Familiar dengan berbagai platform media sosial (Instagram, TikTok, Dsb) dan tren digital saat ini.",
+          "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan kegiatan organisasi.",
+          "Inisiatif Tinggi: Cepat tanggap."
+        ]
+      },
+      {
+        "name": "Lughah (keilmuan)",
+        "quota": null,
+        "requirements": [
+          "Tertarik pada bidang keilmuan bahasa arab dan sastra.",
+          "Mampu mengawasi dan melaksanakan acara-acara yang ada terdapat dalam hima BSA.",
+          "Berani melaksanakan dan menegakkan peraturan wajib berbahasa arab.",
+          "Memiliki kemampuan dasar kaidah-kaidah bahasa arab.",
+          "Memiliki kemampuan dasar berbicara, mendengar, menulis, dan membaca bahasa arab.",
+          "Siap aktif dalam hima dan perkuliahan.",
+          "Mampu bekerja di bawah tekanan."
+        ]
+      },
+      {
+        "name": "Medkominfo",
+        "quota": null,
+        "requirements": [
+          "Memiliki kemampuan berpikir kreatif dalam membuat konsep, desain, dan konten yang menarik serta relevan.",
+          "Melek Digital: Familiar dengan media sosial, aplikasi desain, editing, serta mengikuti perkembangan tren digital dan teknologi.",
+          "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan tugas organisasi serta menyelesaikan pekerjaan sesuai tenggat waktu.",
+          "Inisiatif Tinggi: Proaktif dalam mencari ide, membuat konten, dan menyampaikan informasi tanpa harus selalu menunggu arahan.
+          
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
+        "status": "comingsoon"
+      }
+    ],
+    "tags": [
+      "himabsa",
+    ]
+  },
+  {
     "id": "football-stdiis",
     "name": "STDI Football Club",
     "logo": "./logo/",
@@ -1969,6 +2096,120 @@ const organizationsData = [
     ],
     "tags": [
       "stdifcsatuhatisaturasa",
+    ]
+  },
+  {
+    "id": "hes-stdiis",
+    "name": "Hima HES",
+    "logo": "./logo/",
+    "category": "Pendidikan",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2026-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "https://forms.gle/fdfMMiG6WrWhPky8A",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": [
+        "HIMAHES adalah organisasi kemahasiswaan yang menjadi wadah pengembangan diri bagi mahasiswa Prodi Hukum Ekonomi Syariah. Dengan berlandaskan nilai & Norma Islam dan semangat intelektual, HIMAHES hadir untuk menjalankan empat fungsi utama: edukatif, informatif, representatif, dan sosial.",
+        ],
+      "vision" [
+      "Menjadi Himpunan Mahasiswa yang unggul dalam mencerdaskan kehidupan dengan nilai hukum ekonomi syariah serta membangun karakter yang kreatif, inovatif, & kompetitif."
+      ],
+      "mission": [
+        "Membantu terwujudnya mahasiswa HES yang berilmu, kritis, berintegritas dan berdaya saing di bidangnya",
+        "Membangun HIMA yang solid, kompak dan kolaboratif agar menjadi organisasi yang aktif, kreatif dan bermanfaat bagi kampus serta masyarakat.",
+        "Mewujudkan HIMA yang berkualitas, bertanggungjawab dan berintegritas melalui penelitian dan pengembangan sistematis serta inovasi yang berkelanjutan.",
+        "Menjamin kemudahan akses informasi dan publikasi bagi mahasiswa HES secara akurat dan tepat.",
+        "Membangun ekosistem media yang edukatif dan inspiratif sebagai sarana penyebaran informasi, gagasan dan kontribusi mahasiswa HES.",
+        "Membangun komunikasi serta kolaborasi yang harmonis di lingkungan internal maupun eksternal."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif program studi Hukum Ekonomi Syariah (HES) STDIIS Jember.",
+        "Berakhlak mulia, berakidah lurus, serta memiliki komitmen tinggi untuk berkontribusi aktif selama 1 periode kepengurusan.",
+        "Bebas dari sanksi pelanggaran tata tertib akademik maupun tata tertib kampus STDIIS Jember."
+      ],
+      "contactInfo": {
+        "telegram": "@Muhafthaaa",
+        "telegram": "@syafiqribowo"
+      },
+    {
+    "divisions": [
+      {
+        "name": "Kajian Ilmiah",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Riset dan Akademik",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Kompetensi dan Prestasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Advokasi dan Kesejahteraan",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Informasi dan Publikasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Public Relations",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Layout dan Design",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Dokumentasi",
+        "quota": null,
+        "requirements": []
+      },
+      {
+        "name": "Publikasi Konten",
+        "quota": null,
+        "requirements": []
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
+        "status": "comingsoon"
+      }
+    ],
+    "tags": [
+      "Himahes",
     ]
   },
 ]
