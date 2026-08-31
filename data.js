@@ -2212,4 +2212,73 @@ const organizationsData = [
       "Himahes",
     ]
   },
+  {
+    "id": "pc-stdiis",
+    "name": "STDIIS Programming Club",
+    "logo": "./logo/",
+    "category": "Pendidikan",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2026-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "https://forms.gle/zMzcmfue7u94Lnsc6",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": [
+        " STDIIS Programming Club (PC) adalah UKM Kampus STDI Imam Syafi'i Jember yang bergerak di bidang pemrograman dan pengembangan perangkat lunak. Awalnya merupakan divisi SIIP di bawah UKM Fortik, PC dikukuhkan menjadi UKM tersendiri pada 20 Juni 2026 agar dapat fokus menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya melalui pengembangan solusi seperti website, sistem informasi, dan otomasi administratif.",
+        ],
+      "vision" [
+      "Menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa STDI Imam Syafi'i Jember, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya.",
+      ],
+      "mission": [
+        "Menyelenggarakan pembelajaran pemrograman yang terstruktur dan berkelanjutan melalui kelas rutin, mentoring, dan proyek bersama, dari dasar hingga anggota mampu membangun aplikasi nyata.",
+        "Mengembangkan solusi digital untuk kebutuhan kampus (website, sistem informasi, dan otomasi pekerjaan administratif) sebagai bentuk khidmah kepada kampus.",
+        "Menjadikan setiap proyek kampus sebagai sarana praktik langsung bagi anggota, sehingga belajar dan berkontribusi berjalan beriringan."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDIIS (S1/l'dad)."
+      ],
+      "contactInfo": {
+        "Instagram": "@pc.stdiis",
+      },
+    {
+    "divisions": [
+      {
+        "name": "member",
+        "quota": null,
+        "requirements": []
+      }
+    ],
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
+        "status": "ongoing"
+      },
+      {
+        "phase": "Interview",
+        "startDate": "2026-09-08",
+        "endDate": "2026-09-14",
+        "status": "comingsoon"
+      }
+    ],
+    "tags": [
+      "PCSTDIIS",
+      "ProgrammingClub"
+    ]
+  },
 ]
