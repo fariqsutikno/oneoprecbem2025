@@ -229,7 +229,7 @@ const organizationsData = [
   {
     "id": "fakih-stdiis",
     "name": "Hima HKI",
-    "logo": "./logo/fakih.jpg",
+    "logo": "./logo/HIMA HKI.png",
     "category": "Keagamaan",
     "featured": false,
     "recruitment": {
@@ -1869,7 +1869,7 @@ const organizationsData = [
   {
     "id": "fusha-stdiis",
     "name": "Hima BSA (fusha)",
-    "logo": "./logo/",
+    "logo": "./logo/fusha",
     "category": "kebahasaan",
     "featured": false,
     "recruitment": {
@@ -1996,7 +1996,7 @@ const organizationsData = [
   {
     "id": "football-stdiis",
     "name": "STDI Football Club",
-    "logo": "./logo/",
+    "logo": "./logo/football",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -2101,7 +2101,7 @@ const organizationsData = [
   {
     "id": "hes-stdiis",
     "name": "Hima HES",
-    "logo": "./logo/",
+    "logo": "./logo/Hima Hes.JPEG",
     "category": "Pendidikan",
     "featured": false,
     "recruitment": {
@@ -2215,7 +2215,7 @@ const organizationsData = [
   {
     "id": "pc-stdiis",
     "name": "STDIIS Programming Club",
-    "logo": "./logo/",
+    "logo": "./logo/progamming.jpg",
     "category": "Pendidikan",
     "featured": false,
     "recruitment": {
