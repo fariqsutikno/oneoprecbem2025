@@ -47,140 +47,93 @@ const organizationsData = [
     },
  "divisions": [
       {
-        "name": "Biro Pengembangan Internal Organisasi (PIO)",
+        "name": "Kabiro Keuangan",
         "quota": null,
-        "description": "Mengawal penguatan sistem organisasi melalui riset, evaluasi kinerja, dan pengembangan budaya kerja berkelanjutan agar organisasi tetap relevan, adaptif, dan berdampak.",
+        "description": " ",
         "requirements": [
-          "Punya kepekaan tinggi terhadap dinamika internal dan menyadari jika ada sistem yang tidak berjalan.",
-          "Mampu berpikir secara sistematis, bukan hanya reaktif terhadap masalah.",
-          "Mampu menyampaikan ide atau masukan dengan jelas.",
-          "Terbuka terhadap kritik dan memiliki semangat untuk meningkatkan kualitas kerja tim.",
-          "Poin plus jika bisa mengolah dan visualisasi data, memahami dasar design thinking, bisa coding Javascript atau Python untuk analisis data, dan rapi dalam mendokumentasikan alur kerja."
+          " "
         ]
       },
       {
-        "name": "Biro Administrasi",
+        "name": "Staff Biro Keuangan",
         "quota": null,
-        "description": "Bertanggung jawab terhadap ketertiban administrasi dan dokumentasi organisasi, serta memastikan semua proses resmi BEM berjalan sesuai standar.",
+        "description": " ",
         "requirements": [
-          "Menyukai kerapian dan teliti.",
-          "Punya insting untuk memperbaiki kesalahan kecil seperti typo atau format yang tidak rapi.",
-          "Familiar atau bersedia belajar menggunakan Word, Excel, dan alat administrasi dasar lainnya.",
-          "Poin plus jika responsif dalam hal surat, notulensi, atau laporan, serta memahami Google Apps Script untuk otomatisasi pekerjaan."
+          " "
         ]
       },
-      {
-        "name": "Biro Pengelolaan Keuangan",
+     {
+        "name": "Staff Biro Administrasi",
         "quota": null,
-        "description": "Mengelola arus keuangan BEM secara akuntabel dan efisien, mulai dari perencanaan anggaran, pencatatan transaksi, hingga pelaporan keuangan.",
+        "description": " ",
         "requirements": [
-          "Menyukai angka, teliti, dan rapi.",
-          "Suka menyusun laporan keuangan atau rencana anggaran belanja (RAB).",
-          "Nyaman menggunakan Excel/Google Sheets.",
-          "Punya mental transparan dan bertanggung jawab terhadap dana.",
-          "Poin plus jika tertarik pada budgeting, cashflow, dan audit ringan, serta punya pengalaman mengelola keuangan organisasi."
+          " "
         ]
       },
-      {
-        "name": "Biro Inovasi Keuangan",
+     {
+        "name": "Staff Biro DKV",
         "quota": null,
-        "description": "Mendorong mahasiswa untuk berkarya dan berdaya secara ekonomi melalui inovasi kewirausahaan, pengembangan produk, dan industri kreatif.",
+        "description": " ",
         "requirements": [
-          "Punya banyak ide bisnis, peka terhadap peluang, dan semangat mengembangkan usaha.",
-          "Bisa berpikir strategis tentang penjualan, marketing, dan branding.",
-          "Poin plus jika punya pengalaman berjualan, mengelola proyek usaha, atau menangani sponsorship.",
-          "Memahami Business Model Canvas (BMC), kampanye digital, atau cara kerja afiliasi."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Pemuda dan Olahraga",
+     {
+        "name": "Staff Kementerian Akademik dan Karir",
         "quota": null,
-        "description": "Mewadahi minat dan bakat mahasiswa di bidang olahraga serta membangun budaya sportivitas dan gaya hidup sehat.",
+        "description": " ",
         "requirements": [
-          "Energik dan punya semangat untuk membangun komunitas lewat olahraga.",
-          "Menyukai olahraga dan paham cara mengelola acara atau turnamen.",
-          "Senang bekerja sama dengan tim dan bisa menjadi penggerak kegiatan.",
-          "Poin plus jika memiliki pengalaman sebagai panitia atau peserta turnamen, dan bisa berkoordinasi dengan unit kegiatan mahasiswa (UKM) atau komunitas luar."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Kaderisasi & Pengembangan SDM",
+     {
+        "name": "Staff Kementerian Kaderisasi dan Pengembangan SDM",
         "quota": null,
-        "description": "Merancang sistem kaderisasi dan pelatihan untuk mencetak pemimpin muda yang progresif dan berintegritas, sekaligus memastikan BEM menjadi ruang bertumbuh bagi setiap anggota dan mahasiswa",
+        "description": " ",
         "requirements": [
-          "Semangat untuk berkembang dan suka membantu orang lain bertumbuh.",
-          "Memiliki growth mindset dan senang mengajak orang untuk meningkatkan diri.",
-          "Senang menjadi fasilitator atau mentor.",
-          "Peka melihat kemajuan orang lain dan bersemangat untuk membantu mereka naik level.",
-          "Poin plus jika punya pengalaman membuat atau mengikuti pelatihan pengembangan diri, punya visi membangun budaya organisasi yang sehat, dan memiliki relasi untuk program kaderisasi."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Akademik & Pengembangan Karier",
+     {
+        "name": "Staff Kementerian Hubungan Eksternal",
         "quota": null,
-        "description": "Mendukung pengembangan prestasi akademik dan kesiapan karier mahasiswa melalui komunitas belajar, mentoring, dan pelatihan soft skill.",
+        "description": " ",
         "requirements": [
-          "Punya semangat belajar yang tinggi dan suka mencari cara untuk terus meningkatkan diri.",
-          "Peka terhadap isu dunia kerja dan sudah mulai memikirkan karier, magang, atau lomba.",
-          "Senang membantu orang lain melalui mentoring atau diskusi.",
-          "Peka terhadap kebutuhan teman-teman dan ingin membuat program yang bermanfaat.",
-          "Poin plus jika suka membuat rangkuman materi, pernah mengikuti komunitas belajar atau lomba akademik, dan tertarik mengembangkan skill praktis seperti CV dan personal branding."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Advokasi & Kesejahteraan Mahasiswa",
+     {
+        "name": "Staff Kementerian Harmonisasi Kampus",
         "quota": null,
-        "description": "Mewakili dan memperjuangkan aspirasi mahasiswa, mengkaji isu kampus, dan merancang program yang mendukung kesejahteraan.",
+        "description": " ",
         "requirements": [
-          "Punya kepekaan tinggi terhadap masalah di lingkungan kampus, berani menyuarakan pendapat, dan siap mencari solusi.",
-          "Teliti dalam mengumpulkan data dan terbuka mendengarkan keluhan mahasiswa.",
-          "Suka membuat forum diskusi, survei, atau menulis kajian tentang isu-isu relevan.",
-          "Poin plus jika tertarik membuat sistem aspirasi yang terstruktur, punya pengalaman advokasi, atau suka melakukan riset kecil-kecilan."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Pengembangan Bahasa",
+     {
+        "name": "Staff Kementerian Kesejahteraan Mahasiswa",
         "quota": null,
-        "description": "Meningkatkan kemampuan literasi, bahasa asing, dan komunikasi mahasiswa melalui pelatihan dan komunitas.",
+        "description": " ",
         "requirements": [
-          "Bersemangat meningkatkan kemampuan bahasa dan mengajak orang lain belajar bersama.",
-          "Suka belajar dan mengajar bahasa asing (Arab, Inggris, dll.).",
-          "Percaya diri berbicara di depan umum dan bisa menjadi fasilitator yang menyenangkan.",
-          "Suka membuat konten edukatif yang ringan tapi bermakna.",
-          "Poin plus jika punya pengalaman ikut lomba atau membuat program belajar bahasa."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Harmonisasi Kampus",
+     {
+        "name": "Staff Kementerian Pemuda dan Olahraga",
         "quota": null,
-        "description": "Menjalin sinergi dan komunikasi efektif antar organisasi mahasiswa dan UKM untuk menciptakan ekosistem kampus yang kolaboratif dan harmonis.",
+        "description": " ",
         "requirements": [
-          "Terampil merangkul orang, peka terhadap konflik, dan bisa menjadi jembatan antar organisasi.",
-          "Mudah membangun relasi dan nyaman berdialog dengan banyak pihak.",
-          "Berpikir sistematis untuk menciptakan hubungan antar organisasi yang rapi dan efisien.",
-          "Poin plus jika punya pengalaman mengelola koordinasi banyak pihak dan sering menjadi 'penjembatan' dalam dinamika organisasi."
+          " "
         ]
       },
-      {
-        "name": "Kementerian Hubungan Eksternal",
+     {
+        "name": "Staff Kementerian Bahasa",
         "quota": null,
-        "description": "Membangun relasi strategis dengan lembaga luar kampus, alumni, dan mitra eksternal untuk membuka peluang kolaborasi dan pengembangan kapasitas.",
+        "description": " ",
         "requirements": [
-          "Komunikatif, pandai bernegosiasi, dan bisa menjadi representasi BEM yang ramah dan terpercaya.",
-          "Cekatan dan terorganisir dalam mengelola komunikasi.",
-          "Mampu menyesuaikan sikap sesuai dengan audiens, baik dalam situasi formal maupun informal.",
-          "Poin plus jika memiliki banyak relasi di luar kampus, aktif di komunitas eksternal, dan suka mewakili organisasi dalam forum resmi."
+          " "
         ]
       },
-      {
-        "name": "Biro Desain Komunikasi Visual (DKV)",
-        "quota": null,
-        "description": "Mengelola komunikasi publik, konten kreatif, dan media sosial BEM untuk menyampaikan informasi secara menarik dan transparan.",
-        "requirements": [
-          "Memiliki kepekaan visual yang tajam, ide-ide kreatif, dan memahami cara membuat branding organisasi yang menarik.",
-          "Suka membuat konten, mulai dari caption, video, hingga infografis.",
-          "Familiar dengan alat desain seperti Canva, Figma, atau Adobe, serta aplikasi pengeditan video.",
-          "Poin plus jika punya pengalaman mengelola media sosial organisasi atau menyusun strategi konten."
         ]
       }
     ],
