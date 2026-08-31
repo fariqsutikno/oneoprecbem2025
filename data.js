@@ -1,4 +1,3 @@
-
 const organizationsData = [
   {
     "id": "bem-stdiis",
@@ -14,11 +13,11 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota",
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "./guidebook/bem.pdf",
       "registrationUrl": "https://forms.gle/C1bj21x5oXVeHbdS8",
-      "registrationFee": 0,
+      "registrationFee": 0
     },
     "applicants": 0,
     "info": {
@@ -26,85 +25,40 @@ const organizationsData = [
       "established": null,
       "description": "Badan Eksekutif Mahasiswa (BEM) STDI Imam Syafi'i merupakan organisasi tertinggi di kampus yang berperan sebagai poros kehidupan kampus yang integratif, adaptif, profesional, dan responsif. BEM STDI Imam Syafi'i memiliki tanggung jawab untuk membuat program kerja yang memaksimalkan peran mahasiswa, mengkaji berbagai isu, melakukan pencerdasan, dan menyampaikan aspirasi mahasiswa maupun masyarakat kepada pihak yang bersangkutan.",
       "vision": [
-        "BEM sebagai kolektif yang Tertata dan Responsif, Tumbuh Bersama Menjadi Ekosistem yang Terbuka untuk Mengakselerasi Potensi serta Kebutuhan Mahasiswa.",
-        ],
+        "BEM sebagai kolektif yang Tertata dan Responsif, Tumbuh Bersama Menjadi Ekosistem yang Terbuka untuk Mengakselerasi Potensi serta Kebutuhan Mahasiswa."
+      ],
       "mission": [
-    "Membangun tata kelola dan sistem kerja organisasi yang terstruktur, transparan, serta berbasis SOP dan evaluasi yang berkelanjutan.",
-    "Mengembangkan kapasitas, rasa tanggung jawab dan akuntabilitas pengurus melalui ekosistem pembinaan serta monitoring kinerja yang objektif.",
-    "Menjadikan BEM sebagai ekosistem yang inklusif dan kolaboratif, merangkul seluruh elemen mahasiswa tanpa sekat untuk berpartisipasi aktif.",
-    "Menjalankan mekanisme pemetaan yang responsif untuk mengakselerasi potensi, bakat, serta kebutuhan akademik maupun karier mahasiswa secara nyata.",
-    "Menghadirkan program-program pelayanan dan inisiatif kesejahteraan mahasiswa yang inklusif, solutif, serta langsung dirasakan manfaatnya."
+        "Membangun tata kelola dan sistem kerja organisasi yang terstruktur, transparan, serta berbasis SOP dan evaluasi yang berkelanjutan.",
+        "Mengembangkan kapasitas, rasa tanggung jawab dan akuntabilitas pengurus melalui ekosistem pembinaan serta monitoring kinerja yang objektif.",
+        "Menjadikan BEM sebagai ekosistem yang inklusif dan kolaboratif, merangkul seluruh elemen mahasiswa tanpa sekat untuk berpartisipasi aktif.",
+        "Menjalankan mekanisme pemetaan yang responsif untuk mengakselerasi potensi, bakat, serta kebutuhan akademik maupun karier mahasiswa secara nyata.",
+        "Menghadirkan program-program pelayanan dan inisiatif kesejahteraan mahasiswa yang inklusif, solutif, serta langsung dirasakan manfaatnya."
       ],
       "generalRequirements": [
         "Mahasiswa S1 aktif STDIIS",
         "Tidak berencana cuti atau melepas status mahasiswa selama satu tahun kepengurusan",
         "Bersedia mengemban amanah selama satu periode penuh",
-        "Mengisi formulir beserta CV, hasil tes DISC dan gaya komunikasi",
+        "Mengisi formulir beserta CV, hasil tes DISC dan gaya komunikasi"
       ],
       "contactInfo": {
         "instagram": "@bem_stdiis",
         "telegram": "@bem_stdiis",
         "whatsapp": "6287780252627"
       },
-     "divisions": [
-      {
-        "name": "Kabiro Keuangan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Staff Biro Keuangan",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Biro Administrasi",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Biro DKV",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Akademik dan Karir",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Kaderisasi dan Pengembangan SDM",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Hubungan Eksternal",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Harmonisasi Kampus",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Kesejahteraan Mahasiswa",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Pemuda dan Olahraga",
-        "quota": null,
-        "requirements": []
-      },
-     {
-        "name": "Staff Kementerian Bahasa",
-        "quota": null,
-        "requirements": []
-      },
-        ]
-      }
-    ],
+      "divisions": [
+        { "name": "Kabiro Keuangan", "quota": null, "requirements": [] },
+        { "name": "Staff Biro Keuangan", "quota": null, "requirements": [] },
+        { "name": "Staff Biro Administrasi", "quota": null, "requirements": [] },
+        { "name": "Staff Biro DKV", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Akademik dan Karir", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Kaderisasi dan Pengembangan SDM", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Hubungan Eksternal", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Harmonisasi Kampus", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Kesejahteraan Mahasiswa", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Pemuda dan Olahraga", "quota": null, "requirements": [] },
+        { "name": "Staff Kementerian Bahasa", "quota": null, "requirements": [] }
+      ]
+    },
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -117,7 +71,7 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-14",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "Kepemimpinan",
@@ -129,7 +83,7 @@ const organizationsData = [
       "dampak"
     ]
   },
-    {
+  {
     "id": "bpm-stdiis",
     "name": "Badan Perwakilan Mahasiswa (BPM)",
     "logo": "./logo/bpm.jpg",
@@ -156,8 +110,7 @@ const organizationsData = [
       "established": null,
       "description": "Badan Perwakilan Mahasiswa, atau lebih dikenal sebagai BPM, adalah sebuah lembaga yang memiliki peran krusial dalam mewakili dan menyuarakan aspirasi mahasiswa di Kampus STDI Imam Syafi’i Jember. Tugas utama BPM adalah menjadi suara mahasiswa dalam menghadapi berbagai isu, kebijakan, atau permasalahan yang berkaitan dengan pendidikan, dan kesejahteraan mahasiswa. Selain itu, BPM juga memiliki peran dalam mengawasi berbagai kegiatan yang diadakan oleh BEM, UKM dan HIMA STDI Imam Syafi’i Jember serta membantu memperbaiki kualitas kegiatan dan kehidupan mahasiswa di lingkungan kampus. Dengan demikian, BPM memainkan peran penting dalam menciptakan lingkungan yang kondusif untuk perkembangan akademik dan sosial mahasiswa di Kampus STDI Imam Syafi’i Jember.",
       "vision": "",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif S1",
         "Memiliki kompetensi dasar dalam pengetahuan tentang lembaga legislatif khusus nya di lingkungan kampus",
@@ -167,40 +120,16 @@ const organizationsData = [
         "instagram": "@bpm_stdiis",
         "telegram": "el_shufr",
         "telegram2": "AzkiMaulaZake"
-      }
+      },
+      "divisions": [
+        { "name": "Komisi I Legislasi dan Hukum", "quota": null, "requirements": [] },
+        { "name": "Komisi II Pengawasan dan Anggaran", "quota": null, "requirements": [] },
+        { "name": "Komisi III Aspirasi dan Advokasi", "quota": null, "requirements": [] },
+        { "name": "Komisi IV Hubungan Kelembagaan", "quota": null, "requirements": [] },
+        { "name": "Biro PSDM dan Kaderisasi", "quota": null, "requirements": [] },
+        { "name": "Biro Media dan Informasi", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Komisi I Legislasi dan Hukum",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Komisi II Pengawasan dan Anggaran",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Komisi III Aspirasi dan Advokasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Komisi IV Hubungan Kelembagaan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Biro PSDM dan Kaderisasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Biro Media dan Informasi",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -219,11 +148,11 @@ const organizationsData = [
         "startDate": "",
         "endDate": "",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "Kepemimpinan",
-      "legislatif",
+      "legislatif"
     ]
   },
   {
@@ -241,11 +170,11 @@ const organizationsData = [
       "quota": {
         "type": "unlimited",
         "number": null,
-        "display": "Tanpa Kuota",
+        "display": "Tanpa Kuota"
       },
       "guidebookUrl": "./guidebook/hki.pdf",
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDqdFbiMutwm_gQQp8KqAnOpTR35o_rMLSZeWifwTyNqXaoA/viewform?usp=publish-editor",
-      "registrationFee": 0,
+      "registrationFee": 0
     },
     "applicants": 0,
     "info": {
@@ -274,50 +203,50 @@ const organizationsData = [
         "instagram": "@himahki.stdiis",
         "telegram": "@himahki_stdiis",
         "email": "himahkistdiis@gmail.com"
-      }
+      },
+      "divisions": [
+        {
+          "name": "Departemen Keilmuan",
+          "quota": null,
+          "requirements": [
+            "Ketertarikan terhadap ilmu hukum, syariah, dan isu-isu sosial",
+            "Senang membaca, berdiskusi, dan mencari pemahaman mendalam",
+            "Mampu menyampaikan pendapat dengan baik serta menghargai perbedaan pandangan",
+            "Semangat terus berkembang di bidang akademik maupun organisasi"
+          ]
+        },
+        {
+          "name": "Departemen Pengembangan Sumber Daya Manusia",
+          "quota": null,
+          "requirements": [
+            "Kepedulian terhadap pengembangan diri sendiri maupun orang lain",
+            "Senang berinteraksi, membangun komunikasi, dan bekerja bersama berbagai karakter",
+            "Kepekaan terhadap kondisi serta kebutuhan anggota",
+            "Semangat belajar tentang kepemimpinan dan pengelolaan organisasi"
+          ]
+        },
+        {
+          "name": "Relasi Strategis",
+          "quota": null,
+          "requirements": [
+            "Kemampuan komunikasi dan koordinasi yang baik",
+            "Senang berinteraksi dan membangun relasi dengan berbagai pihak",
+            "Mampu menjaga hubungan dan bekerja sama dengan karakter berbeda",
+            "Inisiatif mencari peluang kerja sama dan pengembangan mahasiswa",
+            "Kepedulian terhadap kebutuhan mahasiswa serta perkembangan HIMA HKI"
+          ]
+        },
+        {
+          "name": "Departemen Media",
+          "quota": null,
+          "requirements": [
+            "Ketertarikan terhadap desain grafis, fotografi, videografi, editing, atau bidang kreatif lainnya",
+            "Senang membuat konten dan menyampaikan informasi secara menarik & mudah dipahami",
+            "Mampu bekerja sama dalam tim, bertanggung jawab, terbuka belajar, serta menerima kritik atau masukan"
+          ]
+        }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Departemen Keilmuan",
-        "quota": null,
-        "requirements": [
-          "Ketertarikan terhadap ilmu hukum, syariah, dan isu-isu sosial",
-          "Senang membaca, berdiskusi, dan mencari pemahaman mendalam",
-          "Mampu menyampaikan pendapat dengan baik serta menghargai perbedaan pandangan",
-          "Semangat terus berkembang di bidang akademik maupun organisasi"
-        ]
-      },
-      {
-        "name": "Departemen Pengembangan Sumber Daya Manusia",
-        "quota": null,
-        "requirements": [
-          "Kepedulian terhadap pengembangan diri sendiri maupun orang lain",
-          "Senang berinteraksi, membangun komunikasi, dan bekerja bersama berbagai karakter",
-          "Kepekaan terhadap kondisi serta kebutuhan anggota",
-          "Semangat belajar tentang kepemimpinan dan pengelolaan organisasi"
-        ]
-      },
-      {
-        "name": "Relasi Strategis",
-        "quota": null,
-        "requirements": [
-          "Kemampuan komunikasi dan koordinasi yang baik",
-          "Senang berinteraksi dan membangun relasi dengan berbagai pihak",
-          "Mampu menjaga hubungan dan bekerja sama dengan karakter berbeda",
-          "Inisiatif mencari peluang kerja sama dan pengembangan mahasiswa",
-          "Kepedulian terhadap kebutuhan mahasiswa serta perkembangan HIMA HKI"
-        ]
-      },
-      {
-        "name": "Departemen Media",
-        "quota": null,
-        "requirements": [
-          "Ketertarikan terhadap desain grafis, fotografi, videografi, editing, atau bidang kreatif lainnya",
-          "Senang membuat konten dan menyampaikan informasi secara menarik & mudah dipahami",
-          "Mampu bekerja sama dalam tim, bertanggung jawab, terbuka belajar, serta menerima kritik atau masukan"
-        ]
-      },
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -342,7 +271,7 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-15",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "HIMAHKISTDIIS",
@@ -352,7 +281,7 @@ const organizationsData = [
       "HKI_STDIIS"
     ]
   },
-    {
+  {
     "id": "fokus-stdiis",
     "name": "Forum Kajian Ilmu Hadis (FOKUS)",
     "logo": "./logo/fokus.jpg",
@@ -397,41 +326,17 @@ const organizationsData = [
       "contactInfo": {
         "instagram": "@fokus_stdiis",
         "telegram": "nuriksan21",
-        "telegram2": "MuhammadFaizReazana",
-      }
+        "telegram2": "MuhammadFaizReazana"
+      },
+      "divisions": [
+        { "name": "Divisi PSDM", "quota": null, "requirements": [] },
+        { "name": "Divisi Kominfo", "quota": null, "requirements": [] },
+        { "name": "Divisi Keilmuan", "quota": null, "requirements": [] },
+        { "name": "Divisi Media Design Kreatif", "quota": null, "requirements": [] },
+        { "name": "Divisi Logistik & Inventaris", "quota": null, "requirements": [] },
+        { "name": "Divisi Fundraising", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Divisi PSDM",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Kominfo",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Keilmuan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Media Design Kreatif",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Logistik & Inventaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Fundraising",
-        "quota": null,
-        "requirements": []
-      },
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -450,14 +355,14 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-14",
         "status": "ongoing"
-      },
+      }
     ],
     "tags": [
       "hadis",
       "fokus",
       "ilmu hadis",
       "hima",
-      "Kajian & Keilmuan",
+      "Kajian & Keilmuan"
     ]
   },
   {
@@ -494,41 +399,17 @@ const organizationsData = [
       ],
       "contactInfo": {
         "instagram": "@rijaldakwah_stdiis",
-        "whatsapp": "6285706449305",
-      }
+        "whatsapp": "6285706449305"
+      },
+      "divisions": [
+        { "name": "Divisi Acara", "quota": null, "requirements": [] },
+        { "name": "Divisi Hubungan Masyarakat", "quota": null, "requirements": [] },
+        { "name": "Divisi Sarana Prasarana", "quota": null, "requirements": [] },
+        { "name": "Divisi Riset", "quota": null, "requirements": [] },
+        { "name": "Divisi Konsumsi", "quota": null, "requirements": [] },
+        { "name": "Divisi Publikasi, Desain, dan Dokumentasi (PDD)", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Divisi Acara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Hubungan Masyarakat",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Sarana Prasarana",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Riset",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Konsumsi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Publikasi, Desain, dan Dokumentasi (PDD)",
-        "quota": null,
-        "requirements": []
-      },
-    ],
     "timeline": [
       {
         "phase": "Oprec Keanggotaan",
@@ -550,7 +431,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "dakwah",
+      "dakwah"
     ]
   },
   {
@@ -587,31 +468,15 @@ const organizationsData = [
       ],
       "contactInfo": {
         "instagram": "@fortik_stdiis",
-        "whatsapp": "6281212820632",
-      }
+        "whatsapp": "6281212820632"
+      },
+      "divisions": [
+        { "name": "Divisi Content Creator", "quota": null, "requirements": [] },
+        { "name": "Divisi Videografi", "quota": null, "requirements": [] },
+        { "name": "Divisi Pengembangan Sumber Daya Manusia (PSDM)", "quota": null, "requirements": [] },
+        { "name": "Divisi Design Grafis", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Divisi Content Creator",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Videografi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Pengembangan Sumber Daya Manusia (PSDM)",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Design Grafis",
-        "quota": null,
-        "requirements": []
-      },
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -636,7 +501,7 @@ const organizationsData = [
         "startDate": "",
         "endDate": "",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "Teknologi",
@@ -645,7 +510,7 @@ const organizationsData = [
       "programmer",
       "programming",
       "content creator",
-      "designer",
+      "designer"
     ]
   },
   {
@@ -692,90 +557,90 @@ const organizationsData = [
       ],
       "contactInfo": {
         "instagram": "@fpkh.stdiis",
-        "whatsapp": "6287779897434",
-      }
+        "whatsapp": "6287779897434"
+      },
+      "divisions": [
+        {
+          "name": "Departemen Tata Usaha",
+          "quota": null,
+          "description": "Bertanggung jawab mengelola administrasi dan keuangan organisasi. Departemen ini terbagi menjadi Divisi Sekretariat yang mengurus surat menyurat, dokumentasi, dan arsip keanggotaan, serta Divisi Keuangan dan Dana Usaha yang menyusun laporan keuangan, anggaran, dan mencari inovasi pendanaan mandiri.",
+          "requirements": [
+            "Teliti dan rapi dalam mengelola dokumen dan data",
+            "Memiliki kemampuan administratif dan manajerial dasar",
+            "Mampu bekerja sama dalam tim untuk urusan kesekretariatan atau keuangan",
+            "Diutamakan memiliki minat dalam bidang keuangan atau pengembangan usaha"
+          ]
+        },
+        {
+          "name": "Departemen Akademik",
+          "quota": null,
+          "description": "Bertugas mengembangkan intelektual dan keilmuan anggota. Departemen ini terbagi menjadi Divisi Pengajaran yang merancang dan melaksanakan program pembelajaran internal, serta Divisi Kemitraan Akademik yang membangun kerja sama dengan pihak eksternal untuk menyelenggarakan kuliah umum, webinar, dan acara akademik lainnya.",
+          "requirements": [
+            "Memiliki minat dalam pengembangan ilmu pengetahuan dan keilmuan",
+            "Mampu merancang kurikulum atau program pembelajaran",
+            "Memiliki kemampuan komunikasi dan membangun relasi",
+            "Tertarik untuk menjalin kerja sama dengan pihak eksternal (dosen, praktisi, lembaga)"
+          ]
+        },
+        {
+          "name": "Departemen Kompetisi & Praktikum",
+          "quota": null,
+          "description": "Bertugas mendorong kompetensi aplikatif dan partisipasi anggota dalam kegiatan eksternal. Departemen ini terbagi menjadi Divisi Kompetisi yang mengelola pelatihan dan pendampingan untuk lomba-lomba hukum, serta Divisi Praktikum yang menyusun dan menjalankan program magang atau praktikum hukum.",
+          "requirements": [
+            "Memiliki minat terhadap kompetisi dan pengembangan keterampilan hukum aplikatif",
+            "Mampu mengelola program pelatihan dan pendampingan",
+            "Memiliki inisiatif untuk menjalin kerja sama dengan lembaga hukum dan firma hukum",
+            "Bersedia memfasilitasi partisipasi anggota dalam lomba dan magang"
+          ]
+        },
+        {
+          "name": "Departemen Media",
+          "quota": null,
+          "description": "Bertanggung jawab membuat dan mengelola konten visual (desain, video, infografis) untuk promosi, dokumentasi, dan branding organisasi. Departemen ini juga mengelola media sosial resmi dan bekerja sama dengan departemen lain untuk memastikan publikasi program yang menarik dan tepat sasaran.",
+          "requirements": [
+            "Kreatif dan inovatif dalam pembuatan konten visual",
+            "Memiliki kemampuan mengelola media sosial",
+            "Menguasai aplikasi desain grafis atau video editing dasar",
+            "Mampu bekerja sama untuk mendokumentasikan setiap kegiatan"
+          ]
+        },
+        {
+          "name": "Departemen Kajian Strategis (Kastrat)",
+          "quota": null,
+          "description": "Departemen Kajian Strategis (Kastrat) adalah divisi yang berfokus pada analisis isu-isu hukum, sosial, politik, dan budaya dengan pendekatan kritis serta berbasis data. Sebagai ruang intelektual, departemen ini bertujuan untuk mengembangkan kemampuan berpikir kritis, melatih keterampilan menulis, dan menghasilkan kajian strategis. Aktivitasnya meliputi pengkajian isu-isu terkini, mengawal isu, menjadi wadah diskusi dan forum ekspresi, serta memproduksi karya seperti artikel, opini, infografis, dan konten video.",
+          "requirements": [
+            "Memiliki kemampuan berpikir kritis dan analitis",
+            "Mampu mengkaji isu-isu hukum, sosial, politik, dan budaya",
+            "Diutamakan memiliki kemampuan menulis",
+            "Tertarik pada isu-isu terkini dan analisis berbasis data",
+            "Bersedia berpartisipasi aktif dalam diskusi dan forum"
+          ]
+        },
+        {
+          "name": "Anggota Biasa",
+          "quota": null,
+          "requirements": []
+        }
+      ]
     },
-    "divisions": [
-    {
-        "name": "Departemen Tata Usaha",
-        "quota": null,
-        "description": "Bertanggung jawab mengelola administrasi dan keuangan organisasi. Departemen ini terbagi menjadi Divisi Sekretariat yang mengurus surat menyurat, dokumentasi, dan arsip keanggotaan, serta Divisi Keuangan dan Dana Usaha yang menyusun laporan keuangan, anggaran, dan mencari inovasi pendanaan mandiri.",
-        "requirements": [
-          "Teliti dan rapi dalam mengelola dokumen dan data",
-          "Memiliki kemampuan administratif dan manajerial dasar",
-          "Mampu bekerja sama dalam tim untuk urusan kesekretariatan atau keuangan",
-          "Diutamakan memiliki minat dalam bidang keuangan atau pengembangan usaha"
-        ]
-      },
-      {
-        "name": "Departemen Akademik",
-        "quota": null,
-        "description": "Bertugas mengembangkan intelektual dan keilmuan anggota. Departemen ini terbagi menjadi Divisi Pengajaran yang merancang dan melaksanakan program pembelajaran internal, serta Divisi Kemitraan Akademik yang membangun kerja sama dengan pihak eksternal untuk menyelenggarakan kuliah umum, webinar, dan acara akademik lainnya.",
-        "requirements": [
-          "Memiliki minat dalam pengembangan ilmu pengetahuan dan keilmuan",
-          "Mampu merancang kurikulum atau program pembelajaran",
-          "Memiliki kemampuan komunikasi dan membangun relasi",
-          "Tertarik untuk menjalin kerja sama dengan pihak eksternal (dosen, praktisi, lembaga)"
-        ]
-      },
-      {
-        "name": "Departemen Kompetisi & Praktikum",
-        "quota": null,
-        "description": "Bertugas mendorong kompetensi aplikatif dan partisipasi anggota dalam kegiatan eksternal. Departemen ini terbagi menjadi Divisi Kompetisi yang mengelola pelatihan dan pendampingan untuk lomba-lomba hukum, serta Divisi Praktikum yang menyusun dan menjalankan program magang atau praktikum hukum.",
-        "requirements": [
-          "Memiliki minat terhadap kompetisi dan pengembangan keterampilan hukum aplikatif",
-          "Mampu mengelola program pelatihan dan pendampingan",
-          "Memiliki inisiatif untuk menjalin kerja sama dengan lembaga hukum dan firma hukum",
-          "Bersedia memfasilitasi partisipasi anggota dalam lomba dan magang"
-        ]
-      },
-      {
-        "name": "Departemen Media",
-        "quota": null,
-        "description": "Bertanggung jawab membuat dan mengelola konten visual (desain, video, infografis) untuk promosi, dokumentasi, dan branding organisasi. Departemen ini juga mengelola media sosial resmi dan bekerja sama dengan departemen lain untuk memastikan publikasi program yang menarik dan tepat sasaran.",
-        "requirements": [
-          "Kreatif dan inovatif dalam pembuatan konten visual",
-          "Memiliki kemampuan mengelola media sosial",
-          "Menguasai aplikasi desain grafis atau video editing dasar",
-          "Mampu bekerja sama untuk mendokumentasikan setiap kegiatan"
-        ]
-      },
-      {
-        "name": "Departemen Kajian Strategis (Kastrat)",
-        "quota": null,
-        "description": "Departemen Kajian Strategis (Kastrat) adalah divisi yang berfokus pada analisis isu-isu hukum, sosial, politik, dan budaya dengan pendekatan kritis serta berbasis data. Sebagai ruang intelektual, departemen ini bertujuan untuk mengembangkan kemampuan berpikir kritis, melatih keterampilan menulis, dan menghasilkan kajian strategis. Aktivitasnya meliputi pengkajian isu-isu terkini, mengawal isu, menjadi wadah diskusi dan forum ekspresi, serta memproduksi karya seperti artikel, opini, infografis, dan konten video.",
-        "requirements": [
-          "Memiliki kemampuan berpikir kritis dan analitis",
-          "Mampu mengkaji isu-isu hukum, sosial, politik, dan budaya",
-          "Diutamakan memiliki kemampuan menulis",
-          "Tertarik pada isu-isu terkini dan analisis berbasis data",
-          "Bersedia berpartisipasi aktif dalam diskusi dan forum"
-        ]
-      },
-      {
-        "name": "Anggota Biasa",
-        "quota": null,
-        "requirements": []
-      },
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
         "startDate": "2026-09-01",
         "endDate": "2026-09-06",
         "status": "ongoing"
-      },      
+      },     
       {
         "phase": "Law Camp",
         "startDate": "",
         "endDate": "",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "Kajian & Keilmuan",
       "hukum",
-      "fpkh",
+      "fpkh"
     ]
   },
   {
@@ -804,8 +669,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Huffazhul Wahyain merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang hafalan Al-Qur’an dan Hadits, untuk meningkatkan kualitas mahasiswa STDIIS Jember dalam bidang ilmiyah.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS semester 1-7",
         "Hafalan minimal 5 juz bagi divisi kaderisasi",
@@ -815,53 +679,18 @@ const organizationsData = [
       ],
       "contactInfo": {
         "telegram": "faiz_who",
-        "telegram2": "@Usamahabd",
-      }
+        "telegram2": "@Usamahabd"
+      },
+      "divisions": [
+        { "name": "Divisi Kaderisasi", "quota": null, "description": null, "requirements": null },
+        { "name": "Divisi Humas (Hubungan Masyarakat)", "quota": null, "description": null, "requirements": null },
+        { "name": "Divisi Acara", "quota": null, "description": null, "requirements": null },
+        { "name": "Divisi Inventaris dan Konsumsi", "quota": null, "description": null, "requirements": null },
+        { "name": "Divisi PDD (Publikasi, Dekorasi, dan Dokumentasi)", "quota": null, "description": null, "requirements": null },
+        { "name": "Sekretaris", "quota": null, "description": null, "requirements": null },
+        { "name": "Bendahara", "quota": null, "description": null, "requirements": null }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Divisi Kaderisasi",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      },
-      {
-        "name": "Divisi Humas (Hubungan Masyarakat)",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      },
-      {
-        "name": "Divisi Acara",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      },
-      {
-        "name": "Divisi Inventaris dan Konsumsi",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      },
-      {
-        "name": "Divisi PDD (Publikasi, Dekorasi, dan Dokumentasi)",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      },
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "description": null,
-        "requirements": null
-      }
-      ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -872,7 +701,7 @@ const organizationsData = [
     ],
     "tags": [
       "kepemimpinan",
-      "Kajian & Keilmuan",
+      "Kajian & Keilmuan"
     ]
   },
   {
@@ -912,77 +741,45 @@ const organizationsData = [
         "Mengisi formulir pendaftaran.",
         "Mengikuti tes interview.",
         "Follow akun instagram @masjid_arrahmah_stdiis."
-        
       ],
       "contactInfo": {
-        "telegram humas": "http://t.me/DKMARRAHMAH",
+        "telegram humas": "http://t.me/DKMARRAHMAH"
       },
       "Additional Information": {
-        "requirements for each division": "https://docs.google.com/document/d/1f9grhjzA_zC0ZhNIETotzHXlBlsPIDVgMAqDj5gVjT4/edit?usp=sharing",
+        "requirements for each division": "https://docs.google.com/document/d/1f9grhjzA_zC0ZhNIETotzHXlBlsPIDVgMAqDj5gVjT4/edit?usp=sharing"
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Divisi Madrasah", "quota": null, "requirements": [] },
+        { "name": "Divisi WASILAH (Wadah Sponsor, Informasi, & Dana Usaha)", "quota": null, "requirements": [] },
+        { "name": "Divisi DAI (Dakwah, Akademik, dan Ilmu)", "quota": null, "requirements": [] },
+        { "name": "Divisi PDD (Publikasi, Dokumentasi, dan Desain)", "quota": null, "requirements": [] },
+        { "name": "Divisi INVENTARIS", "quota": null, "requirements": [] },
+        { "name": "Divisi Kebersihan", "quota": null, "requirements": [] },
+        {
+          "name": "Imam",
+          "quota": null,
+          "requirements": [
+            "Memiliki hafalan Al Qur'an minimal 10 juz",
+            "Memiliki bacaan Al-Qur'an yang baik dan benar",
+            "Menjaga waktu sholat",
+            "Mengikuti tes seleksi",
+            "Diutamakan yang tinggal di asrama kampus"
+          ]
+        },
+        {
+          "name": "Muazzin",
+          "quota": null,
+          "requirements": [
+            "Bisa melafazkan adzan dengan baik dan benar",
+            "Menjaga waktu sholat",
+            "Mengikuti tes seleksi",
+            "Diutamakan yang tinggal di asrama kampus"
+          ]
+        }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Madrasah",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi WASILAH (Wadah Sponsor, Informasi, & Dana Usaha)",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi DAI (Dakwah, Akademik, dan Ilmu)",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi PDD (Publikasi, Dokumentasi, dan Desain)",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi INVENTARIS",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Kebersihan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Imam",
-        "quota": null,
-        "requirements": [
-          "Memiliki hafalan Al Qur'an minimal 10 juz",
-          "Memiliki bacaan Al-Qur'an yang baik dan benar",
-          "Menjaga waktu sholat",
-          "Mengikuti tes seleksi",
-          "Diutamakan yang tinggal di asrama kampus"
-        ]
-      },
-      {
-        "name": "Muazzin",
-        "quota": null,
-        "requirements": [
-          "Bisa melafazkan adzan dengan baik dan benar",
-          "Menjaga waktu sholat",
-          "Mengikuti tes seleksi",
-          "Diutamakan yang tinggal di asrama kampus"
-        ]
-      },
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -995,7 +792,7 @@ const organizationsData = [
         "startDate": "2026-09-12",
         "endDate": "2026-09-13",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "Kajian & Keilmuan"
@@ -1027,10 +824,9 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Rijal Maktabah adalah sebuah organisasi yang bergerak dalam bidang pengelolaan, pelayanan, dan pengembangan perpustakaan di lingkungan lembaga pendidikan. Organisasi ini berperan sebagai penggerak utama dalam menumbuhkan budaya literasi, meningkatkan minat baca, serta menyediakan akses yang mudah terhadap berbagai sumber ilmu pengetahuan.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafi’i Jember, program S1 maupun I’dad Lughowi, dan diutamakan belum berkeluarga.",
+        "Mahasiswa aktif STDI Imam Syafi’i Jember, program S1 maupun I’dad Lughowy, dan diutamakan belum berkeluarga.",
         "Memiliki minat dan kepedulian terhadap dunia literasi, perpustakaan.",
         "Memiliki sikap amanah, disiplin, teliti, rapi, bertanggung jawab, serta mampu bekerja sama dalam tim.",
         "Memiliki kemampuan dasar dalam berorganisasi, berkomunikasi, dan mengatur waktu.",
@@ -1038,88 +834,88 @@ const organizationsData = [
         "Diutamakan memiliki keterampilan dalam komputer, desain grafis, fotografi, videografi, atau pengelolaan media sosial.",
         "Bersedia menjaga nama baik, fasilitas, koleksi, dan amanah Rijal Maktabah, serta menaati seluruh ketentuan yang berlaku.",
         "Mengikuti akun Instagram resmi perpustakaan @perpustakaanstdiis, mengumpulkan Curriculum Vitae (CV) pribadi, dan bersedia mengikuti proses seleksi."
-      
       ],
       "contactInfo": {
         "whatsapp": "0895366790401",
         "telegram": "@Ismailyzda",
         "Instagram": "@perpustakaanstdiis"
-    },
-    "divisions": [
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": [
-          "Memiliki kemampuan administrasi dan pengarsipan yang baik.",
-          "Teliti, rapi, disiplin, dan bertanggung jawab dalam mengelola dokumen.",
-          "Mampu membuat surat, proposal, laporan, notulensi, dan dokumen organisasi lainnya.",
-          "Mampu mengoperasikan Microsoft Word, Google Docs, atau aplikasi sejenis.",
-          "Memiliki kemampuan komunikasi dan koordinasi yang baik.",
-          "Disiplin dalam mencatat dan mengelola agenda organisasi.",
-          "Mampu menjaga kerahasiaan dokumen dan informasi organisasi."
-        ]
       },
-      {
-        "name": "Publikasi, Dokumentasi, & Design",
-        "quota": null,
-        "requirements": [
-          "Memiliki kreativitas dan kemampuan menghasilkan ide-ide visual yang menarik.",
-          "Memiliki kemampuan dasar dalam desain grafis, fotografi, videografi, atau video editing.",
-          "Mampu mengoperasikan aplikasi desain dan editing seperti Canva, CapCut atau aplikasi sejenis.",
-          "Memahami dasar-dasar pengelolaan media sosial dan pembuatan konten.",
-          "Mampu mendokumentasikan kegiatan dalam bentuk foto dan video.",
-          "Memiliki kemampuan komunikasi dan koordinasi yang baik dengan bidang lain.",
-          "Mampu bekerja sesuai target dan tenggat waktu.",
-          "Bertanggung jawab terhadap kualitas dan ketepatan setiap publikasi yang dihasilkan."
-        ]
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": [
-          "Amanah, jujur, teliti, dan bertanggung jawab dalam mengelola keuangan.",
-          "Memiliki kemampuan dasar dalam pengelolaan dan penyusunan laporan keuangan.",
-          "Mampu mengoperasikan Microsoft Excel, Google Sheets, atau aplikasi sejenis.",
-          "Mampu menyusun anggaran dan melakukan pengawasan terhadap penggunaan dana.",
-          "Disiplin dalam menyimpan bukti transaksi dan dokumen keuangan.",
-          "Mampu melakukan pencatatan keuangan secara rapi dan sistematis.",
-          "Mampu menyampaikan laporan keuangan secara transparan dan berkala."
-        ]
-      },
-      {
-        "name": "Humas",
-        "quota": null,
-        "description": [
-          "Bertanggung jawab dalam membangun, menjaga, dan mengembangkan hubungan Rijal Maktabah dengan pihak internal maupun eksternalHumas menjadi penghubung komunikasi antara Rijal Maktabah dengan pihak kampus, perpustakaan, organisasi mahasiswa, komunitas, narasumber, serta pihak lain yang berkaitan dengan kegiatan organisasi. Humas juga bertugas membangun jaringan kerja sama dan mendukung penyampaian informasi organisasi kepada pihak yang tepat."
-          ],
-        "requirements": [
-          "Memiliki kemampuan komunikasi dan interpersonal yang baik.",
-          "Ramah, percaya diri, santun, dan mampu membangun relasi.",
-          "Mampu menyampaikan informasi secara jelas dan profesional.",
-          "Mampu melakukan koordinasi dengan pihak internal maupun eksternal.",
-          "Memiliki kemampuan dasar dalam negosiasi dan membangun kerja sama.",
-          "Aktif mencari dan mengembangkan jaringan kerja sama yang bermanfaat bagi organisasi.",
-          "Mampu menjaga nama baik dan citra Rijal Maktabah dalam setiap interaksi."
+      "divisions": [
+        {
+          "name": "Sekretaris",
+          "quota": null,
+          "requirements": [
+            "Memiliki kemampuan administrasi dan pengarsipan yang baik.",
+            "Teliti, rapi, disiplin, dan bertanggung jawab dalam mengelola dokumen.",
+            "Mampu membuat surat, proposal, laporan, notulensi, dan dokumen organisasi lainnya.",
+            "Mampu mengoperasikan Microsoft Word, Google Docs, atau aplikasi sejenis.",
+            "Memiliki kemampuan komunikasi dan koordinasi yang baik.",
+            "Disiplin dalam mencatat dan mengelola agenda organisasi.",
+            "Mampu menjaga kerahasiaan dokumen dan informasi organisasi."
           ]
-      },
-      {
-        name": "Pengelolaan dan Pengembangan",
-        "quota": null,
-        "description": [
-          "Bertanggung jawab dalam pengelolaan operasional perpustakaan serta pengembangan kualitas layanan, program, dan anggota Rijal Maktabah.Divisi ini mencakup pelayanan perpustakaan, pengelolaan administrasi dan inventaris, penataan serta pemeliharaan fasilitas dan koleksi, sekaligus merancang dan melaksanakan berbagai program pengembangan dan kegiatan yang mendukung kemajuan perpustakaan serta peningkatan kompetensi anggota."
+        },
+        {
+          "name": "Publikasi, Dokumentasi, & Design",
+          "quota": null,
+          "requirements": [
+            "Memiliki kreativitas dan kemampuan menghasilkan ide-ide visual yang menarik.",
+            "Memiliki kemampuan dasar dalam desain grafis, fotografi, videografi, atau video editing.",
+            "Mampu mengoperasikan aplikasi desain dan editing seperti Canva, CapCut atau aplikasi sejenis.",
+            "Memahami dasar-dasar pengelolaan media sosial dan pembuatan konten.",
+            "Mampu mendokumentasikan kegiatan dalam bentuk foto dan video.",
+            "Memiliki kemampuan komunikasi dan koordinasi yang baik dengan bidang lain.",
+            "Mampu bekerja sesuai target dan tenggat waktu.",
+            "Bertanggung jawab terhadap kualitas dan ketepatan setiap publikasi yang dihasilkan."
+          ]
+        },
+        {
+          "name": "Bendahara",
+          "quota": null,
+          "requirements": [
+            "Amanah, jujur, teliti, dan bertanggung jawab dalam mengelola keuangan.",
+            "Memiliki kemampuan dasar dalam pengelolaan dan penyusunan laporan keuangan.",
+            "Mampu mengoperasikan Microsoft Excel, Google Sheets, atau aplikasi sejenis.",
+            "Mampu menyusun anggaran dan melakukan pengawasan terhadap penggunaan dana.",
+            "Disiplin dalam menyimpan bukti transaksi dan dokumen keuangan.",
+            "Mampu melakukan pencatatan keuangan secara rapi dan sistematis.",
+            "Mampu menyampaikan laporan keuangan secara transparan dan berkala."
+          ]
+        },
+        {
+          "name": "Humas",
+          "quota": null,
+          "description": [
+            "Bertanggung jawab dalam membangun, menjaga, dan mengembangkan hubungan Rijal Maktabah dengan pihak internal maupun eksternalHumas menjadi penghubung komunikasi antara Rijal Maktabah dengan pihak kampus, perpustakaan, organisasi mahasiswa, komunitas, narasumber, serta pihak lain yang berkaitan dengan kegiatan organisasi. Humas juga bertugas membangun jaringan kerja sama dan mendukung penyampaian informasi organisasi kepada pihak yang tepat."
           ],
-        "requirements": [
-          "Memiliki ketertarikan terhadap dunia perpustakaan, literasi, dan pengembangan organisasi.",
-          "Memiliki kemampuan mengelola kegiatan dan bekerja secara terstruktur.",
-          "Teliti dalam pengelolaan administrasi, koleksi, dan inventaris.",
-          "Memiliki kemampuan komunikasi dan koordinasi yang baik.",
-          "Kreatif dalam merancang program dan kegiatan pengembangan.",
-          "Mampu bekerja sama dalam tim dan berkoordinasi dengan bidang lain.",
-          "Bertanggung jawab, disiplin, dan mampu menyelesaikan tugas sesuai target.",
-          "Memiliki kemauan untuk terus belajar dan mengembangkan kompetensi di bidang kepustakawanan."
-        ]
-      }
-    ],
+          "requirements": [
+            "Memiliki kemampuan komunikasi dan interpersonal yang baik.",
+            "Ramah, percaya diri, santun, dan mampu membangun relasi.",
+            "Mampu menyampaikan informasi secara jelas dan profesional.",
+            "Mampu melakukan koordinasi dengan pihak internal maupun eksternal.",
+            "Memiliki kemampuan dasar dalam negosiasi dan membangun kerja sama.",
+            "Aktif mencari dan mengembangkan jaringan kerja sama yang bermanfaat bagi organisasi.",
+            "Mampu menjaga nama baik dan citra Rijal Maktabah dalam setiap interaksi."
+          ]
+        },
+        {
+          "name": "Pengelolaan dan Pengembangan",
+          "quota": null,
+          "description": [
+            "Bertanggung jawab dalam pengelolaan operasional perpustakaan serta pengembangan kualitas layanan, program, dan anggota Rijal Maktabah.Divisi ini mencakup pelayanan perpustakaan, pengelolaan administrasi dan inventaris, penataan serta pemeliharaan fasilitas dan koleksi, sekaligus merancang dan melaksanakan berbagai program pengembangan dan kegiatan yang mendukung kemajuan perpustakaan serta peningkatan kompetensi anggota."
+          ],
+          "requirements": [
+            "Memiliki ketertarikan terhadap dunia perpustakaan, literasi, dan pengembangan organisasi.",
+            "Memiliki kemampuan mengelola kegiatan dan bekerja secara terstruktur.",
+            "Teliti dalam pengelolaan administrasi, koleksi, dan inventaris.",
+            "Memiliki kemampuan komunikasi dan koordinasi yang baik.",
+            "Kreatif dalam merancang program dan kegiatan pengembangan.",
+            "Mampu bekerja sama dalam tim dan berkoordinasi dengan bidang lain.",
+            "Bertanggung jawab, disiplin, dan mampu menyelesaikan tugas sesuai target.",
+            "Memiliki kemauan untuk terus belajar dan mengembangkan kompetensi di bidang kepustakawanan."
+          ]
+        }
+      ]
+    },
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1138,7 +934,7 @@ const organizationsData = [
         "startDate": "",
         "endDate": "",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
       "Kajian & Keilmuan"
@@ -1170,8 +966,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Mapala asad El Jabal merupakan sebuah organisasi pecinta alam STDIIS, yang bergerak di bidang sosial lingkungan, kelestarian alam, dan kepedulian terhadap alam raya dan ciptaan-Nya. Mapala Asad El Jabal berdiri pada tanggal 24 Juli 2012, diresmikan di puncak Gunung Rinjani. Tujuan dibentuknya mapala Asad El Jabal yaitu untuk mewadahi para pegiat ataupun pecinta alam dari mahasiswa STDI Imam Syafi`i Jember untuk meningkatkan dan mengembangkan soft skill dan hard skill dalam berkegiatan di alam bebas sesuai dengan ajaran agama Islam.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif",
         "Didahulukan mahasiswa yang belum memiliki kesibukan di dalam (organisasi) maupun di luar kampus (maksimal 2 organisasi)",
@@ -1180,61 +975,21 @@ const organizationsData = [
         "Siap fisik dan mental"
       ],
       "contactInfo": {
-        "whatsapp": "62895320510950",
-      }
+        "whatsapp": "62895320510950"
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Humas", "quota": null, "requirements": [] },
+        { "name": "PDD", "quota": null, "requirements": [] },
+        { "name": "Perkap", "quota": null, "requirements": [] },
+        { "name": "Dana Usaha", "quota": null, "requirements": [] },
+        { "name": "Konservasi", "quota": null, "requirements": [] },
+        { "name": "Gunung Hutan", "quota": null, "requirements": [] },
+        { "name": "Olahraga Arus Deras", "quota": null, "requirements": [] },
+        { "name": "Rock Climbing", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Humas",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "PDD",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Perkap",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Dana Usaha",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Konservasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Gunung Hutan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Olahraga Arus Deras",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Rock Climbing",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1271,13 +1026,13 @@ const organizationsData = [
         "startDate": "",
         "endDate": "",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
-      "Olahraga",
+      "Olahraga"
     ]
   },
-    {
+  {
     "id": "sbc-stdiis",
     "name": "STDIIS Basketball Club (SBC)",
     "logo": "./logo/sbc.jpg",
@@ -1303,8 +1058,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "STDIIS Basketball Club (SBC) adalah Unit Kegiatan Mahasiswa yang menjadi wadah bagi mahasiswa yang memiliki minat dan bakat dalam olahraga basket. UKM ini menjadi pusat pengembangan potensi atletis mahasiswa STDI Imam Syafi'i Jember di bidang olahraga basket, serta pembinaan karakter sportif dan ukhuwah antar sesama. UKM SBC aktif dalam mengorganisir dan berpartisipasi dalam berbagai turnamen dan kompetisi baik di tingkat internal maupun eksternal kampus STDI Imam Syafi'i Jember.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS (S1 & Idad Lughowi)",
         "Mempunyai semangat berolahraga dan berkompetisi",
@@ -1312,36 +1066,16 @@ const organizationsData = [
       ],
       "contactInfo": {
         "whatsapp": "6282131661536",
-        "whatsapp2": "6287861399320",
-      }
+        "whatsapp2": "6287861399320"
+      },
+      "divisions": [
+        { "name": "Divisi Humas", "quota": null, "requirements": [] },
+        { "name": "Divisi PDD / Media", "quota": null, "requirements": [] },
+        { "name": "Divisi Korlap", "quota": null, "requirements": [] },
+        { "name": "Divisi SarPras", "quota": null, "requirements": [] },
+        { "name": "Divisi Squad", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Divisi Humas",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi PDD / Media",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Korlap",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi SarPras",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Divisi Squad",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1363,10 +1097,10 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "Olahraga",
+      "Olahraga"
     ]
   },
-    {
+  {
     "id": "isfc-stdiis",
     "name": "Imam Syafii Futsal Club",
     "logo": "./logo/isfc.jpg",
@@ -1392,60 +1126,27 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "ISFC STDIIS Jember merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang olahraga futsal guna menjunjung tinggi tali Ukhuwah Islamiyah diantara mahasiswa. Serta meraih prestasi non akademik setinggi mungkin dibidang olahraga futsal. dan berkomitmen untuk menciptakan lingkungan yang positif dan mendukung bagi semua anggotanya. Dengan semangat kebersamaan dan dedikasi, organisasi ini berharap dapat terus tumbuh dan berkontribusi dalam dunia dakwah melalui olahraga serta kehidupan kampus secara keseluruhan.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafii Jember",
         "Sehat jasmani dan rohani",
-        "Semangat juang yang membara",
+        "Semangat juang yang membara"
       ],
       "contactInfo": {
         "whatsapp": "6282266532721",
         "whatsapp2": "6289526894488"
-      }
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Acara", "quota": null, "requirements": [] },
+        { "name": "Divisi Humas", "quota": null, "requirements": [] },
+        { "name": "Divisi PDD / Media Informasi", "quota": null, "requirements": [] },
+        { "name": "Divisi Bimbingan Prestasi", "quota": null, "requirements": [] },
+        { "name": "Divisi Perlengkapan", "quota": null, "requirements": [] },
+        { "name": "Divisi Pemain futsal", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-    {
-      "name": "Sekretaris",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Bendahara",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Acara",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Divisi Humas",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Divisi PDD / Media Informasi",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Divisi Bimbingan Prestasi",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Divisi Perlengkapan",
-      "quota": null,
-      "requirements": []
-    },
-    {
-      "name": "Divisi Pemain futsal",
-      "quota": null,
-      "requirements": []
-    }
-  ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1458,10 +1159,10 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-15",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
-      "Olahraga",
+      "Olahraga"
     ]
   },
   {
@@ -1490,8 +1191,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Unit Kegiatan Mahasiswa (UKM) Tapak Suci STDIIS Merupakan salah satu bidang yang mewadahi minat dan bakat mahasiswa di bidang olah raga khususnya bidang pencak silat. Dalam UKM Tapak Suci bukan hanya belajar silat tetapi organisasi Tapak Suci sambil berdakwah melalui media pencak silat tersebut.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafii Jember",
         "Sehat jasmani dan rohani",
@@ -1499,31 +1199,15 @@ const organizationsData = [
       ],
       "contactInfo": {
         "whatsapp": "62895327230428",
-        "whatsapp2": "089527535709",
-      }
+        "whatsapp2": "089527535709"
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Kepelatihan", "quota": null, "requirements": [] },
+        { "name": "Peralatan", "quota": null, "requirements": [] },
+        { "name": "PDD/Media", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kepelatihan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Peralatan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "PDD/Media",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Seleksi Berkas",
@@ -1536,10 +1220,10 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-15",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
-      "Bela Diri",
+      "Bela Diri"
     ]
   },
   {
@@ -1568,8 +1252,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Thifan Po Khan adalah bela diri Islam warisan Turki Utsmani yang mengajarkan kekuatan, kelincahan, jurus, dan perkelahian secara syar’i tanpa unsur syirik atau bid’ah. UKM Thifan Po Khan di STDIIS hadir sebagai wadah pengembangan diri mahasiswa dalam bela diri Islami, membentuk generasi tangguh, disiplin, dan Rabbani. Melalui UKM ini, mahasiswa dapat meningkatkan fisik dan mental, belajar kepemimpinan, serta aktif dalam kegiatan sosial dan dakwah bela diri.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Muslim berakhlak dan Amanah",
         "Mahasiswa Aktif STDIIS",
@@ -1577,10 +1260,10 @@ const organizationsData = [
         "Siap berperan aktif dalam kegiatan ukm"
       ],
       "contactInfo": {
-        "whatsapp": "6289654721839",
-      }
+        "whatsapp": "6289654721839"
+      },
+      "divisions": []
     },
-    "divisions": [],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1593,13 +1276,13 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-14",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
-      "Bela Diri",
+      "Bela Diri"
     ]
   },
-    {
+  {
     "id": "vbcs-stdiis",
     "name": "Volley Ball Club STDIIS",
     "logo": "./logo/vbcs.jpg",
@@ -1625,44 +1308,23 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Volleyball Club STDIIS (VBCS) adalah Unit Kegiatan Mahasiswa di STDI Imam Syafi’i Jember yang menyediakan wadah bagi mahasiswa yang memiliki bakat dan minat dalam olahraga voli. VBCS tidak hanya berfokus pada pengembangan keterampilan teknik, tetapi juga pada pembentukan karakter dan kebersamaan antar anggota. Dengan semangat sportivitas dan kerjasama tim, kami berkomitmen untuk mencapai prestasi di berbagai kompetisi.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS",
         "Memiliki semangat untuk berlatih dan berkembang",
         "Siap berkomitmen dalam setiap kegiatan tim"
       ],
       "contactInfo": {
-        "whatsapp": "6285339287897",
-      }
+        "whatsapp": "6285339287897"
+      },
+      "divisions": [
+        { "name": "Humas", "quota": null, "requirements": [] },
+        { "name": "Sarpras", "quota": null, "requirements": [] },
+        { "name": "Pelatihan", "quota": null, "requirements": [] },
+        { "name": "PDD/Media", "quota": null, "requirements": [] },
+        { "name": "Anggota", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-      "name": "Humas",
-      "quota": null,
-      "requirements": []
-      },
-      {
-      "name": "Sarpras",
-      "quota": null,
-      "requirements": []
-      },
-      {
-      "name": "Pelatihan",
-      "quota": null,
-      "requirements": []
-      },
-      {
-      "name": "PDD/Media",
-      "quota": null,
-      "requirements": []
-      },
-      {
-      "name": "Anggota",
-      "quota": null,
-      "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1675,13 +1337,13 @@ const organizationsData = [
         "startDate": "2026-09-08",
         "endDate": "2026-09-15",
         "status": "comingsoon"
-      },
+      }
     ],
     "tags": [
-      "Olahraga",
+      "Olahraga"
     ]
   },
-    {
+  {
     "id": "badminton-stdiis",
     "name": "Badminton STDIIS",
     "logo": "./logo/badminton.jpg",
@@ -1707,8 +1369,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Unit Kegiatan Mahasiswa (UKM) Badminton STDIIS merupakan salah satu wadah yang diinisiasi untuk mengakomodasi minat dan bakat mahasiswa dalam olahraga badminton. Badminton adalah olahraga yang populer di Indonesia dan dunia, dikenal karena teknik permainannya yang dinamis dan tantangan strategi yang memikat. Di tingkat universitas, olahraga ini tidak hanya berfungsi sebagai sarana untuk menjaga kebugaran fisik tetapi juga sebagai alat untuk membangun semangat tim dan kepemimpinan.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS",
         "Memiliki kemampuan berorganisasi",
@@ -1716,36 +1377,16 @@ const organizationsData = [
         "Follow akun Instagram @badmintonputera_stdiis"
       ],
       "contactInfo": {
-        "whatsapp": "6281315483753",
-      }
+        "whatsapp": "6281315483753"
+      },
+      "divisions": [
+        { "name": "Acara", "quota": null, "requirements": [] },
+        { "name": "Humas", "quota": null, "requirements": [] },
+        { "name": "Bimbingan Prestasi", "quota": null, "requirements": [] },
+        { "name": "Publikasi, Dokumentasi, & Design", "quota": null, "requirements": [] },
+        { "name": "Sarana & Prasarana", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Acara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Humas",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bimbingan Prestasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Publikasi, Dokumentasi, & Design",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Sarana & Prasarana",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1767,7 +1408,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "Olahraga",
+      "Olahraga"
     ]
   },
   {
@@ -1796,8 +1437,7 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Ukhuwah Runners adalah komunitas mahasiswa yang fokus pada olahraga lari sebagai sarana pengembangan fisik, mental, dan spiritual. Selain membina gaya hidup sehat dan disiplin diri, UKM ini juga menjadi media dakwah dengan menanamkan nilai-nilai Islami seperti syukur, kebersamaan, dan semangat persaudaraan. Terbuka untuk pemula hingga pelari berpengalaman, kegiatan UKM mencakup teknik lari, kebugaran, pencegahan cedera, serta partisipasi dalam berbagai event. Melalui latihan rutin dan target personal, anggota didorong untuk mengasah ketahanan dan melewati batas diri. UKM ini membangun lingkungan yang suportif dan kompetitif. Dengan pendekatan terstruktur, UKM Lari berkomitmen membentuk karakter tangguh, kerja sama, dan komitmen tinggi. Tujuan akhirnya adalah menumbuhkan budaya hidup sehat dan Islami di lingkungan kampus.",
-      "mission": [
-      ],
+      "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS (S1 & I'dad Lughowi) dan siap menjaga adab serta ukhuwah dalam setiap kegiatan",
         "Siap berkomitmen latihan rutin minimal 1x dalam sepekan",
@@ -1808,46 +1448,18 @@ const organizationsData = [
         "Siap fisik dan mental"
       ],
       "contactInfo": {
-        "whatsapp": "6281342275927",
-      }
+        "whatsapp": "6281342275927"
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Tim Event & Lomba", "quota": null, "requirements": [] },
+        { "name": "Tim Training / Ketahanan", "quota": null, "requirements": [] },
+        { "name": "Tim Wawasan", "quota": null, "requirements": [] },
+        { "name": "Tim Media & Desain", "quota": null, "requirements": [] },
+        { "name": "Tim Perlengkapan / Support", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Tim Event & Lomba",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Tim Training / Ketahanan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Tim Wawasan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Tim Media & Desain",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Tim Perlengkapan / Support",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1863,7 +1475,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "Olahraga",
+      "Olahraga"
     ]
   },
   {
@@ -1892,8 +1504,8 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "FUSHA (Forum Ulum Sastra dan Bahasa Arab) adalah organisasi yang bergerak di bidang bahasa terutama dalam fungsi pelaksanaan dan pengembangan bahasa di STDI, HIMA ini didirikan atas inisiatif untuk membentuk wadah yang membantu mahasiswa STDI imam Syafi'i mengembangkan kemampuan berbahasa arab mereka dalam bentuk literatur atau non literatur.",
-      "vision" [
-      "Mewujudkan Himpunan Mahasiswa Bahasa dan Sastra Arab sebagai organisasi mahasiswa yang unggul, berintegritas, dan berperan aktif dalam pengembangan keilmuan, kebahasaan, kesastraan, serta kepemimpian mahasiswa."
+      "vision": [
+        "Mewujudkan Himpunan Mahasiswa Bahasa dan Sastra Arab sebagai organisasi mahasiswa yang unggul, berintegritas, dan berperan aktif dalam pengembangan keilmuan, kebahasaan, kesastraan, serta kepemimpian mahasiswa."
       ],
       "mission": [
         "Mengembangkan potensi mahasiswa dalam bidang Bahasa dan sastra Arab.",
@@ -1910,71 +1522,67 @@ const organizationsData = [
         "Mengikuti semua rangkaian Oprec."
       ],
       "contactInfo": {
-        "email": "hima.bsa@stdiis.ac.id",
+        "email": "hima.bsa@stdiis.ac.id"
+      },
+      "divisions": [
+        { "name": "Ketua", "quota": null, "requirements": [] },
+        {
+          "name": "Sekretaris",
+          "quota": null,
+          "requirements": [
+            "Mampu mengoperasikan Microsoft Word, Excel, dan Google Workspace.",
+            "Memiliki kemampuan administrasi dan manajemen arsip yang baik.",
+            "Teliti, disiplin, dan bertanggung jawab.",
+            "Memiliki kemampuan komunikasi dan penulisan yang baik.",
+            "Mampu bekerja sama dalam tim serta menjaga kerahasiaan dokumen organisasi."
+          ]
+        },
+        {
+          "name": "Bendahara",
+          "quota": null,
+          "requirements": [
+            "Teliti dan bertanggung jawab dalam mengelola kas, rekening organisasi, serta penagihan iuran anggota.",
+            "Menguasai pencatatan keuangan menggunakan spreadsheet dan pengarsipan bukti digital di Google Drive.",
+            "Mampu menyusun Rencana Anggaran Biaya (RAB) serta mengontrol penggunaan dana tiap divisi agar tetap sesuai anggaran.",
+            "Cermat dalam melakukan audit internal untuk mencocokkan catatan keuangan, saldo, dan bukti nota secara berkala.",
+            "Mampu menyusun laporan keuangan bulanan serta Laporan Pertanggungjawaban (LPJ) akhir untuk sidang pleno."
+          ]
+        },
+        {
+          "name": "Humas",
+          "quota": null,
+          "requirements": [
+            "Komunikatif: Memiliki kemampuan komunikasi yang baik serta ramah, santun, dan mudah beradaptasi.",
+            "Aktif di Media Sosial: Familiar dengan berbagai platform media sosial (Instagram, TikTok, Dsb) dan tren digital saat ini.",
+            "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan kegiatan organisasi.",
+            "Inisiatif Tinggi: Cepat tanggap."
+          ]
+        },
+        {
+          "name": "Lughah (keilmuan)",
+          "quota": null,
+          "requirements": [
+            "Tertarik pada bidang keilmuan bahasa arab dan sastra.",
+            "Mampu mengawasi dan melaksanakan acara-acara yang ada terdapat dalam hima BSA.",
+            "Berani melaksanakan dan menegakkan peraturan wajib berbahasa arab.",
+            "Memiliki kemampuan dasar kaidah-kaidah bahasa arab.",
+            "Memiliki kemampuan dasar berbicara, mendengar, menulis, dan membaca bahasa arab.",
+            "Siap aktif dalam hima dan perkuliahan.",
+            "Mampu bekerja di bawah tekanan."
+          ]
+        },
+        {
+          "name": "Medkominfo",
+          "quota": null,
+          "requirements": [
+            "Memiliki kemampuan berpikir kreatif dalam membuat konsep, desain, dan konten yang menarik serta relevan.",
+            "Melek Digital: Familiar dengan media sosial, aplikasi desain, editing, serta mengikuti perkembangan tren digital dan teknologi.",
+            "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan tugas organisasi serta menyelesaikan pekerjaan sesuai tenggat waktu.",
+            "Inisiatif Tinggi: Proaktif dalam mencari ide, membuat konten, dan menyampaikan informasi tanpa harus selalu menunggu arahan."
+          ]
+        }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Ketua",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": [
-          "Mampu mengoperasikan Microsoft Word, Excel, dan Google Workspace.",
-          "Memiliki kemampuan administrasi dan manajemen arsip yang baik.",
-          "Teliti, disiplin, dan bertanggung jawab.",
-          "Memiliki kemampuan komunikasi dan penulisan yang baik.",
-          "Mampu bekerja sama dalam tim serta menjaga kerahasiaan dokumen organisasi."
-        ]
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": [
-          "Teliti dan bertanggung jawab dalam mengelola kas, rekening organisasi, serta penagihan iuran anggota.",
-          "Menguasai pencatatan keuangan menggunakan spreadsheet dan pengarsipan bukti digital di Google Drive.",
-          "Mampu menyusun Rencana Anggaran Biaya (RAB) serta mengontrol penggunaan dana tiap divisi agar tetap sesuai anggaran.",
-          "Cermat dalam melakukan audit internal untuk mencocokkan catatan keuangan, saldo, dan bukti nota secara berkala.",
-          "Mampu menyusun laporan keuangan bulanan serta Laporan Pertanggungjawaban (LPJ) akhir untuk sidang pleno."
-        ]
-      },
-      {
-        "name": "Humas",
-        "quota": null,
-        "requirements": [
-          "Komunikatif: Memiliki kemampuan komunikasi yang baik serta ramah, santun, dan mudah beradaptasi."
-          "Aktif di Media Sosial: Familiar dengan berbagai platform media sosial (Instagram, TikTok, Dsb) dan tren digital saat ini.",
-          "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan kegiatan organisasi.",
-          "Inisiatif Tinggi: Cepat tanggap."
-        ]
-      },
-      {
-        "name": "Lughah (keilmuan)",
-        "quota": null,
-        "requirements": [
-          "Tertarik pada bidang keilmuan bahasa arab dan sastra.",
-          "Mampu mengawasi dan melaksanakan acara-acara yang ada terdapat dalam hima BSA.",
-          "Berani melaksanakan dan menegakkan peraturan wajib berbahasa arab.",
-          "Memiliki kemampuan dasar kaidah-kaidah bahasa arab.",
-          "Memiliki kemampuan dasar berbicara, mendengar, menulis, dan membaca bahasa arab.",
-          "Siap aktif dalam hima dan perkuliahan.",
-          "Mampu bekerja di bawah tekanan."
-        ]
-      },
-      {
-        "name": "Medkominfo",
-        "quota": null,
-        "requirements": [
-          "Memiliki kemampuan berpikir kreatif dalam membuat konsep, desain, dan konten yang menarik serta relevan.",
-          "Melek Digital: Familiar dengan media sosial, aplikasi desain, editing, serta mengikuti perkembangan tren digital dan teknologi.",
-          "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan tugas organisasi serta menyelesaikan pekerjaan sesuai tenggat waktu.",
-          "Inisiatif Tinggi: Proaktif dalam mencari ide, membuat konten, dan menyampaikan informasi tanpa harus selalu menunggu arahan.
-          
-        ]
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -1990,7 +1598,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "himabsa",
+      "himabsa"
     ]
   },
   {
@@ -2019,8 +1627,8 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "UKM STDIIS FC adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya sepak bola. Organisasi ini dibentuk sebagai wadah strategis bagi seluruh mahasiswa STDIIS Jember untuk mengembangkan minat, bakat, dan potensi mereka dalam sepak bola melalui pelatihan serta pembinaan yang terstruktur. Lebih dari sekadar klub olahraga, STDIIS FC berkomitmen untuk membentuk karakter mahasiswa yang tangguh dengan meningkatkan kemampuan fisik, mental, fokus, dan kedisiplinan yang berlandaskan nilai-nilai sunnah. Melalui kegiatan olahraga yang interaktif dan kolaboratif, UKM ini juga berfungsi sebagai sarana memperkuat ukhuwah Islamiyah, menghidupkan kembali tradisi olahraga, serta mencetak atlet-atlet mahasiswa berprestasi yang siap mewakili kampus dalam berbagai kompetisi di tingkat lokal, regional, maupun nasional.",
-      "vision" [
-      "Menjadi wadah pembinaan sepak bola mahasiswa yang unggul, berprestasi, berakhlak islami, dan mampu mengharumkan nama baik STDIIS."
+      "vision": [
+        "Menjadi wadah pembinaan sepak bola mahasiswa yang unggul, berprestasi, berakhlak islami, dan mampu mengharumkan nama baik STDIIS."
       ],
       "mission": [
         "Menyelenggarakan pembinaan sepak bola secara sistematis.",
@@ -2035,51 +1643,19 @@ const organizationsData = [
         "ahli dalam bidang yang di pilih oleh calon pendaftar."
       ],
       "contactInfo": {
-        "Instagram": "@stdi_footballclub",
-      }
+        "Instagram": "@stdi_footballclub"
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Acara", "quota": null, "requirements": [] },
+        { "name": "Humas", "quota": null, "requirements": [] },
+        { "name": "Kominfo & design", "quota": null, "requirements": [] },
+        { "name": "Bimbingan Prestasi", "quota": null, "requirements": [] },
+        { "name": "Sarpras", "quota": null, "requirements": [] },
+        { "name": "Pemain", "quota": null, "requirements": [] }
+      ]
     },
-    "divisions": [
-      {
-        "name": "Sekretaris",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bendahara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Acara",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Humas",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kominfo & design",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Bimbingan Prestasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Sarpras",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Pemain",
-        "quota": null,
-        "requirements": []
-      }
-    ],
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -2095,7 +1671,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "stdifcsatuhatisaturasa",
+      "stdifcsatuhatisaturasa"
     ]
   },
   {
@@ -2124,10 +1700,10 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": [
-        "HIMAHES adalah organisasi kemahasiswaan yang menjadi wadah pengembangan diri bagi mahasiswa Prodi Hukum Ekonomi Syariah. Dengan berlandaskan nilai & Norma Islam dan semangat intelektual, HIMAHES hadir untuk menjalankan empat fungsi utama: edukatif, informatif, representatif, dan sosial.",
-        ],
-      "vision" [
-      "Menjadi Himpunan Mahasiswa yang unggul dalam mencerdaskan kehidupan dengan nilai hukum ekonomi syariah serta membangun karakter yang kreatif, inovatif, & kompetitif."
+        "HIMAHES adalah organisasi kemahasiswaan yang menjadi wadah pengembangan diri bagi mahasiswa Prodi Hukum Ekonomi Syariah. Dengan berlandaskan nilai & Norma Islam dan semangat intelektual, HIMAHES hadir untuk menjalankan empat fungsi utama: edukatif, informatif, representatif, dan sosial."
+      ],
+      "vision": [
+        "Menjadi Himpunan Mahasiswa yang unggul dalam mencerdaskan kehidupan dengan nilai hukum ekonomi syariah serta membangun karakter yang kreatif, inovatif, & kompetitif."
       ],
       "mission": [
         "Membantu terwujudnya mahasiswa HES yang berilmu, kritis, berintegritas dan berdaya saing di bidangnya",
@@ -2144,56 +1720,20 @@ const organizationsData = [
       ],
       "contactInfo": {
         "telegram": "@Muhafthaaa",
-        "telegram": "@syafiqribowo"
+        "telegram2": "@syafiqribowo"
       },
-    {
-    "divisions": [
-      {
-        "name": "Kajian Ilmiah",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Riset dan Akademik",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Kompetensi dan Prestasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Advokasi dan Kesejahteraan",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Informasi dan Publikasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Public Relations",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Layout dan Design",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Dokumentasi",
-        "quota": null,
-        "requirements": []
-      },
-      {
-        "name": "Publikasi Konten",
-        "quota": null,
-        "requirements": []
-      }
-    ],
+      "divisions": [
+        { "name": "Kajian Ilmiah", "quota": null, "requirements": [] },
+        { "name": "Riset dan Akademik", "quota": null, "requirements": [] },
+        { "name": "Kompetensi dan Prestasi", "quota": null, "requirements": [] },
+        { "name": "Advokasi dan Kesejahteraan", "quota": null, "requirements": [] },
+        { "name": "Informasi dan Publikasi", "quota": null, "requirements": [] },
+        { "name": "Public Relations", "quota": null, "requirements": [] },
+        { "name": "Layout dan Design", "quota": null, "requirements": [] },
+        { "name": "Dokumentasi", "quota": null, "requirements": [] },
+        { "name": "Publikasi Konten", "quota": null, "requirements": [] }
+      ]
+    },
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -2209,7 +1749,7 @@ const organizationsData = [
       }
     ],
     "tags": [
-      "Himahes",
+      "Himahes"
     ]
   },
   {
@@ -2238,10 +1778,10 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": [
-        " STDIIS Programming Club (PC) adalah UKM Kampus STDI Imam Syafi'i Jember yang bergerak di bidang pemrograman dan pengembangan perangkat lunak. Awalnya merupakan divisi SIIP di bawah UKM Fortik, PC dikukuhkan menjadi UKM tersendiri pada 20 Juni 2026 agar dapat fokus menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya melalui pengembangan solusi seperti website, sistem informasi, dan otomasi administratif.",
-        ],
-      "vision" [
-      "Menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa STDI Imam Syafi'i Jember, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya.",
+        " STDIIS Programming Club (PC) adalah UKM Kampus STDI Imam Syafi'i Jember yang bergerak di bidang pemrograman dan pengembangan perangkat lunak. Awalnya merupakan divisi SIIP di bawah UKM Fortik, PC dikukuhkan menjadi UKM tersendiri pada 20 Juni 2026 agar dapat fokus menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya melalui pengembangan solusi seperti website, sistem informasi, dan otomasi administratif."
+      ],
+      "vision": [
+        "Menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa STDI Imam Syafi'i Jember, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya."
       ],
       "mission": [
         "Menyelenggarakan pembelajaran pemrograman yang terstruktur dan berkelanjutan melalui kelas rutin, mentoring, dan proyek bersama, dari dasar hingga anggota mampu membangun aplikasi nyata.",
@@ -2252,16 +1792,12 @@ const organizationsData = [
         "Mahasiswa aktif STDIIS (S1/l'dad)."
       ],
       "contactInfo": {
-        "Instagram": "@pc.stdiis",
+        "Instagram": "@pc.stdiis"
       },
-    {
-    "divisions": [
-      {
-        "name": "member",
-        "quota": null,
-        "requirements": []
-      }
-    ],
+      "divisions": [
+        { "name": "member", "quota": null, "requirements": [] }
+      ]
+    },
     "timeline": [
       {
         "phase": "Pendaftaran",
@@ -2280,5 +1816,5 @@ const organizationsData = [
       "PCSTDIIS",
       "ProgrammingClub"
     ]
-  },
-]
+  }
+];
