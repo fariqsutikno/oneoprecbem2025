@@ -243,7 +243,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota",
       },
-      "guidebookUrl": "./guidebook/fakih.pdf",
+      "guidebookUrl": "./guidebook/hki.pdf",
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDqdFbiMutwm_gQQp8KqAnOpTR35o_rMLSZeWifwTyNqXaoA/viewform?usp=publish-editor",
       "registrationFee": 0,
     },
