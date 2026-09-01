@@ -107,17 +107,21 @@ function renderOrganizations(data = filteredData) {
     grid.innerHTML = data.map(createOrganizationCard).join('');
 }
 
-function filterByCategory(filterValue, filterType = 'category', event = null) {
+function filterByCategory(filterValue, filterType = 'category', e = null) {
     currentFilter = filterValue;
     
-    // Update active button
-    if (event && event.target) {
+    // Ambil event click (bisa dari parameter atau event global browser)
+    const targetBtn = (e && e.target) ? e.target : (window.event ? window.event.target : null);
+    
+    // Update tampilan tombol aktif
+    if (targetBtn && targetBtn.classList.contains('filter-btn')) {
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.classList.remove('active', 'bg-primary-600', 'text-white');
             btn.classList.add('bg-gray-100', 'text-gray-700');
         });
-        event.target.classList.add('active', 'bg-primary-600', 'text-white');
-        event.target.classList.remove('bg-gray-100', 'text-gray-700');
+        
+        targetBtn.classList.add('active', 'bg-primary-600', 'text-white');
+        targetBtn.classList.remove('bg-gray-100', 'text-gray-700');
     }
     
     // Filter data
@@ -127,11 +131,11 @@ function filterByCategory(filterValue, filterType = 'category', event = null) {
         if (filterType === 'category') {
             filteredData = organizationsData.filter(org => org.category === filterValue);
         } else if (filterType === 'tag') {
-            filteredData = organizationsData.filter(org => org.tags.includes(filterValue.toLowerCase()));
+            filteredData = organizationsData.filter(org => org.tags && org.tags.includes(filterValue.toLowerCase()));
         }
     }
     
-    // Apply search if there's a query
+    // Apply search jika ada query di input
     const searchInput = document.getElementById('searchInput');
     const searchQuery = searchInput ? searchInput.value : '';
     if (searchQuery) {
