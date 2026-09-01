@@ -478,7 +478,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Rijal Dakwah adalah organisasi dakwah kemahasiswaan yang bergerak dalam aktivitas keislaman dan keteknologian. Rijal Dakwah didirikan dengan tujuan terbentuknya akademisi islam yang berakhlak mulia, kreatif, dan berakidah Ahlussunah Wal Jamaah, serta mempersiapkan mahasiswa STDI Imam Syafi'i menjadi aktivis dakwah sunnah.",
+      "description": [
+        "Rijal Dakwah adalah organisasi dakwah kemahasiswaan yang bergerak dalam aktivitas keislaman dan keteknologian. Rijal Dakwah didirikan dengan tujuan terbentuknya akademisi islam yang berakhlak mulia, kreatif, dan berakidah Ahlussunah Wal Jamaah, serta mempersiapkan mahasiswa STDI Imam Syafi'i menjadi aktivis dakwah sunnah."
+        ],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafi’i Jember",
         "Siap mengikuti pembinaan Akademi Da’i’ dan Rijalul Khidmah",
@@ -525,7 +527,7 @@ const organizationsData = [
   {
     "id": "fusha-stdiis",
     "name": "Hima BSA (fusha)",
-    "logo": "./logo/fusha",
+    "logo": "./logo/fusha.jpg",
     "category": "kebahasaan",
     "featured": false,
     "recruitment": {
@@ -547,7 +549,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "FUSHA (Forum Ulum Sastra dan Bahasa Arab) adalah organisasi yang bergerak di bidang bahasa terutama dalam fungsi pelaksanaan dan pengembangan bahasa di STDI, HIMA ini didirikan atas inisiatif untuk membentuk wadah yang membantu mahasiswa STDI imam Syafi'i mengembangkan kemampuan berbahasa arab mereka dalam bentuk literatur atau non literatur.",
+      "description": [
+        "FUSHA (Forum Ulum Sastra dan Bahasa Arab) adalah organisasi yang bergerak di bidang bahasa terutama dalam fungsi pelaksanaan dan pengembangan bahasa di STDI, HIMA ini didirikan atas inisiatif untuk membentuk wadah yang membantu mahasiswa STDI imam Syafi'i mengembangkan kemampuan berbahasa arab mereka dalam bentuk literatur atau non literatur."
+        ],
       "vision": [
         "Mewujudkan Himpunan Mahasiswa Bahasa dan Sastra Arab sebagai organisasi mahasiswa yang unggul, berintegritas, dan berperan aktif dalam pengembangan keilmuan, kebahasaan, kesastraan, serta kepemimpian mahasiswa."
       ],
@@ -662,7 +666,7 @@ const organizationsData = [
         "number": 150,
         "display": "150"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://forms.gle/2e5cBs5ttKBfY8UP8",
       "registrationFee": 0
     },
@@ -670,7 +674,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "FORTIK adalah UKM yang terfokus pada teknologi informasi (bukan teknologi mesin atau bahkan mekanik) dan FORTIK merupakan wadah tepat bagimu yang ingin berkembang bersama dan meningkatkan skills basicmu dibidang teknologi informasi.",
+      "description": [
+        "FORTIK adalah UKM yang terfokus pada teknologi informasi (bukan teknologi mesin atau bahkan mekanik) dan FORTIK merupakan wadah tepat bagimu yang ingin berkembang bersama dan meningkatkan skills basicmu dibidang teknologi informasi."
+        ],
       "generalRequirements": [
         "Mahasiswa aktif S1 STDIIS Jember",
         "Mahasiswa yg berkompeten, ulet, dan memiliki rasa tanggung jawab yg besar terhadap organisasi",
@@ -709,8 +715,8 @@ const organizationsData = [
       },
       {
         "phase": "Training Standarisasi",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       }
     ],
@@ -741,16 +747,20 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Batas"
       },
-      "guidebookUrl": " ",
-      "registrationUrl": "https://forms.gle/oQekqxpkuuqQ6GL6A",
+      "guidebookUrl": [],
+      "registrationUrl":"https://forms.gle/oQekqxpkuuqQ6GL6A",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "FPKH adalah sebuah UKM yang bertujuan untuk mewadahi teman-teman mahasiswa STDIIS yang memiliki minat di bidang hukum untuk bisa berkembang. Sehingga dapat mewujudkan generasi muslim melek hukum.",
-      "vision": "Membentuk generasi hukum yang kompetitif di dunia profesional serta berkontribusi dalam edukasi dan pengembangan hukum bagi masyarakat",
+      "description": [
+        "FPKH adalah sebuah UKM yang bertujuan untuk mewadahi teman-teman mahasiswa STDIIS yang memiliki minat di bidang hukum untuk bisa berkembang. Sehingga dapat mewujudkan generasi muslim melek hukum."
+        ]
+      "vision": [
+        "Membentuk generasi hukum yang kompetitif di dunia profesional serta berkontribusi dalam edukasi dan pengembangan hukum bagi masyarakat"
+        ]
       "mission": [
         "Meningkatkan kompetensi hukum mahasiswa melalui pelatihan, pengayaan skill, dan partisipasi dalam kompetisi akademik maupun profesional",
         "Mengedukasi mahasiswa dan masyarakat umum agar memiliki pemahaman hukum yang lebih baik dan aplikatif",
@@ -843,8 +853,8 @@ const organizationsData = [
       },     
       {
         "phase": "Law Camp",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       }
     ],
@@ -871,15 +881,17 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Batas."
       },
-      "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/QGTwJ7od1BYyCmma8",
+      "guidebookUrl": [],
+      "registrationUrl":"https://forms.gle/QGTwJ7od1BYyCmma8",
       "registrationFee": 0
     },
     "applicants": 0,
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Huffazhul Wahyain merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang hafalan Al-Qur’an dan Hadits, untuk meningkatkan kualitas mahasiswa STDIIS Jember dalam bidang ilmiyah.",
+      "description": [
+        "Huffazhul Wahyain merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang hafalan Al-Qur’an dan Hadits, untuk meningkatkan kualitas mahasiswa STDIIS Jember dalam bidang ilmiyah."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS semester 1-7",
@@ -939,7 +951,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": " DKM Ar-Rahmah merupakan organisasi yang menggabungkan pembinaan anggota, dakwah dan keilmuan, pelayanan jamaah, pengelolaan kegiatan, pemeliharaan fasilitas, penguatan ukhuwah, dan gerakan imaroh masjid.",
+      "description": [
+        "DKM Ar-Rahmah merupakan organisasi yang menggabungkan pembinaan anggota, dakwah dan keilmuan, pelayanan jamaah, pengelolaan kegiatan, pemeliharaan fasilitas, penguatan ukhuwah, dan gerakan imaroh masjid."
+        ],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS (Program S1 dan I’dad Lughowy)",
         "Berakhlak baik, disiplin, jujur, amanah, dan bertanggung jawab",
@@ -955,8 +969,8 @@ const organizationsData = [
       "contactInfo": {
         "telegram humas": "http://t.me/DKMARRAHMAH"
       },
-      "Additional Information": {
-        "requirements for each division": "https://docs.google.com/document/d/1f9grhjzA_zC0ZhNIETotzHXlBlsPIDVgMAqDj5gVjT4/edit?usp=sharing"
+      "AdditionalInformation": {
+        "RequirementsForEachDivision": "https://docs.google.com/document/d/1f9grhjzA_zC0ZhNIETotzHXlBlsPIDVgMAqDj5gVjT4/edit?usp=sharing"
       },
       "divisions": [
         { "name": "Sekretaris", "quota": null, "requirements": [] },
@@ -1033,7 +1047,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Rijal Maktabah adalah sebuah organisasi yang bergerak dalam bidang pengelolaan, pelayanan, dan pengembangan perpustakaan di lingkungan lembaga pendidikan. Organisasi ini berperan sebagai penggerak utama dalam menumbuhkan budaya literasi, meningkatkan minat baca, serta menyediakan akses yang mudah terhadap berbagai sumber ilmu pengetahuan.",
+      "description": [
+        "Rijal Maktabah adalah sebuah organisasi yang bergerak dalam bidang pengelolaan, pelayanan, dan pengembangan perpustakaan di lingkungan lembaga pendidikan. Organisasi ini berperan sebagai penggerak utama dalam menumbuhkan budaya literasi, meningkatkan minat baca, serta menyediakan akses yang mudah terhadap berbagai sumber ilmu pengetahuan."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafi’i Jember, program S1 maupun I’dad Lughowy, dan diutamakan belum berkeluarga.",
@@ -1167,7 +1183,7 @@ const organizationsData = [
         "number": null,
         "display": "Terbatas"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdJzxQugI8FJEV-q4W0B5Lf59Nx3qvNQSVKKroc1Z7UbXIPEw/viewform?usp=publish-editor",
       "registrationFee": 0
     },
@@ -1175,7 +1191,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Mapala asad El Jabal merupakan sebuah organisasi pecinta alam STDIIS, yang bergerak di bidang sosial lingkungan, kelestarian alam, dan kepedulian terhadap alam raya dan ciptaan-Nya. Mapala Asad El Jabal berdiri pada tanggal 24 Juli 2012, diresmikan di puncak Gunung Rinjani. Tujuan dibentuknya mapala Asad El Jabal yaitu untuk mewadahi para pegiat ataupun pecinta alam dari mahasiswa STDI Imam Syafi`i Jember untuk meningkatkan dan mengembangkan soft skill dan hard skill dalam berkegiatan di alam bebas sesuai dengan ajaran agama Islam.",
+      "description": [
+        "Mapala asad El Jabal merupakan sebuah organisasi pecinta alam STDIIS, yang bergerak di bidang sosial lingkungan, kelestarian alam, dan kepedulian terhadap alam raya dan ciptaan-Nya. Mapala Asad El Jabal berdiri pada tanggal 24 Juli 2012, diresmikan di puncak Gunung Rinjani. Tujuan dibentuknya mapala Asad El Jabal yaitu untuk mewadahi para pegiat ataupun pecinta alam dari mahasiswa STDI Imam Syafi`i Jember untuk meningkatkan dan mengembangkan soft skill dan hard skill dalam berkegiatan di alam bebas sesuai dengan ajaran agama Islam."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif",
@@ -1209,32 +1227,32 @@ const organizationsData = [
       },
       {
         "phase": "Interview",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       },
       {
         "phase": "Diklat Ruang",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       },
       {
         "phase": "Tes Fisik",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       },
       {
         "phase": "Diklat Dasar",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       },
       {
         "phase": "Diklat Lanjutan",
-        "startDate": "",
-        "endDate": "",
+        "startDate": [],
+        "endDate": [],
         "status": "comingsoon"
       }
     ],
@@ -1259,7 +1277,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://forms.gle/mLd3FMcZbnmpyoVRA",
       "registrationFee": 0
     },
@@ -1267,7 +1285,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "STDIIS Basketball Club (SBC) adalah Unit Kegiatan Mahasiswa yang menjadi wadah bagi mahasiswa yang memiliki minat dan bakat dalam olahraga basket. UKM ini menjadi pusat pengembangan potensi atletis mahasiswa STDI Imam Syafi'i Jember di bidang olahraga basket, serta pembinaan karakter sportif dan ukhuwah antar sesama. UKM SBC aktif dalam mengorganisir dan berpartisipasi dalam berbagai turnamen dan kompetisi baik di tingkat internal maupun eksternal kampus STDI Imam Syafi'i Jember.",
+      "description": [
+        "STDIIS Basketball Club (SBC) adalah Unit Kegiatan Mahasiswa yang menjadi wadah bagi mahasiswa yang memiliki minat dan bakat dalam olahraga basket. UKM ini menjadi pusat pengembangan potensi atletis mahasiswa STDI Imam Syafi'i Jember di bidang olahraga basket, serta pembinaan karakter sportif dan ukhuwah antar sesama. UKM SBC aktif dalam mengorganisir dan berpartisipasi dalam berbagai turnamen dan kompetisi baik di tingkat internal maupun eksternal kampus STDI Imam Syafi'i Jember."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS (S1 & Idad Lughowi)",
@@ -1327,7 +1347,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSen8gXCxMGkoMW1kVpSpvelMIYrgKiJjJuosMV5bUPTaYaXzg/viewform?usp=header",
       "registrationFee": 0
     },
@@ -1335,7 +1355,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "ISFC STDIIS Jember merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang olahraga futsal guna menjunjung tinggi tali Ukhuwah Islamiyah diantara mahasiswa. Serta meraih prestasi non akademik setinggi mungkin dibidang olahraga futsal. dan berkomitmen untuk menciptakan lingkungan yang positif dan mendukung bagi semua anggotanya. Dengan semangat kebersamaan dan dedikasi, organisasi ini berharap dapat terus tumbuh dan berkontribusi dalam dunia dakwah melalui olahraga serta kehidupan kampus secara keseluruhan.",
+      "description": [
+        "ISFC STDIIS Jember merupakan wadah aktivitas kemahasiswaan luar kelas yang menampung mahasiswa-mahasiswa yang memiliki talenta, bakat, dan minat di bidang olahraga futsal guna menjunjung tinggi tali Ukhuwah Islamiyah diantara mahasiswa. Serta meraih prestasi non akademik setinggi mungkin dibidang olahraga futsal. dan berkomitmen untuk menciptakan lingkungan yang positif dan mendukung bagi semua anggotanya. Dengan semangat kebersamaan dan dedikasi, organisasi ini berharap dapat terus tumbuh dan berkontribusi dalam dunia dakwah melalui olahraga serta kehidupan kampus secara keseluruhan."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafii Jember",
@@ -1392,7 +1414,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://forms.gle/SYGna41enGyY2sWB7",
       "registrationFee": 0
     },
@@ -1400,7 +1422,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Unit Kegiatan Mahasiswa (UKM) Tapak Suci STDIIS Merupakan salah satu bidang yang mewadahi minat dan bakat mahasiswa di bidang olah raga khususnya bidang pencak silat. Dalam UKM Tapak Suci bukan hanya belajar silat tetapi organisasi Tapak Suci sambil berdakwah melalui media pencak silat tersebut.",
+      "description": [
+        "Unit Kegiatan Mahasiswa (UKM) Tapak Suci STDIIS Merupakan salah satu bidang yang mewadahi minat dan bakat mahasiswa di bidang olah raga khususnya bidang pencak silat. Dalam UKM Tapak Suci bukan hanya belajar silat tetapi organisasi Tapak Suci sambil berdakwah melalui media pencak silat tersebut."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafii Jember",
@@ -1453,7 +1477,7 @@ const organizationsData = [
         "number": null,
         "display": "Terbatas"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfkGQJQlezT1G-khiYktLP5-hicc1allPRuSCuONEgsteS8WQ/viewform?usp=sharing&ouid=105148390275742524072",
       "registrationFee": 0
     },
@@ -1461,7 +1485,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Thifan Po Khan adalah bela diri Islam warisan Turki Utsmani yang mengajarkan kekuatan, kelincahan, jurus, dan perkelahian secara syar’i tanpa unsur syirik atau bid’ah. UKM Thifan Po Khan di STDIIS hadir sebagai wadah pengembangan diri mahasiswa dalam bela diri Islami, membentuk generasi tangguh, disiplin, dan Rabbani. Melalui UKM ini, mahasiswa dapat meningkatkan fisik dan mental, belajar kepemimpinan, serta aktif dalam kegiatan sosial dan dakwah bela diri.",
+      "description": [
+        "Thifan Po Khan adalah bela diri Islam warisan Turki Utsmani yang mengajarkan kekuatan, kelincahan, jurus, dan perkelahian secara syar’i tanpa unsur syirik atau bid’ah. UKM Thifan Po Khan di STDIIS hadir sebagai wadah pengembangan diri mahasiswa dalam bela diri Islami, membentuk generasi tangguh, disiplin, dan Rabbani. Melalui UKM ini, mahasiswa dapat meningkatkan fisik dan mental, belajar kepemimpinan, serta aktif dalam kegiatan sosial dan dakwah bela diri."
+        ],
       "mission": [],
       "generalRequirements": [
         "Muslim berakhlak dan Amanah",
@@ -1509,7 +1535,7 @@ const organizationsData = [
         "number": 50,
         "display": "50 Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://forms.gle/UM56dBHmdc5BbxyF8",
       "registrationFee": 0
     },
@@ -1517,7 +1543,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Volleyball Club STDIIS (VBCS) adalah Unit Kegiatan Mahasiswa di STDI Imam Syafi’i Jember yang menyediakan wadah bagi mahasiswa yang memiliki bakat dan minat dalam olahraga voli. VBCS tidak hanya berfokus pada pengembangan keterampilan teknik, tetapi juga pada pembentukan karakter dan kebersamaan antar anggota. Dengan semangat sportivitas dan kerjasama tim, kami berkomitmen untuk mencapai prestasi di berbagai kompetisi.",
+      "description": [
+        "Volleyball Club STDIIS (VBCS) adalah Unit Kegiatan Mahasiswa di STDI Imam Syafi’i Jember yang menyediakan wadah bagi mahasiswa yang memiliki bakat dan minat dalam olahraga voli. VBCS tidak hanya berfokus pada pengembangan keterampilan teknik, tetapi juga pada pembentukan karakter dan kebersamaan antar anggota. Dengan semangat sportivitas dan kerjasama tim, kami berkomitmen untuk mencapai prestasi di berbagai kompetisi."
+        ],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS",
@@ -1691,7 +1719,7 @@ const organizationsData = [
   {
     "id": "football-stdiis",
     "name": "STDI Football Club",
-    "logo": "./logo/football",
+    "logo": "./logo/football.jpg",
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
@@ -1705,7 +1733,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfz3SZMgDA-AUywxP5BOTVncu6imZkzGMBe5rre53Hq4-yGIQ/viewform?usp=publish-editor",
       "registrationFee": 0
     },
@@ -1713,7 +1741,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "UKM STDIIS FC adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya sepak bola. Organisasi ini dibentuk sebagai wadah strategis bagi seluruh mahasiswa STDIIS Jember untuk mengembangkan minat, bakat, dan potensi mereka dalam sepak bola melalui pelatihan serta pembinaan yang terstruktur. Lebih dari sekadar klub olahraga, STDIIS FC berkomitmen untuk membentuk karakter mahasiswa yang tangguh dengan meningkatkan kemampuan fisik, mental, fokus, dan kedisiplinan yang berlandaskan nilai-nilai sunnah. Melalui kegiatan olahraga yang interaktif dan kolaboratif, UKM ini juga berfungsi sebagai sarana memperkuat ukhuwah Islamiyah, menghidupkan kembali tradisi olahraga, serta mencetak atlet-atlet mahasiswa berprestasi yang siap mewakili kampus dalam berbagai kompetisi di tingkat lokal, regional, maupun nasional.",
+      "description": [
+        "UKM STDIIS FC adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya sepak bola. Organisasi ini dibentuk sebagai wadah strategis bagi seluruh mahasiswa STDIIS Jember untuk mengembangkan minat, bakat, dan potensi mereka dalam sepak bola melalui pelatihan serta pembinaan yang terstruktur. Lebih dari sekadar klub olahraga, STDIIS FC berkomitmen untuk membentuk karakter mahasiswa yang tangguh dengan meningkatkan kemampuan fisik, mental, fokus, dan kedisiplinan yang berlandaskan nilai-nilai sunnah. Melalui kegiatan olahraga yang interaktif dan kolaboratif, UKM ini juga berfungsi sebagai sarana memperkuat ukhuwah Islamiyah, menghidupkan kembali tradisi olahraga, serta mencetak atlet-atlet mahasiswa berprestasi yang siap mewakili kampus dalam berbagai kompetisi di tingkat lokal, regional, maupun nasional."
+        ],
       "vision": [
         "Menjadi wadah pembinaan sepak bola mahasiswa yang unggul, berprestasi, berakhlak islami, dan mampu mengharumkan nama baik STDIIS."
       ],
@@ -1778,7 +1808,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://forms.gle/zMzcmfue7u94Lnsc6",
       "registrationFee": 0
     },
