@@ -23,7 +23,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Badan Eksekutif Mahasiswa (BEM) STDI Imam Syafi'i merupakan organisasi tertinggi di kampus yang berperan sebagai poros kehidupan kampus yang integratif, adaptif, profesional, dan responsif. BEM STDI Imam Syafi'i memiliki tanggung jawab untuk membuat program kerja yang memaksimalkan peran mahasiswa, mengkaji berbagai isu, melakukan pencerdasan, dan menyampaikan aspirasi mahasiswa maupun masyarakat kepada pihak yang bersangkutan.",
+      "description": [
+        "Badan Eksekutif Mahasiswa (BEM) STDI Imam Syafi'i merupakan organisasi tertinggi di kampus yang berperan sebagai poros kehidupan kampus yang integratif, adaptif, profesional, dan responsif. BEM STDI Imam Syafi'i memiliki tanggung jawab untuk membuat program kerja yang memaksimalkan peran mahasiswa, mengkaji berbagai isu, melakukan pencerdasan, dan menyampaikan aspirasi mahasiswa maupun masyarakat kepada pihak yang bersangkutan."
+        ],
       "vision": [
         "BEM sebagai kolektif yang Tertata dan Responsif, Tumbuh Bersama Menjadi Ekosistem yang Terbuka untuk Mengakselerasi Potensi serta Kebutuhan Mahasiswa."
       ],
@@ -57,7 +59,7 @@ const organizationsData = [
         { "name": "Staff Kementerian Kesejahteraan Mahasiswa", "quota": null, "requirements": [] },
         { "name": "Staff Kementerian Pemuda dan Olahraga", "quota": null, "requirements": [] },
         { "name": "Staff Kementerian Bahasa", "quota": null, "requirements": [] }
-      ]
+      ],
     },
     "timeline": [
       {
@@ -81,7 +83,7 @@ const organizationsData = [
       "mahasiswa",
       "impact",
       "dampak"
-    ]
+    ],
   },
   {
     "id": "bpm-stdiis",
@@ -108,8 +110,10 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Badan Perwakilan Mahasiswa, atau lebih dikenal sebagai BPM, adalah sebuah lembaga yang memiliki peran krusial dalam mewakili dan menyuarakan aspirasi mahasiswa di Kampus STDI Imam Syafi’i Jember. Tugas utama BPM adalah menjadi suara mahasiswa dalam menghadapi berbagai isu, kebijakan, atau permasalahan yang berkaitan dengan pendidikan, dan kesejahteraan mahasiswa. Selain itu, BPM juga memiliki peran dalam mengawasi berbagai kegiatan yang diadakan oleh BEM, UKM dan HIMA STDI Imam Syafi’i Jember serta membantu memperbaiki kualitas kegiatan dan kehidupan mahasiswa di lingkungan kampus. Dengan demikian, BPM memainkan peran penting dalam menciptakan lingkungan yang kondusif untuk perkembangan akademik dan sosial mahasiswa di Kampus STDI Imam Syafi’i Jember.",
-      "vision": "",
+      "description": [
+        "Badan Perwakilan Mahasiswa, atau lebih dikenal sebagai BPM, adalah sebuah lembaga yang memiliki peran krusial dalam mewakili dan menyuarakan aspirasi mahasiswa di Kampus STDI Imam Syafi’i Jember. Tugas utama BPM adalah menjadi suara mahasiswa dalam menghadapi berbagai isu, kebijakan, atau permasalahan yang berkaitan dengan pendidikan, dan kesejahteraan mahasiswa. Selain itu, BPM juga memiliki peran dalam mengawasi berbagai kegiatan yang diadakan oleh BEM, UKM dan HIMA STDI Imam Syafi’i Jember serta membantu memperbaiki kualitas kegiatan dan kehidupan mahasiswa di lingkungan kampus. Dengan demikian, BPM memainkan peran penting dalam menciptakan lingkungan yang kondusif untuk perkembangan akademik dan sosial mahasiswa di Kampus STDI Imam Syafi’i Jember."
+        ],
+      "vision": [],
       "mission": [],
       "generalRequirements": [
         "Mahasiswa aktif S1",
@@ -128,7 +132,7 @@ const organizationsData = [
         { "name": "Komisi IV Hubungan Kelembagaan", "quota": null, "requirements": [] },
         { "name": "Biro PSDM dan Kaderisasi", "quota": null, "requirements": [] },
         { "name": "Biro Media dan Informasi", "quota": null, "requirements": [] }
-      ]
+      ],
     },
     "timeline": [
       {
@@ -180,8 +184,12 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Himpunan Mahasiswa Program Studi Hukum Keluarga Islam (HIMA HKI), salah satu organisasi kemahasiswaan tingkat program studi di STDI Imam Syafi'i Jember. HIMA HKI menjadi wadah pengembangan potensi mahasiswa, fasilitator antara mahasiswa dan Program Studi Hukum Keluarga Islam, serta mitra strategis program studi dalam mendukung pengembangan akademik dan kemahasiswaan.HIMA HKI dibangun dengan semangat bahwa HIMA tidak hanya menjadi penyelenggara kegiatan kemahasiswaan, tetapi juga menjadi pusat pengembangan akademik dan profesional mahasiswa HKI. Seluruh program yang dijalankan diarahkan untuk menciptakan lingkungan belajar yang aktif, kolaboratif, dan berorientasi pada peningkatan kualitas mahasiswa.HIMA HKI berfokus pada pengembangan kompetensi mahasiswa Hukum Keluarga Islam melalui penguatan keilmuan, peningkatan keterampilan, pembentukan karakter, dan pengembangan karier. HIMA HKI juga menjadi jembatan yang menghubungkan mahasiswa dengan program studi, dosen, alumni, dan berbagai mitra untuk mendukung perkembangan akademik maupun profesional.Dengan semangat kolaborasi dan kebermanfaatan, HIMA HKI berkomitmen menciptakan lingkungan yang mendorong mahasiswa HKI menjadi pribadi yang unggul, berintegritas, serta siap memberikan kontribusi nyata bagi masyarakat.",
-      "vision": "Menjadikan HIMA HKI yang Berkarakter, Bertumbuh dalam Prestasi dan Akademik, dan Berbuah pada Inovasi demi Mahasiswa HKI yang Sejahtera, Mandiri, dan Berdaya Saing.",
+      "description": [
+        "Himpunan Mahasiswa Program Studi Hukum Keluarga Islam (HIMA HKI), salah satu organisasi kemahasiswaan tingkat program studi di STDI Imam Syafi'i Jember. HIMA HKI menjadi wadah pengembangan potensi mahasiswa, fasilitator antara mahasiswa dan Program Studi Hukum Keluarga Islam, serta mitra strategis program studi dalam mendukung pengembangan akademik dan kemahasiswaan.HIMA HKI dibangun dengan semangat bahwa HIMA tidak hanya menjadi penyelenggara kegiatan kemahasiswaan, tetapi juga menjadi pusat pengembangan akademik dan profesional mahasiswa HKI. Seluruh program yang dijalankan diarahkan untuk menciptakan lingkungan belajar yang aktif, kolaboratif, dan berorientasi pada peningkatan kualitas mahasiswa.HIMA HKI berfokus pada pengembangan kompetensi mahasiswa Hukum Keluarga Islam melalui penguatan keilmuan, peningkatan keterampilan, pembentukan karakter, dan pengembangan karier. HIMA HKI juga menjadi jembatan yang menghubungkan mahasiswa dengan program studi, dosen, alumni, dan berbagai mitra untuk mendukung perkembangan akademik maupun profesional.Dengan semangat kolaborasi dan kebermanfaatan, HIMA HKI berkomitmen menciptakan lingkungan yang mendorong mahasiswa HKI menjadi pribadi yang unggul, berintegritas, serta siap memberikan kontribusi nyata bagi masyarakat."
+        ],
+      "vision": [
+        "Menjadikan HIMA HKI yang Berkarakter, Bertumbuh dalam Prestasi dan Akademik, dan Berbuah pada Inovasi demi Mahasiswa HKI yang Sejahtera, Mandiri, dan Berdaya Saing."
+        ],
       "mission": [
         "Membangun budaya organisasi HIMA HKI yang berintegritas, bertanggung jawab, dan menjunjung tinggi nilai etika.",
         "Mewujudkan tata kelola organisasi yang transparan, akuntabel, profesional, serta memanfaatkan teknologi digital dalam pengelolaannya.",
@@ -245,7 +253,7 @@ const organizationsData = [
             "Mampu bekerja sama dalam tim, bertanggung jawab, terbuka belajar, serta menerima kritik atau masukan"
           ]
         }
-      ]
+      ],
     },
     "timeline": [
       {
@@ -306,7 +314,9 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "FOKUS (Forum Kajian Ilmu Hadits) adalah himpunan mahasiswa Program Studi Ilmu Hadits STDI Imam Syafi’i",
+      "description": [
+        "FOKUS (Forum Kajian Ilmu Hadits) adalah himpunan mahasiswa Program Studi Ilmu Hadits STDI Imam Syafi’i"
+        ],
       "vision": [
         "FOKUS STDIIS Jember menjadi wadah Mahasiswa untuk mengembangkan keilmuan Hadis yang didasari tanggung jawab keilmuan demi tercapainya visi dan misi Program Studi Ilmu Hadis dengan semangat juang mahasiwa Ilmu Hadis (Aktif, Solutif, Responsif, dan Inovatif)."
       ],
@@ -382,7 +392,7 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "",
+      "guidebookUrl": [],
       "registrationUrl": "https://forms.gle/fdfMMiG6WrWhPky8A",
       "registrationFee": 0
     },
@@ -423,7 +433,7 @@ const organizationsData = [
         { "name": "Layout dan Design", "quota": null, "requirements": [] },
         { "name": "Dokumentasi", "quota": null, "requirements": [] },
         { "name": "Publikasi Konten", "quota": null, "requirements": [] }
-      ]
+      ],
     },
     "timeline": [
       {
