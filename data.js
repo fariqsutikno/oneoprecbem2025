@@ -901,7 +901,7 @@ const organizationsData = [
     "category": "Olahraga",
     "featured": false,
     "recruitment": {
-      "isOpen": false,
+      "isOpen": true,
       "deadline": "2026-09-06",
       "isDataAvailable": true,
       "isComingSoon": false,
