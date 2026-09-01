@@ -73,15 +73,7 @@ const organizationsData = [
         "status": "comingsoon"
       }
     ],
-    "tags": [
-      "Kepemimpinan",
-      "revolusi",
-      "design thinking",
-      "transformasi",
-      "mahasiswa",
-      "impact",
-      "dampak"
-    ]
+    "tags": ["Kepemimpinan", "Leadership", "Keorganisasian", "Eksekutif", "BEM", "Manajemen", "Advokasi"]
   },
   {
     "id": "bpm-stdiis",
@@ -144,10 +136,7 @@ const organizationsData = [
         "status": "comingsoon"
       }
     ],
-    "tags": [
-      "Kepemimpinan",
-      "legislatif"
-    ]
+    "tags": ["Kepemimpinan", "Leadership", "Legislatif", "Pengawasan", "Aspirasi", "BPM", "Keorganisasian"]
   },
   {
     "id": "hima-hki-stdiis",
@@ -209,10 +198,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": [
-      "HIMAHKISTDIIS",
-      "KabinetAlHIKAM"
-    ]
+    "tags": ["HIMA", "HKI", "Hukum", "Keluarga", "Syariah", "Fikih", "Keorganisasian", "Prodi"]
   },
   {
     "id": "fokus-stdiis",
@@ -265,7 +251,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["hadis", "fokus"]
+    "tags": ["FOKUS", "Hadis", "Ilmu Hadis", "HIMA", "Kajian", "Keilmuan", "Prodi"]
   },
   {
     "id": "hes-stdiis",
@@ -317,7 +303,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["HIMA", "HES"]
+    "tags": ["HIMA", "HES", "Ekonomi Syariah", "Muamalah", "Hukum", "Keorganisasian", "Prodi"]
   },
   {
     "id": "fusha-stdiis",
@@ -369,7 +355,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["himabsa"]
+    "tags": ["HIMA", "BSA", "Fusha", "Bahasa Arab", "Sastra", "Linguistik", "Prodi"]
   },
   {
     "id": "rijal-dakwah",
@@ -417,7 +403,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["dakwah"]
+    "tags": ["Dakwah", "Keagamaan", "Islam", "Dai", "Sosial", "Pengabdian"]
   },
   {
     "id": "fortik-stdiis",
@@ -464,7 +450,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Teknologi", "IT"]
+    "tags": ["Teknologi", "IT", "Multimedia", "Content Creator", "Desain", "Komunikasi", "Digital"]
   },
   {
     "id": "fpkh-stdiis",
@@ -517,7 +503,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Hukum", "fpkh"]
+    "tags": ["Hukum", "FPKH", "Peradilan", "Advokasi", "Legal", "Syariah", "Kompetensi"]
   },
   {
     "id": "hw-stdiis",
@@ -564,7 +550,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Kajian & Keilmuan"]
+    "tags": ["Tahfidz", "Al-Quran", "Hadis", "Hafalan", "Keagamaan", "Kajian", "Keilmuan"]
   },
   {
     "id": "dkm-stdiis",
@@ -610,7 +596,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Kajian & Keilmuan"]
+    "tags": ["DKM", "Masjid", "Kemasjidan", "Keagamaan", "Dakwah", "Pelayanan", "Kajian"]
   },
   {
     "id": "rijal-maktabah",
@@ -659,7 +645,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Kajian & Keilmuan"]
+    "tags": ["Perpustakaan", "Literasi", "Buku", "Maktabah", "Keilmuan", "Kajian", "Pelayanan"]
   },
   {
     "id": "mapala-stdiis",
@@ -706,7 +692,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Olahraga"]
+    "tags": ["Mapala", "Pecinta Alam", "Petualangan", "Outdoor", "Gunung", "Lingkungan", "Olahraga"]
   },
   {
     "id": "sbc-stdiis",
@@ -753,7 +739,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Olahraga"]
+    "tags": ["Olahraga", "Basket", "Basketball", "Bola", "SBC", "Tim"]
   },
   {
     "id": "isfc-stdiis",
@@ -800,7 +786,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Olahraga"]
+    "tags": ["Olahraga", "Futsal", "Bola", "ISFC", "Sepakbola", "Tim"]
   },
   {
     "id": "tapaksuci-stdiis",
@@ -847,7 +833,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Bela Diri"]
+    "tags": ["Bela Diri", "Pencak Silat", "Silat", "Tapak Suci", "Seni Bela Diri", "Fisik"]
   },
   {
     "id": "thifan-stdiis",
@@ -892,7 +878,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Bela Diri"]
+    "tags": ["Bela Diri", "Thifan", "Thifan Po Khan", "Beladiri Islam", "Kungfu", "Fisik"]
   },
   {
     "id": "vbcs-stdiis",
@@ -939,7 +925,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Olahraga"]
+    "tags": ["Olahraga", "Voli", "Volleyball", "VBCS", "Bola", "Tim"]
   },
   {
     "id": "badminton-stdiis",
@@ -986,7 +972,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Olahraga"]
+    "tags": ["Olahraga", "Bulu Tangkis", "Badminton", "Raket"]
   },
   {
     "id": "runners-stdiis",
@@ -1033,7 +1019,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Olahraga"]
+    "tags": ["Olahraga", "Lari", "Running", "Jogging", "Maraton", "Kebugaran", "Ukhuwah"]
   },
   {
     "id": "football-stdiis",
@@ -1085,7 +1071,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["stdifcsatuhatisaturasa"]
+    "tags": ["Olahraga", "Sepakbola", "Football", "FC", "Bola", "Tim"]
   },
   {
     "id": "pc-stdiis",
@@ -1137,6 +1123,6 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["PCSTDIIS", "ProgrammingClub"]
+    "tags": ["Teknologi", "Programming", "Coding", "Software", "Web", "Developer", "IT", "Komputer"]
   }
 ];
