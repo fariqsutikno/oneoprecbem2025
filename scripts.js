@@ -388,24 +388,20 @@
                             Download Guidebook
                         </button>
                     ` : ''}
-                    ${!org.recruitment.isComingSoon ? `
-                        ${!isExpired ? `
-                            <button onclick="window.open('${org.recruitment.registrationUrl}', '_blank')"
-                                    class="flex-1 py-3 px-6 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-medium transition-colors">
-                                Daftar Sekarang
-                            </button>
-                        ` : `
-                            <button disabled
-                                    class="flex-1 py-3 px-6 bg-gray-100 text-gray-400 rounded-xl font-medium cursor-not-allowed">
-                                Pendaftaran Ditutup
-                            </button>
-                        `}
-                    ` : `
-                        <button disabled
-                                class="flex-1 py-3 px-6 bg-gray-100 text-gray-400 rounded-xl font-medium cursor-not-allowed">
-                            Segera Dibuka
-                        </button>
-                    `}
+
+                        ${!org.recruitment.isComingSoon ? `
+                            ${!isDisabled ? `
+                                <button onclick="window.open('${org.recruitment.registrationUrl}', '_blank')"
+                                        class="flex-1 py-3 px-6 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-medium transition-colors">
+                                    Daftar Sekarang
+                                </button>
+                            ` : `
+                                <button disabled
+                                        class="flex-1 py-3 px-6 bg-gray-100 text-gray-400 rounded-xl font-medium cursor-not-allowed">
+                                    Pendaftaran Ditutup
+                                </button>
+                            `}
+                        ` : ... }
                 </div>
             `;
         
