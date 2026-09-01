@@ -73,7 +73,7 @@ const organizationsData = [
         "status": "comingsoon"
       }
     ],
-    "tags": ["Kepemimpinan", "Leadership", "Keorganisasian", "Eksekutif", "BEM", "Manajemen", "Advokasi"]
+    "tags": ["Kepemimpinan", "Leadership", "Keorganisasian", "Eksekutif", "BEM", "Manajemen", "Advokasi", "Firhan", "Affan", "Irsyadi"]
   },
   {
     "id": "bpm-stdiis",
