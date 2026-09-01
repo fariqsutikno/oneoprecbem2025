@@ -460,8 +460,8 @@ const organizationsData = [
         "number": null,
         "display": "Tanpa Kuota"
       },
-      "guidebookUrl": "STDIIS.ac.id/gbrd",
-      "registrationUrl": "https://forms.gle/5vQAo8QxgjKfihLb9",
+      "guidebookUrl": "./guidebook/rdnew.pdf",
+      "registrationUrl":"https://forms.gle/5vQAo8QxgjKfihLb9",
       "registrationFee": 0
     },
     "applicants": 0,
