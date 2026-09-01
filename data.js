@@ -150,10 +150,10 @@ const organizationsData = [
     ]
   },
   {
-    "id": "fakih-stdiis",
+    "id": "hima-hki-stdiis",
     "name": "Hima HKI",
     "logo": "./logo/HIMA HKI.png",
-    "category": "Keagamaan",
+    "category": "Keorganisasian",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -218,7 +218,7 @@ const organizationsData = [
     "id": "fokus-stdiis",
     "name": "Forum Kajian Ilmu Hadis (FOKUS)",
     "logo": "./logo/fokus.jpg",
-    "category": "Keagamaan",
+    "category": "Keorganisasian",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -271,7 +271,7 @@ const organizationsData = [
     "id": "hes-stdiis",
     "name": "Hima HES",
     "logo": "./logo/Hima Hes.JPEG",
-    "category": "Pendidikan",
+    "category": "Keorganisasian",
     "featured": false,
     "recruitment": {
       "isOpen": true,
@@ -317,7 +317,59 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["Himahes"]
+    "tags": ["HIMA", "HES"]
+  },
+  {
+    "id": "fusha-stdiis",
+    "name": "Hima BSA (Fusha)",
+    "logo": "./logo/fusha.jpg",
+    "category": "Keorganisasian",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2026-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "./guidebook/fusha.pdf",
+      "registrationUrl": "https://forms.gle/schd3AgeCkBMuc9L9",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "FUSHA (Forum Ulum Sastra dan Bahasa Arab) adalah organisasi yang bergerak di bidang bahasa.",
+      "vision": [
+        "Mewujudkan Himpunan Mahasiswa Bahasa dan Sastra Arab sebagai organisasi mahasiswa yang unggul."
+      ],
+      "mission": [
+        "Mengembangkan potensi mahasiswa dalam bidang Bahasa dan sastra Arab."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif Prodi Bahasa dan Sastra Arab."
+      ],
+      "contactInfo": {
+        "email": "hima.bsa@stdiis.ac.id"
+      },
+      "divisions": [
+        { "name": "Ketua", "quota": null, "requirements": [] }
+      ]
+    },
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": ["himabsa"]
   },
   {
     "id": "rijal-dakwah",
@@ -366,58 +418,6 @@ const organizationsData = [
       }
     ],
     "tags": ["dakwah"]
-  },
-  {
-    "id": "fusha-stdiis",
-    "name": "Hima BSA (fusha)",
-    "logo": "./logo/fusha.jpg",
-    "category": "kebahasaan",
-    "featured": false,
-    "recruitment": {
-      "isOpen": true,
-      "deadline": "2026-09-06",
-      "isDataAvailable": true,
-      "isComingSoon": false,
-      "isDisabled": false,
-      "quota": {
-        "type": "unlimited",
-        "number": null,
-        "display": "Tanpa Kuota"
-      },
-      "guidebookUrl": "./guidebook/fusha.pdf",
-      "registrationUrl": "https://forms.gle/schd3AgeCkBMuc9L9",
-      "registrationFee": 0
-    },
-    "applicants": 0,
-    "info": {
-      "currentMembers": 0,
-      "established": null,
-      "description": "FUSHA (Forum Ulum Sastra dan Bahasa Arab) adalah organisasi yang bergerak di bidang bahasa.",
-      "vision": [
-        "Mewujudkan Himpunan Mahasiswa Bahasa dan Sastra Arab sebagai organisasi mahasiswa yang unggul."
-      ],
-      "mission": [
-        "Mengembangkan potensi mahasiswa dalam bidang Bahasa dan sastra Arab."
-      ],
-      "generalRequirements": [
-        "Mahasiswa aktif Prodi Bahasa dan Sastra Arab."
-      ],
-      "contactInfo": {
-        "email": "hima.bsa@stdiis.ac.id"
-      },
-      "divisions": [
-        { "name": "Ketua", "quota": null, "requirements": [] }
-      ]
-    },
-    "timeline": [
-      {
-        "phase": "Pendaftaran",
-        "startDate": "2026-09-01",
-        "endDate": "2026-09-06",
-        "status": "ongoing"
-      }
-    ],
-    "tags": ["himabsa"]
   },
   {
     "id": "fortik-stdiis",
@@ -1091,7 +1091,7 @@ const organizationsData = [
     "id": "pc-stdiis",
     "name": "STDIIS Programming Club",
     "logo": "./logo/progamming.jpg",
-    "category": "Pendidikan",
+    "category": "Teknologi",
     "featured": false,
     "recruitment": {
       "isOpen": true,
