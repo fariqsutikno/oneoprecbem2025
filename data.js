@@ -1090,7 +1090,7 @@ const organizationsData = [
   {
     "id": "pc-stdiis",
     "name": "STDIIS Programming Club",
-    "logo": "./logo/progamming.jpg",
+    "logo": "./logo/programming.jpg",
     "category": "Teknologi",
     "featured": false,
     "recruitment": {
