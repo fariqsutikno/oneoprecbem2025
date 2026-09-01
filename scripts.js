@@ -26,7 +26,7 @@
             const isExpired = daysLeft < 0;
             const isClosingSoon = daysLeft <= 3 && daysLeft >= 0;
             const isQuotaFull = org.recruitment.quota.type === 'limited' && org.applicants >= org.recruitment.quota.number;
-            const isDisabled = isExpired || isQuotaFull;
+            const isDisabled = isExpired || isQuotaFull || org.recruitment.isDisabled || !org.recruitment.isOpen;
 
             return `
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-gray-200 transition-all duration-200 animate-slide-up cursor-pointer flex-col justify-between" 
@@ -168,7 +168,7 @@
             const isExpired = isDataAvailable && daysLeft < 0;
             const isComingSoon = org.recruitment.isComingSoon;
             const isQuotaFull = org.recruitment.quota.type === 'limited' && org.applicants >= org.recruitment.quota.number;
-            const isDisabled = isExpired || isQuotaFull;
+            const isDisabled = isExpired || isQuotaFull || org.recruitment.isDisabled || !org.recruitment.isOpen;
         
             // Tampilkan pesan khusus jika data belum tersedia
             if (!isDataAvailable) {
