@@ -562,11 +562,8 @@ const organizationsData = [
       "vision": [
         "Membentuk generasi hukum yang kompetitif di dunia profesional."
       ],
-      "mission": [
-        "Meningkatkan kompetensi hukum mahasiswa melalui pelatihan."
-      ],
       "generalRequirements": [
-        "Mahasiswa aktif S1 STDIIS Jember jurusan HKI & HES"
+        "Seluruh mahasiswa aktif STDIIS Jember"
       ],
       "contactInfo": {
         "instagram": "@fpkh.stdiis",
