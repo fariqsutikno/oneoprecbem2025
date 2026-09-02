@@ -117,7 +117,6 @@ const organizationsData = [
         { "name": "Komisi I Legislasi dan Hukum", "quota": null, "requirements": [] },
         { "name": "Komisi II Pengawasan dan Anggaran", "quota": null, "requirements": [] },
         { "name": "Komisi III Aspirasi dan Advokasi", "quota": null, "requirements": [] },
-        { "name": "Komisi IV Hubungan Kelembagaan", "quota": null, "requirements": [] },
         { "name": "Biro PSDM dan Kaderisasi", "quota": null, "requirements": [] },
         { "name": "Biro Media dan Informasi", "quota": null, "requirements": [] }
       ]
