@@ -1146,12 +1146,14 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "STDIIS Programming Club (PC) adalah UKM Kampus STDI Imam Syafi'i Jember yang bergerak di bidang pemrograman dan pengembangan perangkat lunak.",
+      "description": "STDIIS Programming Club (PC) adalah UKM Kampus STDI Imam Syafi'i Jember yang bergerak di bidang pemrograman dan pengembangan perangkat lunak. Awalnya merupakan divisi SIIP di bawah UKM Fortik, PC dikukuhkan menjadi UKM tersendiri pada 20 Juni 2026 agar dapat fokus menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya melalui pengembangan solusi seperti website, sistem informasi, dan otomasi administratif.",
       "vision": [
-        "Menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa STDI Imam Syafi'i Jember."
+        "Menjadi wadah tumbuhnya kompetensi pemrograman mahasiswa STDI Imam Syafi'i Jember, sekaligus mitra kampus dalam memenuhi kebutuhan digitalnya."
       ],
       "mission": [
-        "Menyelenggarakan pembelajaran pemrograman yang terstruktur."
+        "Menyelenggarakan pembelajaran pemrograman yang terstruktur dan berkelanjutan melalui kelas rutin, mentoring, dan proyek bersama, dari dasar hingga anggota mampu membangun aplikasi nyata.",
+        "Mengembangkan solusi digital untuk kebutuhan kampus (website, sistem informasi, dan otomasi pekerjaan administratif) sebagai bentuk khidmah kepada kampus.",
+        "Menjadikan setiap proyek kampus sebagai sarana praktik langsung bagi anggota, sehingga belajar dan berkontribusi berjalan beriringan."
       ],
       "generalRequirements": [
         "Mahasiswa aktif STDIIS (S1/l'dad)."
@@ -1160,7 +1162,7 @@ const organizationsData = [
         "instagram": "@pc.stdiis"
       },
       "divisions": [
-        { "name": "member", "quota": null, "requirements": [] }
+        { "name": "member", "quota": 30, "requirements": [] }
       ]
     },
     "timeline": [
