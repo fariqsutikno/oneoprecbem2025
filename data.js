@@ -1345,5 +1345,111 @@ const organizationsData = [
       }
     ],
     "tags": ["Teknologi", "Programming", "Coding", "Software", "Web", "Developer", "IT", "Komputer"]
+  },
+  {
+    "id": "saad-stdiis",
+    "name": "Sa'ad Al-Furusiyyah STDIIS Jember",
+    "logo": "./logo/saad.jpg",
+    "category": "Olahraga",
+    "featured": false,
+    "recruitment": {
+      "isOpen": true,
+      "deadline": "2026-09-06",
+      "isDataAvailable": true,
+      "isComingSoon": false,
+      "isDisabled": false,
+      "quota": {
+        "type": "unlimited",
+        "number": null,
+        "display": "Tanpa Kuota"
+      },
+      "guidebookUrl": "",
+      "registrationUrl": "https://forms.gle/cFmbmbtKY4wxquTq6",
+      "registrationFee": 0
+    },
+    "applicants": 0,
+    "info": {
+      "currentMembers": 0,
+      "established": null,
+      "description": "UKM Sa'ad Al-Furusiyyah STDIIS Jember merupakan wadah pengembangan minat, bakat, dan potensi mahasiswa dalam bidang panahan, berkuda, dan kesatriaan yang berlandaskan nilai-nilai Islam. UKM ini hadir sebagai sarana bagi mahasiswa untuk mengembangkan keterampilan dan prestasi olahraga sekaligus membentuk pribadi yang kuat, sehat, disiplin, sportif, dan berakhlak mulia. Melalui kegiatan latihan, pembinaan, kajian, serta berbagai kompetisi dan kegiatan kebersamaan, UKM Sa'ad Al-Furusiyyah berupaya menghidupkan kembali sunnah Nabi ﷺ yang berkaitan dengan olahraga dan keterampilan tersebut, serta membangun semangat ukhuwah dan kebersamaan di lingkungan STDIIS Jember. \n\nSebagai bagian dari lingkungan pendidikan Islam, UKM Sa'ad Al-Furusiyyah tidak hanya berorientasi pada pencapaian prestasi olahraga, tetapi juga pada pembentukan karakter mahasiswa secara jasmani dan rohani. Dengan semangat menghidupkan sunnah, membangun kekuatan, dan meraih prestasi, UKM ini diharapkan menjadi wadah yang mampu melahirkan mahasiswa yang terampil, berkarakter, berprestasi, serta mampu memberikan manfaat bagi lingkungan kampus dan masyarakat",
+      "vision": [
+        "Terwujudnya UKM Panahan (baik tradisional dan modern), Berkuda dan kesatriaan STDIIS sebagai wadah mahasiswa dalam pengembangan diri di bidang panahan, berkuda dan kesatriaan. Menjadi UKM yang unggul dan berakhlak, mempromosikan semangat olahraga yang sehat dan profesional sesuai dengan nilai-nilai syariat Islam, serta membentuk karakter mahasiswa yang taat beragama dan berprestasi."
+      ],
+      "mission": [
+        "Meningkatkan keterampilan dan prestasi panahan dan berkuda melalui pelatihan dan kompetisi.",
+        "Mengembangkan komunitas panahan dan berkuda yang solid, sportif dan berprestasi.",
+        "Mewujudkan UKM Panahan dan Berkuda sebagai wadah mahasiswa untuk mengembangkan bakat dan minat dalam panahan dan berkuda.",
+        "Misi yang kuat dan sehat baik secara jasmani maupun rohani, dan meraih prestasi di bidang olahraga panahan dan berkuda."
+      ],
+      "generalRequirements": [
+        "Mahasiswa aktif STDIIS (S1/l'dad)."
+      ],
+      "contactInfo": {
+        "instagram": "@saad_alfurusiyyah"
+      },
+      "divisions": [
+        { "name": "Sekretaris", "quota": null, "requirements": [
+          "memiliki kemampuan mengoperasikan Microsoft Word dan Exel.",
+          "dapat menyusun surat menyurat."
+        ]
+        },
+        { "name": "Bendahara", "quota": null, "requirements": [
+          "Teliti dan bertanggung jawab dalam mengelola keuangan.",
+          "Mampu membuat pencatatan dan laporan keuangan dengan rapi.",
+          "Mampu mengoperasikan Microsoft Excel atau aplikasi pengelolaan keuangan sederhana.",
+          "Amanah dan transparan dalam mengelola pemasukan dan pengeluaran."
+        ] 
+        },
+        { "name": "Media", "quota": null, "requirements": [
+          "Memiliki device yang memadai.",
+          "memiliki kemampuan mengedit di canva.",
+          "menguasai skill capcut dasar.",
+          "mempunyai ide konten yang menarik."
+        ] 
+        },
+        { "name": "Acara", "quota": null, "requirements": [
+          "Memiliki kemampuan menyusun konsep dan alur kegiatan.",
+          "Mampu mengatur timeline dan pembagian tugas panitia. (opsi)",
+          "Memiliki kemampuan koordinasi grup & lapangan.",
+          "Mampu menyelesaikan kendala teknis kegiatan.",
+          "Memiliki kemampuan dasar kepemimpinan dan manajemen acara.",
+          "Mampu melakukan monitoring, evaluasi, dan pelaporan kegiatan."
+        ]
+        },
+        { "name": "Humas", "quota": null, "requirements": [
+          "Memiliki skill komunikasi yang baik.",
+          "Responsif.",
+          "Mampu mengelola informasi dan menyampaikannya dengan baik."
+        ]
+        },
+        { "name": "Danus", "quota": null, "requirements": [
+          "Mampu menciptakan ide usaha serta melihat dan memanfaatkan peluang usaha.",
+          "Mampu berkomunikasi dan melakukan negosiasi serta mampu mencari sponsorship.",
+          "Mampu mengelola dan mencatat keuangan."
+        ] 
+        },
+        { "name": "Peralatan", "quota": null, "requirements": [
+          "Disiplin Waktu: siap datang tepat waktu untuk mempersiapkan barang dan merapikan serta mengembalikan barang.",
+          "Teliti & dapat memanajemen keluar dan masuknya barang.",
+          "Fisik & stamina yang memumpuni."
+        ]
+        },
+        { "name": "Binpres", "quota": null, "requirements": [
+          "Paham tehnik dasar memanah dan berkuda.",
+          "disiplin.", 
+          "mampu membina binaan ukm."
+        ] 
+        },
+      ]
+    },
+    "timeline": [
+      {
+        "phase": "Pendaftaran",
+        "startDate": "2026-09-01",
+        "endDate": "2026-09-06",
+        "status": "ongoing"
+      }
+    ],
+    "tags": ["Olahraga", "Kuda", "Berkuda", "saad", "furusyiah"]
   }
 ];
