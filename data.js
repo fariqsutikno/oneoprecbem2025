@@ -16,7 +16,7 @@ const organizationsData = [
         "display": "Tanpa Kuota"
       },
       "guidebookUrl": "",
-      "registrationUrl": "https://forms.gle/C1bj21x5oXVeHbdS8",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdPsiCct6a7tOELzhAqEYeQtie2GugUqCflmfrrmUffK9ZOUQ/viewform?usp=dialog",
       "registrationFee": 0
     },
     "applicants": 0,
