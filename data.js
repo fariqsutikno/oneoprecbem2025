@@ -1159,7 +1159,8 @@ const organizationsData = [
         "Mahasiswa aktif STDIIS (S1/l'dad)."
       ],
       "contactInfo": {
-        "instagram": "@pc.stdiis"
+        "instagram": "@pc.stdiis",
+        "telegram": "@stdiis_pc_bot"
       },
       "divisions": [
         { "name": "member", "quota": 30, "requirements": [] }
