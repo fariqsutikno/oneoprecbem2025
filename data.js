@@ -934,10 +934,14 @@ const organizationsData = [
         "Mahasiswa aktif STDIIS (S1 & Idad Lughowi)"
       ],
       "contactInfo": {
-        "whatsapp": "6282131661536"
+        "whatsapp": "087861399320"
       },
       "divisions": [
-        { "name": "Divisi Humas", "quota": null, "requirements": [] }
+        { "name": "Divisi Korlap", "quota": 1, "requirements": [] },
+        { "name": "Divisi Media", "quota": 1, "requirements": [] },
+        { "name": "Divisi Humas", "quota": 1, "requirements": [] },
+        { "name": "Divisi Sarpras", "quota": 1, "requirements": [] },
+        { "name": "Divisi Anggota/Squad", "quota": 30, "requirements": [] }
       ]
     },
     "timeline": [
