@@ -835,15 +835,38 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Mapala asad El Jabal merupakan sebuah organisasi pecinta alam STDIIS.",
-      "mission": [],
+      "description": "Mapala asad El Jabal merupakan sebuah organisasi pecinta alam STDIIS, yang bergerak di bidang sosial lingkungan, kelestarian alam, dan kepedulian terhadap alam raya dan ciptaan-Nya. Mapala Asad El Jabal berdiri pada tanggal 24 juli 2012, yang diresmikan di puncak gunung rinjani. Tujuan dibentuknya mapala Asad El Jabal yaitu untuk mewadahi para pegiat ataupun pecinta alam dari mahasiswa STDI Imam Syafi`i Jember untuk meningkatkan dan mengembangkan soft skill dan hard skill dalam berkegiatan di alam bebas sesuai dengan ajaran agama islam.",
+      "vision": [
+        "Sebagai sarana yang terbaik bagi mahasiswa untuk hidup mandiri, mengembangkan ilmu pengetahuan dan mencintai alam semesta."
+        ],
+      "mission": [
+        "Menumbuhkan kepada setiap anggota Mapala Asad el-Jabal.",
+        "untuk senantiasa mencintai kelestarian alam ini.",
+        "Senatiasa mengedepankan rasa kekeluargaan dan bertanggung jawab atas setiap apa-apa yang telah dikerjakan.",
+        "Memberikan kesempatan kepada seluruh anggota untuk memberikan yang terbaik kepada masyarakat, organisasi, negara dan agama."
+      ],
       "generalRequirements": [
-        "Mahasiswa aktif"
+        "Mahasiswa aktif (maksimal semester 3).",
+        "Didahulukan mahasiswa yg belum memiliki kesibukan (organisasi) didalam maupun diluar kampus.",
+        "Mahasiswa yg berkompeten, ulet, dan memiliki rasa tanggung jawab yg besar terhadap organisasi.",
+        "Mendapat izin dari orang tua.",
+        "Siap fisik dan mental."
       ],
       "contactInfo": {
-        "whatsapp": "62895320510950"
+        "whatsapp": "0895605043212",
+        "whatsapp2": "0895320510950",
+        "Instagram": "@asad_eljabal"
       },
       "divisions": [
+        { "name": "Gunung hutan", "quota": null, "requirements": [] },
+        { "name": "Konservasi", "quota": null, "requirements": [] },
+        { "name": "Olahraga arus deras", "quota": null, "requirements": [] },
+        { "name": "Rock climbing", "quota": null, "requirements": [] },
+        { "name": "PDD", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Humas", "quota": null, "requirements": [] },
+        { "name": "Perkab", "quota": null, "requirements": [] },
+        { "name": "Danus", "quota": null, "requirements": [] },
         { "name": "Sekretaris", "quota": null, "requirements": [] }
       ]
     },
