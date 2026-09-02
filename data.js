@@ -1250,21 +1250,35 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "UKM STDIIS FC adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya sepak bola.",
+      "description": "UKM STDIIS FC adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya sepak bola. Organisasi ini dibentuk sebagai wadah strategis bagi seluruh mahasiswa STDIIS Jember untuk mengembangkan minat, bakat, dan potensi mereka dalam sepak bola melalui pelatihan serta pembinaan yang terstruktur. Lebih dari sekadar klub olahraga, STDIIS FC berkomitmen untuk membentuk karakter mahasiswa yang tangguh dengan meningkatkan kemampuan fisik, mental, fokus, dan kedisiplinan yang berlandaskan nilai-nilai sunnah. Melalui kegiatan olahraga yang interaktif dan kolaboratif, UKM ini juga berfungsi sebagai sarana memperkuat ukhuwah Islamiyah, menghidupkan kembali tradisi olahraga, serta mencetak atlet-atlet mahasiswa berprestasi yang siap mewakili kampus dalam berbagai kompetisi di tingkat lokal, regional, maupun nasional.",
       "vision": [
-        "Menjadi wadah pembinaan sepak bola mahasiswa yang unggul."
+        "Menjadi wadah pembinaan sepak bola mahasiswa yang unggul, berprestasi, berakhlak islami, dan mampu mengharumkan nama baik STDIIS."
       ],
       "mission": [
-        "Menyelenggarakan pembinaan sepak bola secara sistematis."
+        "Menyelenggarakan pembinaan sepak bola secara sistematis.",
+        "Menumbuhkan budaya hidup sehat dan disiplin.",
+        "Membentuk atlet yang berkarakter islami.",
+        "Mengikuti kompetisi yang positif dan bermanfaat.",
+        "Menjalin kerja sama dengan klub, kampus, dan lembaga olahraga lainnya"
+
       ],
       "generalRequirements": [
-        "mempunyai skil dasar dalam sepak bola bagi calon pemain"
+        "mempunyai skil dasar dalam sepak bola bagi calon pemain.",
+        "ahli dalam editing poster dan editing vidio dan juga foto bagi calon Kominfo dan desain.",
+        "ahli dalam bidang yang di pilih oleh calon pendaftar."
       ],
       "contactInfo": {
         "instagram": "@stdi_footballclub"
       },
       "divisions": [
-        { "name": "Sekretaris", "quota": null, "requirements": [] }
+        { "name": "Sekretaris", "quota": null, "requirements": [] },
+        { "name": "Bendahara", "quota": null, "requirements": [] },
+        { "name": "Acara", "quota": null, "requirements": [] },
+        { "name": "Humas", "quota": null, "requirements": [] },
+        { "name": "Kominfo Design", "quota": null, "requirements": [] },
+        { "name": "Bimbingan Prestasi", "quota": null, "requirements": [] },
+        { "name": "Sarpras", "quota": null, "requirements": [] },
+        { "name": "Pemain", "quota": null, "requirements": [] }
       ]
     },
     "timeline": [
