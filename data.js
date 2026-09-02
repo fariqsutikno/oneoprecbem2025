@@ -297,7 +297,7 @@ const organizationsData = [
       ],
       "contactInfo": {
         "telegram": "@Muhafthaaa",
-        "telegram": "@syafiqribowo"
+        "telegram2": "@syafiqribowo"
       },
       "divisions": [
         { "name": "Kajian Ilmiah", "quota": null, "requirements": [] },
