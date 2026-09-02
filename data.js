@@ -118,7 +118,8 @@ const organizationsData = [
         { "name": "Komisi II Pengawasan dan Anggaran", "quota": null, "requirements": [] },
         { "name": "Komisi III Aspirasi dan Advokasi", "quota": null, "requirements": [] },
         { "name": "Biro PSDM dan Kaderisasi", "quota": null, "requirements": [] },
-        { "name": "Biro Media dan Informasi", "quota": null, "requirements": [] }
+        { "name": "Biro Media dan Informasi", "quota": null, "requirements": [] },
+        { "name": "Biro administrasi dan keuangan", "quota": null, "requirements": [] }
       ]
     },
     "timeline": [
