@@ -296,9 +296,7 @@ const organizationsData = [
         "Bebas dari sanksi pelanggaran tata tertib akademik maupun tata tertib kampus STDIIS Jember."
       ],
       "contactInfo": {
-        "telegram":
-          "@Muhafthaaa",
-          "@syafiqribowo"
+        "telegram": "@Muhafthaaa"
       },
       "divisions": [
         { "name": "Bendahara II", "quota": null, "requirements": [] },
