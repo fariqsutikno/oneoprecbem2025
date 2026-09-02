@@ -185,32 +185,10 @@ const organizationsData = [
         "email": "himahkistdiis@gmail.com"
       },
       "divisions": [
-        { "name": "Departemen Keilmuan", "quota": null, "requirements": [
-          "Ketertarikan terhadap ilmu hukum, syariah, dan isu-isu sosial.",
-          "Senang membaca, berdiskusi, dan mencari pemahaman mendalam.",
-          "Mampu menyampaikan pendapat dengan baik serta menghargai perbedaan pandangan Semangat terus berkembang di bidang akademik maupun organisasi."
-        ]
-        },
-        { "name": "Departemen PSDM (Pengembangan Sumber Daya Manusia)", "quota": null, "requirements": [
-          "Kepedulian terhadap pengembangan diri sendiri maupun orang lain.",
-          "Senang berinteraksi, membangun komunikasi, dan bekerja bersama berbagai karakter.",
-          "Kepekaan terhadap kondisi serta kebutuhan anggota.",
-          "Semangat belajar tentang kepemimpinan dan pengelolaan organisasi."
-        ]
-        },
-        { "name": "Departemen Relasi Strategis", "quota": null, "requirements": [
-          "Kemampuan komunikasi dan koordinasi yang baik Senang berinteraksi dan membangun relasi dengan berbagai pihak.",
-          "Mampu menjaga hubungan dan bekerja sama dengan karakter berbeda.",
-          "Inisiatif mencari peluang kerja sama dan pengembangan mahasiswa.",
-          "Kepedulian terhadap kebutuhan mahasiswa serta perkembangan HIMA HKI"
-        ]
-        },
-        { "name": "Departemen Media", "quota": null, "requirements": [
-          "Ketertarikan terhadap desain grafis, fotografi, videografi, editing, atau bidang kreatif lainnya.",
-          "Senang membuat konten dan menyampaikan informasi secara menarik & mudah dipahami.",
-          "Mampu bekerja sama dalam tim, bertanggung jawab, terbuka belajar, serta menerima kritik/masukan."
-        ]
-        }
+        { "name": "Departemen Keilmuan", "quota": null, "requirements": [ ]},
+        { "name": "Departemen PSDM (Pengembangan Sumber Daya Manusia)", "quota": null, "requirements": []},
+        { "name": "Departemen Relasi Strategis", "quota": null, "requirements": [ ]},
+        { "name": "Departemen Media", "quota": null, "requirements": []}
       ]
     },
     "timeline": [
