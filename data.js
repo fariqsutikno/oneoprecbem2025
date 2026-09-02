@@ -1111,8 +1111,8 @@ const organizationsData = [
       "isDisabled": false,
       "quota": {
         "type": "limited",
-        "number": 50,
-        "display": "50 Kuota"
+        "number": 70,
+        "display": "70 Kuota"
       },
       "guidebookUrl": "",
       "registrationUrl": "https://forms.gle/UM56dBHmdc5BbxyF8",
@@ -1128,10 +1128,14 @@ const organizationsData = [
         "Mahasiswa aktif STDIIS"
       ],
       "contactInfo": {
-        "whatsapp": "6285339287897"
+        "telegram": "@Raihanwira"
       },
       "divisions": [
-        { "name": "Humas", "quota": null, "requirements": [] }
+        { "name": "Humas", "quota": 1, "requirements": [] },
+        { "name": "Sarpras", "quota": 1, "requirements": [] },
+        { "name": "Pelatihan", "quota": 2, "requirements": [] },
+        { "name": "PDD", "quota": 2, "requirements": [] },
+        { "name": "Anggota", "quota": 19, "requirements": [] }
       ]
     },
     "timeline": [
