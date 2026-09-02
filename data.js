@@ -353,27 +353,27 @@ const organizationsData = [
       },
       "divisions": [
         { "name": "Ketua", "quota": 1, "requirements": [] },
-        { "name": "Sekretaris", "quota": 1, "requirement": [
+        { "name": "Sekretaris", "quota": 1, "requirements": [
           "Mampu mengoperasikan Microsoft Word, Excel, dan Google Workspace.",
           "Memiliki kemampuan administrasi dan manajemen arsip yang baik.",
           "Teliti, disiplin, dan bertanggung jawab.",
           "Memiliki kemampuan komunikasi dan penulisan yang baik.",
           "Mampu bekerja sama dalam tim serta menjaga kerahasiaan dokumen organisasi."
         ]},
-        { "name": "Bendahara", "quota": 1, "requirement": [
+        { "name": "Bendahara", "quota": 1, "requirements": [
           "Teliti dan bertanggung jawab dalam mengelola kas, rekening organisasi, serta penagihan iuran anggota.",
           "Menguasai pencatatan keuangan menggunakan spreadsheet dan pengarsipan bukti digital di Google Drive.",
           "Mampu menyusun Rencana Anggaran Biaya (RAB) serta mengontrol penggunaan dana tiap divisi agar tetap sesuai anggaran.",
           "Cermat dalam melakukan audit internal untuk mencocokkan catatan keuangan, saldo, dan bukti nota secara berkala.",
           "Mampu menyusun laporan keuangan bulanan serta Laporan Pertanggungjawaban (LPJ) akhir untuk sidang pleno."
         ]},
-        { "name": "Humas", "quota": 2, "requirement": [
+        { "name": "Humas", "quota": 2, "requirements": [
           "Komunikatif: Memiliki kemampuan komunikasi yang baik serta ramah, santun, dan mudah beradaptasi.",
           "Aktif di Media Sosial: Familiar dengan berbagai platform media sosial (Instagram, TikTok, Dsb) dan tren digital saat ini.",
           "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan kegiatan organisasi.",
           "Inisiatif Tinggi: Cepat tanggap."
         ]},
-        { "name": "Lughoh (keilmuan)", "quota": 2, "requirement": [
+        { "name": "Lughoh (keilmuan)", "quota": 2, "requirements": [
           "Tertarik pada bidang keilmuan bahasa arab dan sastra.",
           "Mampu mengawasi dan melaksanakan acara-acara yang ada terdapat dalam hima BSA.",
           "Berani melaksanakan dan menegakkan peraturan wajib berbahasa arab.",
@@ -382,7 +382,7 @@ const organizationsData = [
           "Siap aktif dalam hima dan perkuliahan.",
           "Mampu bekerja di bawah tekanan."
         ]},
-        { "name": "Medkom", "quota": 2, "requirement": [
+        { "name": "Medkom", "quota": 2, "requirements": [
           "Memiliki kemampuan berpikir kreatif dalam membuat konsep, desain, dan konten yang menarik serta relevan.",
           "Melek Digital: Familiar dengan media sosial, aplikasi desain, editing, serta mengikuti perkembangan tren digital dan teknologi.",
           "Manajemen Waktu: Mampu membagi waktu antara perkuliahan dan tugas organisasi serta menyelesaikan pekerjaan sesuai tenggat waktu.",
