@@ -757,10 +757,25 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Rijal Maktabah adalah sebuah organisasi yang bergerak dalam bidang pengelolaan, pelayanan, dan pengembangan perpustakaan.",
-      "mission": [],
+      "description": "Rijal Maktabah adalah sebuah organisasi yang bergerak dalam bidang pengelolaan, pelayanan, dan pengembangan perpustakaan di lingkungan lembaga pendidikan. Organisasi ini berperan sebagai penggerak utama dalam menumbuhkan budaya literasi, meningkatkan minat baca, serta menyediakan akses yang mudah terhadap berbagai sumber ilmu pengetahuan.",
+      "vision": [
+        "Menjadi unit penggerak utama dalam pelayanan, manajemen koleksi, dan pengembangan budaya literasi ilmiah guna mendukung terwujudnya civitas akademik yang berjiwa Al-Qur'an dan As-Sunnah."
+        ],
+      "mission": [
+        "Mengoptimalkan dukungan operasional UPT Perpustakaan melalui sistematisasi penginputan data buku, pengelolaan sirkulasi peminjaman koleksi, serta pendataan pengunjung yang akurat.",
+        "Meningkatkan kompetensi kepustakawanan, softskill, dan hardskill dasar anggota UKM secara berkelanjutan.",
+        "Memfasilitasi edukasi literasi akademik bagi mahasiswa.",
+        "Mendorong keaktifan mahasiswa dalam membaca dan memahami literatur."
+      ],
       "generalRequirements": [
-        "Mahasiswa aktif STDI Imam Syafi’i Jember"
+        "Mahasiswa aktif STDI Imam Syafi’i Jember, program S1 maupun I’dad Lughowi, dan diutamakan belum berkeluarga.",
+        "Memiliki minat dan kepedulian terhadap dunia literasi.",
+        "Memiliki sikap amanah, disiplin, teliti, rapi, bertanggung jawab, serta mampu bekerja sama dalam tim.",
+        "Memiliki kemampuan dasar dalam berorganisasi, berkomunikasi, dan mengatur waktu.",
+        "Bersedia mengikuti pembekalan dan pelatihan dasar kepustakawanan.",
+        "Diutamakan memiliki keterampilan dalam hal esain dan komputer dasar.",
+        "Follow akun Instagram  @perpustakaanstdiis.",
+        "mengumpulkan Curriculum Vitae (CV) dan bersedia mengikuti proses seleksi."
       ],
       "contactInfo": {
         "whatsapp": "0895366790401",
@@ -768,7 +783,11 @@ const organizationsData = [
         "instagram": "@perpustakaanstdiis"
       },
       "divisions": [
-        { "name": "Sekretaris", "quota": null, "requirements": [] }
+        { "name": "Sekretaris", "quota": 1, "requirements": [] },
+        { "name": "Bendahara", "quota": 1, "requirements": [] },
+        { "name": "Humas", "quota": 1, "requirements": [] },
+        { "name": "PDD (Publikasi, Dokumentasi dan Design)", "quota": 4, "requirements": [] },
+        { "name": "PENBANG (Pengelolaan dan Pengembangan)", "quota": 3, "requirements": [] }
       ]
     },
     "timeline": [
