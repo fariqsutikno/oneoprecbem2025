@@ -565,7 +565,7 @@ const organizationsData = [
       ],
       "mission": [
         "Meningkatkan kompetensi hukum mahasiswa melalui pelatihan."
-        ],
+      ],
       "generalRequirements": [
         "Seluruh mahasiswa aktif STDIIS Jember"
       ],
