@@ -46,18 +46,183 @@ const organizationsData = [
         "whatsapp": "08978204885"
       },
       "divisions": [
-        { "name": "Kabiro Keuangan", "quota": null, "requirements": [] },
-        { "name": "Staff Biro Keuangan", "quota": null, "requirements": [] },
-        { "name": "Staff Biro Administrasi", "quota": null, "requirements": [] },
-        { "name": "Staff Biro DKV", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Akademik dan Karir", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Kaderisasi dan Pengembangan SDM", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Hubungan Eksternal", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Harmonisasi Kampus", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Kesejahteraan Mahasiswa", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Pemuda dan Olahraga", "quota": null, "requirements": [] },
-        { "name": "Staff Kementerian Bahasa", "quota": null, "requirements": [] }
+    {
+      "name": "Inspektorat Jenderal (Irjen)",
+      "quota": null,
+      "fokus_utama": "Menjalankan fungsi pengawasan independen, audit internal, serta penegakan standar mutu dan etika organisasi secara objektif guna memastikan seluruh lini berjalan sesuai dengan kerangka sistem yang berlaku.",
+      "tugas_pokok": [
+        "Melakukan monitoring dan evaluasi independen terhadap kinerja kementerian dan biro di bawah BEM.",
+        "Mengawal kepatuhan pengurus terhadap SOP, kode etik, dan alur kerja organisasi.",
+        "Menyediakan mekanisme pelaporan internal (whistleblowing) untuk mendeteksi dini penyimpangan atau hambatan operasional.",
+        "Menjadi mitra strategis Presiden dan Wakil Presiden dalam menjaga integritas kelembagaan."
+      ],
+      "requirements": [
+        "Memiliki integritas tinggi, objektif, dan tidak mudah terpengaruh secara personal.",
+        "Teliti, kritis, serta memiliki pemahaman yang kuat terhadap sistem organisasi.",
+        "Mampu berkomunikasi secara asertif dan memberikan umpan balik yang membangun."
       ]
+    },
+    {
+      "name": "Biro Administrasi",
+      "quota": null,
+      "fokus_utama": "Bertanggung jawab terhadap ketertiban administrasi, standardisasi dokumen, dan pengelolaan arsip digital organisasi secara sistematis dan berkelanjutan.",
+      "tugas_pokok": [
+        "Mengelola surat-menyurat masuk dan keluar, baik fisik maupun digital.",
+        "Menstandarisasi format dokumen, laporan, dan notulensi rapat resmi organisasi.",
+        "Membangun serta merawat sistem arsip digital yang rapi dan terstruktur.",
+        "Menyusun kalender kegiatan BEM serta rekapitulasi administratif secara periodik."
+      ],
+      "requirements": [
+        "Detail, teliti, dan memiliki kepekaan tinggi terhadap kerapian serta kesalahan penulisan (typo).",
+        "Terbiasa menggunakan perangkat pengolah data dan dokumen secara efisien.",
+        "Responsif terhadap kebutuhan administratif kesekjenan."
+      ]
+    },
+    {
+      "name": "Biro Keuangan",
+      "quota": null,
+      "fokus_utama": "Mengelola arus kas dan siklus keuangan organisasi secara akuntabel, transparan, serta siap diaudit mulai dari perencanaan hingga pelaporan akhir.",
+      "tugas_pokok": [
+        "Menyusun dan mereviu Rencana Anggaran Belanja (RAB) untuk setiap program kerja.",
+        "Melakukan pencatatan transaksi kas masuk dan keluar secara real-time.",
+        "Menyusun laporan keuangan berkala (arus kas/LRA) yang transparan.",
+        "Mengawasi penggunaan dana agar sesuai dengan standar keuangan dan prinsip efisiensi."
+      ],
+      "requirements": [
+        "Jujur, amanah, dan memiliki orientasi yang kuat terhadap akurasi angka.",
+        "Teliti dalam menyusun pembukuan dan laporan keuangan yang audit-ready.",
+        "Memiliki komitmen tinggi terhadap prinsip transparansi finansial."
+      ]
+    },
+    {
+      "name": "Biro Desain Komunikasi Visual (DKV)",
+      "quota": null,
+      "fokus_utama": "Mengelola komunikasi publik, strategi branding visual, dan diseminasi informasi BEM agar tersampaikan secara estetis, inklusif, dan konsisten.",
+      "tugas_pokok": [
+        "Menyusun strategi komunikasi dan identitas visual BEM secara konsisten di media sosial.",
+        "Memproduksi konten grafis, video, infografis, dan narasi publikasi yang informatif.",
+        "Mendokumentasikan setiap kegiatan BEM dalam bentuk visual yang tertata rapi.",
+        "Berkolaborasi dengan kementerian lain untuk mendukung publikasi program kerja mereka."
+      ],
+      "requirements": [
+        "Memiliki kepekaan estetika visual yang tajam serta kreativitas tinggi.",
+        "Familiar dengan perangkat lunak desain dan penyuntingan konten digital.",
+        "Responsif terhadap tren komunikasi publik dan pengeloaan media sosial."
+      ]
+    },
+    {
+      "name": "Kementerian Harmonisasi Kampus",
+      "quota": null,
+      "fokus_utama": "Membangun sinergi, komunikasi yang efektif, dan kolaborasi harmonis antar organisasi mahasiswa (Ormawa) serta UKM di lingkungan kampus.",
+      "tugas_pokok": [
+        "Menjalin komunikasi intensif dengan seluruh himpunan prodi/daerah, Ormawa, dan UKM sebagai mitra strategis.",
+        "Merancang dan memfasilitasi program kolaboratif lintas organisasi.",
+        "Menyelenggarakan forum koordinasi berkala untuk menyamakan visi gerakan kemahasiswaan.",
+        "Bertindak sebagai mediator yang netral dan solutif dalam mengatasi gesekan antar Ormawa."
+      ],
+      "requirements": [
+        "Supel, luwes, dan memiliki kemampuan membangun relasi sosial yang kuat.",
+        "Peka terhadap potensi konflik serta memiliki kapasitas mediasi yang baik.",
+        "Berorientasi pada sistem koordinasi yang rapi dan kolaboratif."
+      ]
+    },
+    {
+      "name": "Kementerian Akademik dan Pengembangan Karier",
+      "quota": null,
+      "fokus_utama": "Mendukung peningkatan prestasi akademik dan kesiapan profesional mahasiswa melalui komunitas belajar, mentoring, serta akses pengembangan karier.",
+      "tugas_pokok": [
+        "Mengelola komunitas belajar atau ruang diskusi ilmiah sebagai wadah pengembangan skill mahasiswa.",
+        "Menyediakan informasi dan pendampingan untuk kompetisi/lomba akademik maupun non-akademik.",
+        "Menyelenggarakan pelatihan keterampilan penunjang karier (seperti penulisan CV, wawancara, dan personal branding).",
+        "Membuka akses informasi magang dan pengembangan kapasitas profesional."
+      ],
+      "requirements": [
+        "Memiliki semangat belajar yang tinggi dan kesadaran terhadap tren dunia profesional.",
+        "Senang berbagi pengetahuan serta membimbing rekan sebaya melalui diskusi interaktif.",
+        "Inisiatif tinggi dalam merancang program pengembangan diri yang aplikatif."
+      ]
+    },
+    {
+      "name": "Kementerian Pengembangan Bahasa",
+      "quota": null,
+      "fokus_utama": "Meningkatkan kapasitas literasi, kemampuan bahasa asing, dan budaya komunikasi yang baik di kalangan mahasiswa.",
+      "tugas_pokok": [
+        "Menyelenggarakan program pelatihan atau kelas bahasa asing (seperti Bahasa Arab dan Inggris).",
+        "Menginisiasi kompetisi atau tantangan kebahasaan yang edukatif dan menarik.",
+        "Menyediakan konten edukatif seputar pengembangan kemampuan berbahasa.",
+        "Mendorong penggunaan standar komunikasi yang baik dalam ekosistem kampus."
+      ],
+      "requirements": [
+        "Memiliki kecintaan terhadap dunia kebahasaan, literasi, dan komunikasi.",
+        "Percaya diri tampil di depan publik sebagai fasilitator atau pengajar.",
+        "Kreatif dalam mengemas materi belajar bahasa agar interaktif dan menyenangkan."
+      ]
+    },
+    {
+      "name": "Kementerian Hubungan Eksternal",
+      "quota": null,
+      "fokus_utama": "Membangun jejaring strategis dengan lembaga luar kampus, instansi, alumni, dan mitra eksternal untuk memperluas kolaborasi dan dukungan organisasi.",
+      "tugas_pokok": [
+        "Merumuskan strategi relasi dengan pihak luar, sponsor, media partner, dan instansi terkait.",
+        "Membangun jejaring komunikasi dengan alumni untuk program mentorship dan dukungan karier.",
+        "Mewakili institusi dalam forum atau undangan kelembagaan eksternal.",
+        "Mengelola pangkalan data (database) mitra strategis BEM."
+      ],
+      "requirements": [
+        "Komunikatif, pandai bernegosiasi, dan mewakili citra lembaga secara elegan.",
+        "Memiliki relasi yang luas atau terbiasa berinteraksi dengan pihak profesional.",
+        "Cekatan dan tanggap dalam merawat hubungan jangka panjang dengan mitra."
+      ]
+    },
+    {
+      "name": "Kementerian Pemuda dan Olahraga",
+      "quota": null,
+      "fokus_utama": "Mewadahi minat bakat di bidang keolahragaan serta menumbuhkan budaya hidup sehat, sportivitas, dan solidaritas antar mahasiswa.",
+      "tugas_pokok": [
+        "Menyelenggarakan kegiatan olahraga berkala, turnamen, maupun ruang latihan rutin.",
+        "Mendorong terbentuknya komunitas-komunitas olahraga mahasiswa.",
+        "Mempersiapkan dan mendampingi delegasi kampus untuk ajang kompetisi olahraga eksternal.",
+        "Mengelola inventaris serta perawatan fasilitas dan perlengkapan olahraga secara berkala."
+      ],
+      "requirements": [
+        "Memiliki minat tinggi di bidang keolahragaan dan manajemen kegiatan fisik.",
+        "Energik, menyukai kerja tim, dan mampu menggerakkan massa melalui event olahraga.",
+        "Bertanggung jawab dalam pemeliharaan aset dan inventaris penunjang."
+      ]
+    },
+    {
+      "name": "Kementerian Kaderisasi dan Pengembangan SDM (KPSDM)",
+      "quota": null,
+      "fokus_utama": "Merancang sistem pembinaan, penjenjangan kader, dan ekosistem pertumbuhan kapasitas internal pengurus secara berkelanjutan.",
+      "tugas_pokok": [
+        "Menyusun dan mengevaluasi sistem kaderisasi serta pelatihan internal BEM.",
+        "Menyelenggarakan program peningkatan soft skill, kepemimpinan, dan kerja sama tim.",
+        "Mengawal sistem monitoring perkembangan kapasitas dan evaluasi kinerja pengurus.",
+        "Menanamkan nilai-nilai organisasi serta budaya kerja sehat di lingkungan internal."
+      ],
+      "requirements": [
+        "Memiliki growth mindset yang kuat serta kepedulian tinggi terhadap perkembangan orang lain.",
+        "Berpengalaman atau berminat dalam bidang fasilitasi, mentorship, dan manajemen talenta.",
+        "Objektif dan peka dalam melihat dinamika pertumbuhan anggota."
+      ]
+    },
+    {
+      "name": "Kementerian Kesejahteraan Mahasiswa (Kesma)",
+      "quota": null,
+      "fokus_utama": "Memfokuskan kapabilitas operasional pada dimensi pelayanan kesejahteraan mahasiswa secara holistik, mencakup pengelolaan bantuan fasilitas, dukungan finansial, kemudahan akses kemahasiswaan, serta inisiatif yang langsung dirasakan manfaatnya oleh mahasiswa.",
+      "tugas_pokok": [
+        "Merancang dan menjalankan program-program yang meningkatkan kesejahteraan mahasiswa, seperti dukungan finansial, kesehatan, dan akses fasilitas kampus.",
+        "Mengelola informasi serta penyaluran program bantuan pendidikan atau beasiswa internal.",
+        "Menyediakan kanal pelayanan yang solutif terhadap kendala non-akademik dan kesejahteraan harian mahasiswa.",
+        "Beririsan secara harmonis dengan fungsi legislatif BPM yang memegang ranah advokasi kebijakan institusional."
+      ],
+      "requirements": [
+        "Memiliki kepekaan sosial yang tinggi terhadap kondisi kesejahteraan sekitar.",
+        "Telaten, solutif, dan cekatan dalam merespons kebutuhan riil mahasiswa.",
+        "Amanah dan transparan dalam mengelola program-program bantuan atau pelayanan mahasiswa."
+      ]
+    }
+  ]
     },
     "timeline": [
       {
