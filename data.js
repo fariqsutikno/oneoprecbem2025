@@ -296,19 +296,17 @@ const organizationsData = [
         "Bebas dari sanksi pelanggaran tata tertib akademik maupun tata tertib kampus STDIIS Jember."
       ],
       "contactInfo": {
-        "telegram": "@Muhafthaaa",
-        "telegram2": "@syafiqribowo"
+        "telegram": [
+          "@Muhafthaaa",
+          "@syafiqribowo"
+          ]
       },
       "divisions": [
-        { "name": "Kajian Ilmiah", "quota": null, "requirements": [] },
-        { "name": "Riset dan Akademik", "quota": null, "requirements": [] },
-        { "name": "Kompetensi dan Prestasi", "quota": null, "requirements": [] },
-        { "name": "Advokasi dan Kesejahteraan", "quota": null, "requirements": [] },
-        { "name": "Informasi dan Publikasi", "quota": null, "requirements": [] },
-        { "name": "Public Relations", "quota": null, "requirements": [] },
-        { "name": "Layout & Desain", "quota": null, "requirements": [] },
-        { "name": "Dokumentasi", "quota": null, "requirements": [] },
-        { "name": "Publikasi Konten", "quota": null, "requirements": [] }
+        { "name": "Bendahara II", "quota": null, "requirements": [] },
+        { "name": "Sekretaris II", "quota": null, "requirements": [] },
+        { "name": "Bidang Penalaran Intelektual", "quota": null, "requirements": [] },
+        { "name": "Bidang Kominfo", "quota": null, "requirements": [] },
+        { "name": "Bidang Media Kreatif", "quota": null, "requirements": [] }
       ]
     },
     "timeline": [
