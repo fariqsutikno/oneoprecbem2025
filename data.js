@@ -625,15 +625,101 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "DKM Ar-Rahmah merupakan organisasi yang menggabungkan pembinaan anggota, dakwah dan keilmuan, pelayanan jamaah, dan pengelolaan kegiatan kemasjidan.",
+      "description": "DKM Ar-Rahmah merupakan organisasi yang menggabungkan pembinaan anggota, dakwah dan keilmuan, pelayanan jamaah, pengelolaan kegiatan, pemeliharaan fasilitas, penguatan ukhuwah, dan gerakan imaroh masjid.",
       "generalRequirements": [
-        "Mahasiswa aktif STDIIS (Program S1 dan I’dad Lughowy)"
+        "Mahasiswa aktif STDIIS (Program S1 dan I’dad Lughowy)",
+        "Berakhlak baik, disiplin, jujur, amanah, dan bertanggung jawab.",
+        "Berkomitmen untuk meluangkan waktu, tenaga dan pikiran untuk masjid Ar-Rahmah hingga akhir masa khidmat.",
+        "Siap untuk bekerjasama.",
+        "Bersedia menerima arahan, evaluasi, serta terus mengembangkan kemampuan diri.",
+        "Memiliki semangat melayani jamaah dan berkontribusi aktif dalam kegiatan kemasjidan.",
+        "Menjaga nama baik Masjid Ar-Rahmah, DKM, dan STDI Imam Syafi'i Jember.",
+        "Mengisi formulir pendaftaran.",
+        "Mengikuti tes interview.",
+        "Follow akun instagram @masjid_arrahmah_stdiis."
       ],
       "contactInfo": {
         "telegram": "DKMARRAHMAH"
       },
       "divisions": [
-        { "name": "Sekretaris", "quota": null, "requirements": [] }
+        { "name": "Sekretaris", "quota": null, "requirements": [
+          "Teliti, rapi, dan sistematis dalam administrasi.",
+          "Mampu menggunakan aplikasi pengolah dokumen (seperti, word, excel, gdocs, spreadsheet, gform, dll).",
+          "Memiliki kemampuan menyusun surat, notulen, dan arsip organisasi.",
+          "Mampu mengelola administrasi secara tertib."
+        ]
+        },
+        { "name": "Bendahara", "quota": null, "requirements": [
+          "Amanah dan jujur dalam mengelola keuangan.",
+          "Teliti dan bersegera dalam pencatatan transaksi.",
+          "Mampu menyusun laporan keuangan sederhana.",
+          "Memahami dasar pengelolaan anggaran kegiatan."
+        ]
+        },
+        { "name": "MADRASA (Manajemen dan Urusan Acara)", "quota": null, "requirements": [
+          "Memiliki kemampuan menyusun konsep dan alur kegiatan.",
+          "Mampu mengatur timeline dan pembagian tugas panitia.",
+          "Memiliki kemampuan koordinasi grup & lapangan.",
+          "Mampu menyelesaikan kendala teknis kegiatan.",
+          "Memiliki kemampuan dasar kepemimpinan dan manajemen acara.",
+          "Mampu melakukan monitoring, evaluasi, dan pelaporan kegiatan."
+        ] 
+        },
+        { "name": "WASILAH (Wadah Sponsor, Informasi, & Dana Usaha)", "quota": null, "requirements": [
+          "Memiliki kemampuan komunikasi dan negosiasi.",
+          "Mampu membuat proposal kerja sama. (opsi, nilai tambahan).",
+          "Mampu menjalin relasi dengan pihak internal STDI maupun eksternal STDI.",
+          "Memiliki kemampuan public relation.",
+          "Memiliki kemampuan dasar fundraising. (opsi, nilai tambahan).",
+          "Memiliki kemampuan koordinasi dengan pemateri atau asatidzah."
+        ] 
+        },
+        { "name": "DAI (Dakwah, Akademik, dan Ilmu)", "quota": null, "requirements": [
+          "Memiliki dasar ilmu syar'i yang baik.",
+          "Mampu menyusun konsep dan bahan materi dakwah dan keilmuan (poster dakwah, video dakwah, dll).",
+          "Memiliki kemampuan literasi dan penyusunan materi sederhana.",
+          "Memiliki minat dalam pengembangan program pembinaan."
+        ]
+        },
+        { "name": "PDD (Publikasi, Dokumentasi, dan Desain)", "quota": null, "requirements": [
+          "Menguasai aplikasi desain grafis dasar (Canva/CorelDRAW/Photoshop atau sejenisnya). (opsi).",
+          "Memiliki kemampuan fotografi atau videografi. (opsi).",
+          "Memahami dasar branding media sosial.",
+          "Memiliki kemampuan editing foto maupun video. (opsi).",
+          "Mampu menghandle akun media sosial (opsi)."
+        ] },
+        { "name": "Inventaris", "quota": null, "requirements": [
+          "Mampu melakukan pendataan inventaris. (opsi).",
+          "Memiliki kemampuan administrasi sederhana. (opsi).",
+          "Mampu menjaga, merawat, dan menata barang inventaris.",
+          "Siap membantu kebutuhan perlengkapan setiap kegiatan.",
+          "Siap diminta untuk bekerja fisik.",
+          "Memiliki semangat melayani jamaah."
+        ] 
+        },
+        { "name": "Kebersihan", "quota": null, "requirements": [
+          "Memahami standar kebersihan dan kesucian area ibadah.",
+          "Mampu bekerjasama sesuai jadwal yang telah ditentukan.",
+          "Siap bekerja sebelum dan sesudah kegiatan.",
+          "Memiliki semangat melayani jamaah."
+        ]
+        },
+        { "name": "Imam", "quota": null, "requirements": [
+          "Memiliki bacaan Al-Qur'an yang baik sesuai tajwid.",
+          "Memahami tata cara shalat sesuai sunnah.",
+          "Memiliki hafalan Al-Qur'an yang memadai.",
+          "Mampu memimpin shalat dengan tenang dan tertib.",
+          "Memiliki suara yang jelas dan dapat didengar makmum."
+        ]
+        },
+        { "name": "Muadzin", "quota": null, "requirements": [
+          "Memiliki suara yang baik dan jelas.",
+          "Mampu mengumandangkan azan dan iqamah dengan benar.",
+          "Memahami adab serta tata cara azan sesuai sunnah.",
+          "Mampu mengoperasikan mikrofon dan pengeras suara.",
+          "Hadir sebelum waktu shalat untuk memastikan kesiapan pelaksanaan azan."
+        ]
+        },
       ]
     },
     "timeline": [
