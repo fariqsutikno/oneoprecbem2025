@@ -162,30 +162,53 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "Himpunan Mahasiswa Program Studi Hukum Keluarga Islam (HIMA HKI), salah satu organisasi kemahasiswaan tingkat program studi di STDI Imam Syafi'i Jember.",
+      "description": "Himpunan Mahasiswa Program Studi Hukum Keluarga Islam (HIMA HKI), salah satu organisasi kemahasiswaan tingkat program studi di STDI Imam Syafi'i Jember. HIMA HKI menjadi wadah pengembangan potensi mahasiswa, fasilitator antara mahasiswa dan Program Studi Hukum Keluarga Islam, serta mitra strategis program studi dalam mendukung pengembangan akademik dan kemahasiswaan. HIMA HKI dibangun dengan semangat bahwa HIMA tidak hanya menjadi penyelenggara kegiatan kemahasiswaan, tetapi juga menjadi pusat pengembangan akademik dan profesional mahasiswa HKI. Seluruh program yang dijalankan diarahkan untuk menciptakan lingkungan belajar yang aktif, kolaboratif, dan berorientasi pada peningkatan kualitas mahasiswa. HIMA HKI berfokus pada pengembangan kompetensi mahasiswa Hukum Keluarga Islam melalui penguatan keilmuan, peningkatan keterampilan, pembentukan karakter, dan pengembangan karier. HIMA HKI juga menjadi jembatan yang menghubungkan mahasiswa dengan program studi, dosen, alumni, dan berbagai mitra untuk mendukung perkembangan akademik maupun profesional. Dengan semangat kolaborasi dan kebermanfaatan, HIMA HKI berkomitmen menciptakan lingkungan yang mendorong mahasiswa HKI menjadi pribadi yang unggul, berintegritas, serta siap memberikan kontribusi nyata bagi masyarakat.",
       "vision": [
         "Menjadikan HIMA HKI yang Berkarakter, Bertumbuh dalam Prestasi dan Akademik, dan Berbuah pada Inovasi demi Mahasiswa HKI yang Sejahtera, Mandiri, dan Berdaya Saing."
       ],
       "mission": [
         "Membangun budaya organisasi HIMA HKI yang berintegritas, bertanggung jawab, dan menjunjung tinggi nilai etika.",
-        "Mewujudkan tata kelola organisasi yang transparan, akuntabel, profesional, serta memanfaatkan teknologi digital dalam pengelolaannya."
+        "Mewujudkan tata kelola organisasi yang transparan, akuntabel, profesional, sertamemanfaatkan teknologi digital dalam pengelolaannya.",
+        "Menghadirkan program penunjang akademik yang mendukung peningkatan kompetensi mahasiswa HKI.",
+        "Mendorong dan memfasilitasi mahasiswa HKI untuk berpartisipasi dalam kompetisi, penelitian, dan kegiatan ilmiah.",
+        "Menyediakan akses informasi beasiswa, pelatihan, dan program pengembangan diri gunameningkatkan kualitas serta kemandirian mahasiswa.",
+        "Memperkuat sinergi dengan Program Studi HKI, dosen, alumni, dan mitra strategis untuk mendukung kebutuhan akademik dan pengembangan karier mahasiswa.",
+        "Mengembangkan program kerja yang inovatif, adaptif, dan relevan dengan kebutuhan mahasiswa serta perkembangan dunia profesional."
       ],
       "generalRequirements": [
-        "Mahasiswa Aktif Hukum Keluarga Islam STDIIS",
-        "Memiliki minat yang tinggi dalam pengembangan diri, keorganisasian, dan kontribusi dalam melayani dan memajukan prodi HKI"
+        "Oprek terbuka bagi seluruh mahasiswa aktif Program Studi Hukum Keluarga Islam (HKI) STDI Imam Syafi'i Jember yang memiliki semangat berkontribusi dan sesuai dengan karakter yang dibutuhkan masing-masing departemen."
       ],
       "contactInfo": {
-        "instagram": "@himahki.stdiis",
+        "instagram": "@himahki_stdiis",
         "telegram": "@himahki_stdiis",
         "email": "himahkistdiis@gmail.com"
       },
       "divisions": [
-        {
-          "name": "Departemen Keilmuan",
-          "quota": null,
-          "requirements": [
-            "Ketertarikan terhadap ilmu hukum, syariah, dan isu-isu sosial"
-          ]
+        { "name": "Departemen Keilmuan", "quota": null, "requirements": [
+          "Ketertarikan terhadap ilmu hukum, syariah, dan isu-isu sosial.",
+          "Senang membaca, berdiskusi, dan mencari pemahaman mendalam.",
+          "Mampu menyampaikan pendapat dengan baik serta menghargai perbedaan pandangan Semangat terus berkembang di bidang akademik maupun organisasi."
+        ]
+        },
+        { "name": "Departemen PSDM (Pengembangan Sumber Daya Manusia)", "quota": null, "requirements": [
+          "Kepedulian terhadap pengembangan diri sendiri maupun orang lain.",
+          "Senang berinteraksi, membangun komunikasi, dan bekerja bersama berbagai karakter.",
+          "Kepekaan terhadap kondisi serta kebutuhan anggota.",
+          "Semangat belajar tentang kepemimpinan dan pengelolaan organisasi."
+        ]
+        },
+        { "name": "Departemen Relasi Strategis", "quota": null, "requirements": [
+          "Kemampuan komunikasi dan koordinasi yang baik Senang berinteraksi dan membangun relasi dengan berbagai pihak.",
+          "Mampu menjaga hubungan dan bekerja sama dengan karakter berbeda.",
+          "Inisiatif mencari peluang kerja sama dan pengembangan mahasiswa.",
+          "Kepedulian terhadap kebutuhan mahasiswa serta perkembangan HIMA HKI"
+        ]
+        },
+        { "name": "Departemen Media", "quota": null, "requirements": [
+          "Ketertarikan terhadap desain grafis, fotografi, videografi, editing, atau bidang kreatif lainnya.",
+          "Senang membuat konten dan menyampaikan informasi secara menarik & mudah dipahami.",
+          "Mampu bekerja sama dalam tim, bertanggung jawab, terbuka belajar, serta menerima kritik/masukan."
+        ]
         }
       ]
     },
@@ -197,7 +220,7 @@ const organizationsData = [
         "status": "ongoing"
       }
     ],
-    "tags": ["HIMA", "HKI", "Hukum", "Keluarga", "Syariah", "Fikih", "Keorganisasian", "Prodi"]
+    "tags": ["HIMAHKISTDIIS", "KabinetAlHIKAM", "AlHIKAM2026", "OprekHIMAHKI", "HKI_STDIIS", "Fikih", "Keorganisasian", "Prodi"]
   },
   {
     "id": "fokus-stdiis",
