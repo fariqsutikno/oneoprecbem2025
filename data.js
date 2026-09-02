@@ -563,6 +563,9 @@ const organizationsData = [
       "vision": [
         "Membentuk generasi hukum yang kompetitif di dunia profesional."
       ],
+      "mission": [
+        "Meningkatkan kompetensi hukum mahasiswa melalui pelatihan."
+        ],
       "generalRequirements": [
         "Seluruh mahasiswa aktif STDIIS Jember"
       ],
