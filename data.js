@@ -36,7 +36,7 @@ const organizationsData = [
       ],
       "generalRequirements": [
         "Mahasiswa S1 aktif STDIIS",
-        "Tidak berencana cuti atau melepas status mahasiswa selama satu tahun kepengurusan",
+        "Tidak berencana cuti atau melepas status mahasiswa selama satu tahun kepengurusan* ",
         "Bersedia mengemban amanah selama satu periode penuh",
         "Mengisi formulir beserta CV, hasil tes DISC dan gaya komunikasi"
       ],
