@@ -278,21 +278,36 @@ const organizationsData = [
     "info": {
       "currentMembers": 0,
       "established": null,
-      "description": "HIMAHES adalah organisasi kemahasiswaan yang menjadi wadah pengembangan diri bagi mahasiswa Prodi Hukum Ekonomi Syariah.",
+      "description": "HIMAHES adalah organisasi kemahasiswaan yang menjadi wadah pengembangan diri bagi mahasiswa Prodi Hukum Ekonomi Syariah. Dengan berlandaskan nilai & Norma Islam dan semangat intelektual, HIMAHES hadir untuk menjalankan empat fungsi utama: edukatif, informatif, representatif, dan sosial.",
       "vision": [
-        "Menjadi Himpunan Mahasiswa yang unggul dalam mencerdaskan kehidupan dengan nilai hukum ekonomi syariah."
+        "Menjadi Himpunan Mahasiswa yang unggul dalam mencerdaskan kehidupan dengan nilai hukum ekonomi syariah serta membangun karakter yang kreatif, inovatif, & kompetitif."
       ],
       "mission": [
-        "Membantu terwujudnya mahasiswa HES yang berilmu, kritis, berintegritas dan berdaya saing."
+        "Membantu terwujudnya mahasiswa HES yang berilmu, kritis, berintegritas dan berdaya saing di bidangnya.",
+        "Membangun HIMA yang solid, kompak dan kolaboratif agar menjadi organisasi yang aktif, kreatif dan bermanfaat bagi kampus serta masyarakat.",
+        "Mewujudkan HIMA yang berkualitas, bertanggungjawab dan berintegritas melalui penelitian dan pengembangan sistematis serta inovasi yang berkelanjutan.",
+        "Menjamin kemudahan akses informasi dan publikasi bagi mahasiswa HES secara akurat dan tepat.",
+        "Membangun ekosistem media yang edukatif dan inspiratif sebagai sarana penyebaran informasi, gagasan dan kontribusi mahasiswa HES.",
+        "Membangun komunikasi serta kolaborasi yang harmonis di lingkungan internal maupun eksternal."
       ],
       "generalRequirements": [
-        "Mahasiswa aktif program studi Hukum Ekonomi Syariah (HES) STDIIS Jember."
+        "Mahasiswa aktif program studi Hukum Ekonomi Syariah (HES) STDIIS Jember.",
+        "Berakhlak mulia, berakidah lurus, serta memiliki komitmen tinggi untuk berkontribusi aktif selama 1 periode kepengurusan.",
+        "Bebas dari sanksi pelanggaran tata tertib akademik maupun tata tertib kampus STDIIS Jember."
       ],
       "contactInfo": {
         "telegram": "@Muhafthaaa"
       },
       "divisions": [
-        { "name": "Kajian Ilmiah", "quota": null, "requirements": [] }
+        { "name": "Kajian Ilmiah", "quota": null, "requirements": [] },
+        { "name": "Riset dan Akademik", "quota": null, "requirements": [] },
+        { "name": "Kompetensi dan Prestasi", "quota": null, "requirements": [] },
+        { "name": "Advokasi dan Kesejahteraan", "quota": null, "requirements": [] },
+        { "name": "Informasi dan Publikasi", "quota": null, "requirements": [] },
+        { "name": "Public Relations", "quota": null, "requirements": [] },
+        { "name": "Layout & Desain", "quota": null, "requirements": [] },
+        { "name": "Dokumentasi", "quota": null, "requirements": [] },
+        { "name": "Publikasi Konten", "quota": null, "requirements": [] }
       ]
     },
     "timeline": [
