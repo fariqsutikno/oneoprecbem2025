@@ -862,12 +862,20 @@ const organizationsData = [
       "currentMembers": 0,
       "established": null,
       "description": "Unit Kegiatan Mahasiswa (UKM) Tapak Suci STDIIS Merupakan salah satu bidang yang mewadahi minat dan bakat mahasiswa di bidang pencak silat.",
-      "mission": [],
+      "vision": [
+        "Mencetak Atlet Berprestasi, Bermental Mujahid, Beradab dan Ber-Sunnah"
+        ],
+      "mission": [
+        "Tanamkan adab Islami dan keimanan sesuai Al-Qur'an & Sunnah dalam setiap latihan.",
+        "Bina fisik, teknik & mental untuk raih prestasi di POMDA, POMNAS, dan kejuaraan lainnya.",
+        "Bentuk pesilat bermental ksatria, disiplin waktu, ibadah, dan akademik.",
+        "Eratkan ukhuwah dan syiarkan bela diri Islam yang santun dan bermartabat."
+      ],
       "generalRequirements": [
         "Mahasiswa aktif STDI Imam Syafii Jember"
       ],
       "contactInfo": {
-        "whatsapp": "62895327230428"
+        "whatsapp": "089527535709"
       },
       "divisions": [
         { "name": "Sekretaris", "quota": null, "requirements": [] }
